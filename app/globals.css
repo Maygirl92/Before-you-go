@@ -118,11 +118,36 @@ button { cursor: pointer; }
 .tier-header h2 { margin: 0; font-family: var(--font-editorial), "Songti SC", "STSong", serif; font-size: 27px; font-weight: 400; }
 .tier-header h2 span { color: var(--muted); font-size: 14px; }
 .tier-toggle { display: inline-flex; align-items: center; gap: 9px; border: 0; background: transparent; padding: 7px 0 7px 10px; color: var(--muted); font-size: 11px; }
-.tier-toggle span { width: 18px; color: var(--accent); font-size: 18px; font-weight: 300; line-height: 1; text-align: center; }
+.tier-toggle span {
+  width: 18px;
+  color: var(--accent);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1;
+  text-align: center;
+  transform: rotate(180deg) translateY(-1px);
+  transition: transform 460ms cubic-bezier(.18, .89, .3, 1.35);
+}
+.tier-toggle[aria-expanded="false"] span { transform: rotate(0deg) translateY(-1px); }
 .tier-toggle:hover { color: var(--ink); }
 .tier-toggle:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+.tier-content {
+  display: grid;
+  grid-template-rows: 1fr;
+  opacity: 1;
+  transform: translateY(0);
+  transition:
+    grid-template-rows 480ms cubic-bezier(.22, .72, .2, 1),
+    opacity 220ms ease,
+    transform 520ms cubic-bezier(.18, .89, .3, 1.12);
+}
+.tier-content.is-collapsed {
+  grid-template-rows: 0fr;
+  opacity: 0;
+  transform: translateY(-10px);
+}
+.tier-content-overflow { min-height: 0; overflow: hidden; }
 .cards { display: grid; gap: 12px; padding-top: 12px; }
-.cards[hidden] { display: none; }
 .work-card { background: var(--card); border: 1px solid var(--rule); }
 .card-summary {
   width: 100%;
@@ -270,4 +295,10 @@ button { cursor: pointer; }
   .detail-grid { display: block; }
   .detail-grid section { border-top: 1px solid var(--rule); padding: 18px 0; }
   .detail-grid p { font-size: 15px; line-height: 1.75; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tier-content,
+  .tier-toggle span,
+  .card-detail-shell { transition-duration: 1ms; }
 }

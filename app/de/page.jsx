@@ -175,10 +175,19 @@ function GermanyPageContent() {
               aria-controls={sectionId}
               onClick={() => toggleTier(tier.id)}
             >
-              {collapsed ? "展开" : "收起"}<span aria-hidden="true">{collapsed ? "＋" : "−"}</span>
+              {collapsed ? "展开" : "收起"}<span aria-hidden="true">⌄</span>
             </button>
           </header>
-          <div id={sectionId} className="cards" hidden={collapsed}>{section.map((work) => <Card key={work.id} work={work} />)}</div>
+          <div
+            id={sectionId}
+            className={`tier-content ${collapsed ? "is-collapsed" : ""}`}
+            aria-hidden={collapsed}
+            inert={collapsed ? true : undefined}
+          >
+            <div className="tier-content-overflow">
+              <div className="cards">{section.map((work) => <Card key={work.id} work={work} />)}</div>
+            </div>
+          </div>
         </section>;
       })}
     </div>}
