@@ -116,7 +116,7 @@ button { cursor: pointer; }
 .tier-section { margin-bottom: 48px; }
 .tier-header { display: flex; align-items: baseline; justify-content: space-between; gap: 18px; padding: 18px 2px 13px; border-bottom: 1px solid var(--ink); }
 .tier-header h2 { margin: 0; font-family: var(--font-editorial), "Songti SC", "STSong", serif; font-size: 27px; font-weight: 400; }
-.tier-header h2 span { color: var(--muted); font-family: var(--font-ui), "PingFang SC", sans-serif; font-size: 12px; font-weight: 400; letter-spacing: 0; }
+.tier-header h2 span { color: var(--muted); font-family: var(--font-editorial), "Songti SC", "STSong", serif; font-size: 12px; font-weight: 400; letter-spacing: 0; }
 .tier-toggle {
   position: relative;
   display: inline-flex;
@@ -127,6 +127,7 @@ button { cursor: pointer; }
   background: transparent;
   padding: 0;
   color: var(--muted);
+  font-family: var(--font-editorial), "Songti SC", "STSong", serif;
   font-size: 12px;
   line-height: 1.2;
 }
@@ -260,9 +261,13 @@ button { cursor: pointer; }
   .tier-content {
     opacity: 1;
     transform: none;
+    transition: grid-template-rows 480ms cubic-bezier(.18, .89, .3, 1.12);
+  }
+  .tier-content.is-collapsed {
+    opacity: 1;
+    transform: none;
     transition: grid-template-rows 340ms cubic-bezier(.22, .72, .24, 1);
   }
-  .tier-content.is-collapsed { opacity: 1; transform: none; }
   .tier-content-overflow { contain: paint; }
   .card-summary {
     min-height: 0;
