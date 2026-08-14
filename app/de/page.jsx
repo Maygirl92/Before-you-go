@@ -175,7 +175,7 @@ function GermanyPageContent() {
               aria-controls={sectionId}
               onClick={() => toggleTier(tier.id)}
             >
-              {collapsed ? "展开" : "收起"}<span aria-hidden="true">⌄</span>
+              {collapsed ? "展开" : "收起"}<span aria-hidden="true">▾</span>
             </button>
           </header>
           <div
