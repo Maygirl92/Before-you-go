@@ -1,0 +1,194 @@
+{
+  "de-screen-berlin-die-sinfonie-der-großstadt": {
+    "status": "matched",
+    "source": "TMDB",
+    "cover": "https://image.tmdb.org/t/p/w500/jE92co3sb86ounZAocQ9SGKJQeZ.jpg",
+    "source_url": "https://www.themoviedb.org/movie/222",
+    "matched_title": "Berlin, die Symphonie der Großstadt",
+    "matched_year": 1927
+  },
+  "de-book-germany-memories-of-a-nation": {
+    "status": "matched",
+    "source": "AbeBooks",
+    "cover": "https://pictures.abebooks.com/isbn/9787562476115-uk.jpg",
+    "source_url": "https://www.abebooks.com/9787562476115/",
+    "matched_title": "德国：一个国家的记忆",
+    "matched_year": 2019
+  },
+  "de-book-geschichte-eines-deutschen": {
+    "status": "matched",
+    "source": "AbeBooks",
+    "cover": "https://pictures.abebooks.com/isbn/9787544769433-uk.jpg",
+    "source_url": "https://www.abebooks.com/9787544769433/",
+    "matched_title": "一个德国人的故事",
+    "matched_year": 2017
+  },
+  "de-book-berliner-kindheit-um-neunzehnhundert": {
+    "status": "matched",
+    "source": "AbeBooks",
+    "cover": "https://pictures.abebooks.com/isbn/9787305167928-uk.jpg",
+    "source_url": "https://www.abebooks.com/9787305167928/",
+    "matched_title": "柏林童年",
+    "matched_year": 2016
+  },
+  "de-book-der-zoo-der-anderen": {
+    "status": "matched",
+    "source": "AbeBooks",
+    "cover": "https://pictures.abebooks.com/isbn/9787559460493-uk.jpg",
+    "source_url": "https://www.abebooks.com/9787559460493/",
+    "matched_title": "别人的动物园",
+    "matched_year": 2021
+  },
+  "de-book-deutschland-ein-wintermärchen": {
+    "status": "matched",
+    "source": "AbeBooks",
+    "cover": "https://pictures.abebooks.com/isbn/9787020158386-uk.jpg",
+    "source_url": "https://www.abebooks.com/9787020158386/",
+    "matched_title": "德国，一个冬天的童话",
+    "matched_year": 2020
+  },
+  "de-book-berlin-diary": {
+    "status": "matched",
+    "source": "AbeBooks",
+    "cover": "https://pictures.abebooks.com/isbn/9787544783767-uk.jpg",
+    "source_url": "https://www.abebooks.com/9787544783767/",
+    "matched_title": "柏林日记：二战驻德记者见闻 1934—1941",
+    "matched_year": 2020
+  },
+  "de-book-der-vorleser": {
+    "status": "matched",
+    "source": "AbeBooks",
+    "cover": "https://pictures.abebooks.com/isbn/9787544707923-uk.jpg",
+    "source_url": "https://www.abebooks.com/9787544707923/",
+    "matched_title": "朗读者",
+    "matched_year": 2009
+  },
+  "de-book-kairos": {
+    "status": "matched",
+    "source": "读书馆",
+    "cover": "https://img.dushuguan.com/m00/0d/fd/70ea58f8372128bb2bfcaba12ed0f3f5.jpg",
+    "source_url": "https://www.dushuguan.com/book/62627824/",
+    "matched_title": "凯罗斯",
+    "matched_year": 2026
+  },
+  "de-book-gehen-ging-gegangen": {
+    "status": "matched",
+    "source": "理想国",
+    "cover": "https://www.ilixiangguo.com/data/upload/thumb/202312/658e8d6eae25c.jpg",
+    "source_url": "https://www.ilixiangguo.com/book/book/view/id/1870",
+    "matched_title": "时世逝",
+    "matched_year": 2024
+  },
+  "de-book-muzej-bezuvjetne-predaje": {
+    "status": "matched",
+    "source": "AbeBooks",
+    "cover": "https://pictures.abebooks.com/isbn/9787222224926-uk.jpg",
+    "source_url": "https://www.abebooks.com/9787222224926/",
+    "matched_title": "无条件投降博物馆",
+    "matched_year": 2024
+  },
+  "de-book-the-spy-who-came-in-from-the-cold": {
+    "status": "matched",
+    "source": "AbeBooks",
+    "cover": "https://pictures.abebooks.com/isbn/9787208129825-uk.jpg",
+    "source_url": "https://www.abebooks.com/9787208129825/",
+    "matched_title": "柏林谍影",
+    "matched_year": 2015
+  },
+  "de-book-die-leiden-des-jungen-werthers": {
+    "status": "matched",
+    "source": "AbeBooks",
+    "cover": "https://pictures.abebooks.com/isbn/9787020158393-uk.jpg",
+    "source_url": "https://www.abebooks.com/9787020158393/",
+    "matched_title": "少年维特的烦恼",
+    "matched_year": 2020
+  },
+  "de-book-fabian-die-geschichte-eines-moralisten": {
+    "status": "matched",
+    "source": "AbeBooks",
+    "cover": "https://pictures.abebooks.com/isbn/9787559681287-uk.jpg",
+    "source_url": "https://www.abebooks.com/9787559681287/",
+    "matched_title": "法比安",
+    "matched_year": 2025
+  },
+  "de-book-berlin-alexanderplatz-2": {
+    "status": "matched",
+    "source": "AbeBooks",
+    "cover": "https://pictures.abebooks.com/isbn/9787532776535-uk.jpg",
+    "source_url": "https://www.abebooks.com/9787532776535/",
+    "matched_title": "柏林，亚历山大广场",
+    "matched_year": 2018
+  },
+  "de-book-die-blechtrommel-2": {
+    "status": "matched",
+    "source": "AbeBooks",
+    "cover": "https://pictures.abebooks.com/isbn/9787532745005-uk.jpg",
+    "source_url": "https://www.abebooks.com/9787532745005/",
+    "matched_title": "铁皮鼓",
+    "matched_year": 2008
+  },
+  "de-book-broken-lives": {
+    "status": "matched",
+    "source": "AbeBooks",
+    "cover": "https://pictures.abebooks.com/isbn/9787559845238-uk.jpg",
+    "source_url": "https://www.abebooks.com/9787559845238/",
+    "matched_title": "破碎的生活：普通德国人经历的20世纪",
+    "matched_year": 2022
+  },
+  "de-book-austerlitz": {
+    "status": "matched",
+    "source": "AbeBooks",
+    "cover": "https://pictures.abebooks.com/isbn/9787559814234-uk.jpg",
+    "source_url": "https://www.abebooks.com/9787559814234/",
+    "matched_title": "奥斯特利茨",
+    "matched_year": 2019
+  },
+  "de-book-die-ausgewanderten": {
+    "status": "matched",
+    "source": "AbeBooks",
+    "cover": "https://pictures.abebooks.com/isbn/9787559825742-uk.jpg",
+    "source_url": "https://www.abebooks.com/9787559825742/",
+    "matched_title": "移民",
+    "matched_year": 2020
+  },
+  "de-book-gespräche-mit-goethe": {
+    "status": "matched",
+    "source": "AbeBooks",
+    "cover": "https://pictures.abebooks.com/isbn/9787547431627-uk.jpg",
+    "source_url": "https://www.abebooks.com/9787547431627/",
+    "matched_title": "歌德谈话录",
+    "matched_year": 2019
+  },
+  "de-book-faust": {
+    "status": "matched",
+    "source": "AbeBooks",
+    "cover": "https://pictures.abebooks.com/isbn/9787308205948-uk.jpg",
+    "source_url": "https://www.abebooks.com/9787308205948/",
+    "matched_title": "浮士德",
+    "matched_year": 2020
+  },
+  "de-music-paul-kalkbrenner": {
+    "status": "matched",
+    "source": "Cover Art Archive",
+    "cover": "https://coverartarchive.org/release/4621aba3-8a2c-47a8-b051-362225c731a9/3048002052.jpg",
+    "source_url": "https://musicbrainz.org/release-group/a52aeb84-0f3e-38b1-b5e0-35e868deb981",
+    "matched_title": "Berlin Calling: The Soundtrack",
+    "matched_year": "2008-10-02"
+  },
+  "de-music-sinfonie-nr-9-d-moll-op-125": {
+    "status": "matched",
+    "source": "Cover Art Archive",
+    "cover": "https://coverartarchive.org/release/f3e7c0e2-59a8-4da4-b1e5-8111a2e03ff3/22125725806-500.jpg",
+    "source_url": "https://musicbrainz.org/release-group/458d56a6-430c-4072-a31a-dc9dd3c31a4c",
+    "matched_title": "Sinfonie Nr. 9 D-moll Op. 125 / Sinfonie Nr. 2 D-dur Op. 36",
+    "matched_year": "1976"
+  },
+  "de-music-ashra": {
+    "status": "matched",
+    "source": "Cover Art Archive",
+    "cover": "https://coverartarchive.org/release/60c9c74c-98e6-4dbb-ac97-bbb725e49c9e/1121491959.jpg",
+    "source_url": "https://musicbrainz.org/release-group/498baec3-4011-32c8-97a5-cbe42f7afc17",
+    "matched_title": "New Age of Earth",
+    "matched_year": "1976"
+  }
+}

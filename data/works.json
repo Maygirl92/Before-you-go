@@ -1,0 +1,2949 @@
+[
+  {
+    "id": "de-screen-b-movie-lust-sound-in-west-berlin-1979-1989",
+    "destination": "de",
+    "tier": "before-you-go",
+    "tier_label": "必读之选",
+    "medium": "screen",
+    "medium_label": "影像",
+    "medium_sub": "documentary",
+    "medium_sub_label": "纪录片",
+    "title_zh": "B-Movie：西柏林的欲望与声音 1979–1989",
+    "title_original": "B-Movie: Lust & Sound in West-Berlin 1979-1989",
+    "title_alt": [],
+    "creator": "约尔格·霍佩等",
+    "creator_country": "德国",
+    "year": 2015,
+    "extent": "92分钟",
+    "music_style": null,
+    "regions": [
+      "柏林"
+    ],
+    "region_primary": "柏林",
+    "periods": [
+      "分裂时期"
+    ],
+    "theme_main": [
+      "艺术与文化",
+      "社会与日常"
+    ],
+    "theme_tags": [
+      "夜生活与亚文化",
+      "分裂与柏林墙"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": "one-evening",
+    "time_cost_label": "一个晚上",
+    "summary": "1979～1989年的西柏林：一座被墙围住的孤岛城市，房租极低，遍地是战后没人管的废弃厂房。年轻人从西德各地涌来——躲兵役、玩乐队、占房子。大卫·鲍伊在这里录了三张唱片，尼克·凯夫住了十年。全片由当年的私人录像和现场影像剪成，没有一个受访者的脸。片尾墙倒了，所有人上街狂欢，而那一刻恰好也是这座西柏林死掉的时刻。",
+    "worth": "你在柏林会不断撞上一套关于这座城市的自我叙事——脏、便宜、彻夜不睡、随便你干什么。这部片子告诉你它从哪来，以及它已经死了多久：补贴没了，孤岛不孤了，房租从九十年代开始一路涨到今天。",
+    "on_the_ground": "克罗伊茨贝格与舍恩贝格一带 · SO36 俱乐部（Oranienstraße）· 波茨坦广场——片中是一片荒地，今天是玻璃楼群，反差极大",
+    "tier_reason": null,
+    "cn_edition": {
+      "status": "subtitles_available",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://image.tmdb.org/t/p/w500/sftNxbMF8PlzDsg2P6Dnj5etX7j.jpg",
+    "sort_order": 1,
+    "cover_source": "TMDB",
+    "cover_source_url": "https://www.themoviedb.org/movie/318042"
+  },
+  {
+    "id": "de-screen-herr-lehmann",
+    "destination": "de",
+    "tier": "before-you-go",
+    "tier_label": "必读之选",
+    "medium": "screen",
+    "medium_label": "影像",
+    "medium_sub": "film",
+    "medium_sub_label": "电影",
+    "title_zh": "莱曼先生",
+    "title_original": "Herr Lehmann",
+    "title_alt": [
+      "赫尔曼先生",
+      "Herr Lehmann"
+    ],
+    "creator": "莱安德·豪斯曼",
+    "creator_country": "德国",
+    "year": 2003,
+    "extent": "105分钟",
+    "music_style": null,
+    "regions": [
+      "柏林"
+    ],
+    "region_primary": "柏林",
+    "periods": [
+      "分裂时期",
+      "转折与统一"
+    ],
+    "theme_main": [
+      "社会与日常",
+      "地方与空间"
+    ],
+    "theme_tags": [
+      "分裂与柏林墙",
+      "夜生活与亚文化",
+      "小城与大都会"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": "one-evening",
+    "time_cost_label": "一个晚上",
+    "summary": "在1989年秋天的克罗伊茨贝格，酒保莱曼快满三十岁了，生活由啤酒、朋友、女友和一条他并不打算越过的界线组成。他忙着处理自己那点破事，柏林墙塌了，他几乎没有注意到。",
+    "worth": "看完你会带着一种具体的空间感走进克罗伊茨贝格，而不是游客的空白。它真正好的地方在于视角：历史时刻发生的时候，绝大多数人正在忙别的事，这部片子拍的就是那个\"别的事\"。几乎没有情节，靠对话和气氛撑着，德式冷幽默。",
+    "on_the_ground": "奥拉宁大街整条街 · 格尔利茨公园一带 · 兰德维尔运河",
+    "tier_reason": null,
+    "cn_edition": {
+      "status": "subtitles_available",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://image.tmdb.org/t/p/w500/fdH4E51jkMwLx3D8BfZr3BZZdl4.jpg",
+    "sort_order": 2,
+    "cover_source": "TMDB",
+    "cover_source_url": "https://www.themoviedb.org/movie/4326"
+  },
+  {
+    "id": "de-screen-angst-essen-seele-auf",
+    "destination": "de",
+    "tier": "before-you-go",
+    "tier_label": "必读之选",
+    "medium": "screen",
+    "medium_label": "影像",
+    "medium_sub": "film",
+    "medium_sub_label": "电影",
+    "title_zh": "恐惧吞噬灵魂",
+    "title_original": "Angst essen Seele auf",
+    "title_alt": [
+      "恐惧吃掉灵魂"
+    ],
+    "creator": "赖纳·维尔纳·法斯宾德",
+    "creator_country": "德国",
+    "year": 1974,
+    "extent": "93分钟",
+    "music_style": null,
+    "regions": [
+      "巴伐利亚"
+    ],
+    "region_primary": "巴伐利亚",
+    "periods": [
+      "分裂时期"
+    ],
+    "theme_main": [
+      "身份与传统",
+      "社会与日常"
+    ],
+    "theme_tags": [
+      "移民与归属",
+      "家庭与继承"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": "one-evening",
+    "time_cost_label": "一个晚上",
+    "summary": "慕尼黑，六十岁的清洁女工艾米在一间酒吧躲雨，遇见比她小二十岁的摩洛哥客籍劳工阿里。几周后两人结婚。接下来发生的事不是暴力，而是更慢的东西：邻居不再打招呼，杂货店老板拒绝卖东西给她，同事集体孤立她，她自己的子女砸了她的电视。",
+    "worth": "德国今天的人口构成、你吃的每一份 Döner、关于\"融入\"的所有争论，源头都是这部片子里那个摩洛哥工人。五六十年代西德从土耳其、摩洛哥、意大利招了几百万\"客籍劳工\"，名字里的意思是客人——言下之意是会走的。他们没有走。不看这部，你会把德国街上的一半人当成背景板。",
+    "on_the_ground": "慕尼黑（拍摄地），但真正的对应是任何一座德国城市的移民区",
+    "tier_reason": null,
+    "cn_edition": {
+      "status": "subtitles_available",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://image.tmdb.org/t/p/w500/vyXRTXtL5nUvrXNIJCWg2zPNhVX.jpg",
+    "sort_order": 3,
+    "cover_source": "TMDB",
+    "cover_source_url": "https://www.themoviedb.org/movie/216"
+  },
+  {
+    "id": "de-screen-sophie-scholl-die-letzten-tage",
+    "destination": "de",
+    "tier": "before-you-go",
+    "tier_label": "必读之选",
+    "medium": "screen",
+    "medium_label": "影像",
+    "medium_sub": "film",
+    "medium_sub_label": "电影",
+    "title_zh": "索菲·朔尔：最后的日子",
+    "title_original": "Sophie Scholl – Die letzten Tage",
+    "title_alt": [
+      "希望与反抗"
+    ],
+    "creator": "马克·罗特蒙德",
+    "creator_country": "德国",
+    "year": 2005,
+    "extent": "120分钟",
+    "music_style": null,
+    "regions": [
+      "巴伐利亚"
+    ],
+    "region_primary": "巴伐利亚",
+    "periods": [
+      "纳粹时期"
+    ],
+    "theme_main": [
+      "历史与记忆"
+    ],
+    "theme_tags": [
+      "记忆与罪责",
+      "民主的崩解"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": "one-evening",
+    "time_cost_label": "一个晚上",
+    "summary": "1943年2月，慕尼黑大学。二十一岁的索菲·朔尔和哥哥汉斯在教学楼散发反战传单时被校工发现，交给盖世太保。全片几乎只有审讯室里的对话——审讯官莫尔起初想放她一条生路，只要她承认自己只是被哥哥牵连。她没有。五天后判决，当天执行。",
+    "worth": "剧本大量直接采用两德统一后才从东德档案里解密的盖世太保审讯记录，中段那场长审讯基本就是真实对话。你在慕尼黑大学中庭站的位置，和片中传单落下的位置是同一处。",
+    "on_the_ground": "慕尼黑大学主楼 Lichthof 中庭——传单从二楼推下去的地方，原样保留，可自由进入 · 楼内白玫瑰纪念馆 DenkStätte Weiße Rose门口的朔尔兄妹广场，地面镶嵌着传单的青铜复制品",
+    "tier_reason": null,
+    "cn_edition": {
+      "status": "subtitles_available",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://image.tmdb.org/t/p/w500/pIGMaBiA2uyh8NRjyqgYAPcrse5.jpg",
+    "sort_order": 4,
+    "cover_source": "TMDB",
+    "cover_source_url": "https://www.themoviedb.org/movie/2117"
+  },
+  {
+    "id": "de-screen-das-leben-der-anderen",
+    "destination": "de",
+    "tier": "before-you-go",
+    "tier_label": "必读之选",
+    "medium": "screen",
+    "medium_label": "影像",
+    "medium_sub": "film",
+    "medium_sub_label": "电影",
+    "title_zh": "窃听风暴",
+    "title_original": "Das Leben der Anderen",
+    "title_alt": [
+      "别人的生活",
+      "他人的生活"
+    ],
+    "creator": "弗洛里安·亨克尔·冯·多纳斯马尔克",
+    "creator_country": "德国",
+    "year": 2006,
+    "extent": "137分钟",
+    "music_style": null,
+    "regions": [
+      "柏林"
+    ],
+    "region_primary": "柏林",
+    "periods": [
+      "分裂时期"
+    ],
+    "theme_main": [
+      "历史与记忆"
+    ],
+    "theme_tags": [
+      "监视与国家",
+      "分裂与柏林墙",
+      "记忆与罪责"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": "one-evening",
+    "time_cost_label": "一个晚上",
+    "summary": "1984年东柏林。史塔西军官维斯勒奉命监听剧作家德莱曼一家，任务的真实目的是文化部长想抢走德莱曼的女友。维斯勒在阁楼上戴着耳机听了几个月：他们的争吵、做爱、朋友的自杀、一首钢琴曲。然后他开始在报告里撒谎。",
+    "worth": "行前实用性经常被低估。它是理解德国人为什么把隐私和数据保护看得近乎神圣的最短路径——而这会直接影响你的旅行体验：到处只收现金、街上拍照被人拦下、每个网站都弹出一大堆同意框。这不是麻烦，是一个被监听过四十年的社会留下的肌肉记忆。",
+    "on_the_ground": "史塔西博物馆，鲁舍街 103 号（原诺曼大街建筑群）——米尔克本人的办公室在三层，基本未改动",
+    "tier_reason": null,
+    "cn_edition": {
+      "status": "subtitles_available",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://image.tmdb.org/t/p/w500/ghdrI7Q5TbbtLjIOEspjLB4xcE4.jpg",
+    "sort_order": 5,
+    "cover_source": "TMDB",
+    "cover_source_url": "https://www.themoviedb.org/movie/582"
+  },
+  {
+    "id": "de-screen-berlin-die-sinfonie-der-großstadt",
+    "destination": "de",
+    "tier": "before-you-go",
+    "tier_label": "必读之选",
+    "medium": "screen",
+    "medium_label": "影像",
+    "medium_sub": "documentary",
+    "medium_sub_label": "纪录片",
+    "title_zh": "柏林：大都市交响曲",
+    "title_original": "Berlin: Die Sinfonie der Großstadt",
+    "title_alt": [
+      "柏林:城市交响曲"
+    ],
+    "creator": "瓦尔特·鲁特曼",
+    "creator_country": "德国",
+    "year": 1927,
+    "extent": "约65分钟",
+    "music_style": null,
+    "regions": [
+      "柏林"
+    ],
+    "region_primary": "柏林",
+    "periods": [
+      "魏玛"
+    ],
+    "theme_main": [
+      "地方与空间",
+      "艺术与文化"
+    ],
+    "theme_tags": [
+      "小城与大都会",
+      "工业与劳动"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": "one-evening",
+    "time_cost_label": "一个晚上",
+    "summary": "1927年柏林的一天。清晨的火车驶入，城市醒来，工厂开动，人流上街，中午吃饭，下午办公，夜里灯亮起来，舞厅开门。没有旁白，没有主角，没有观点，只有机器、人群和这座城市自己的节奏被剪成一段音乐。",
+    "worth": "它拍下的是魏玛柏林最亢奋的那一刻——两年后大萧条，六年后一切结束。片中大部分街区在1945年之后不复存在。",
+    "on_the_ground": "亚历山大广场 · 波茨坦广场 · 建议找 Edmund Meisel 原谱配乐的版本",
+    "tier_reason": null,
+    "cn_edition": {
+      "status": "subtitles_available",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://image.tmdb.org/t/p/w500/jE92co3sb86ounZAocQ9SGKJQeZ.jpg",
+    "sort_order": 6,
+    "cover_source": "TMDB",
+    "cover_source_url": "https://www.themoviedb.org/movie/222"
+  },
+  {
+    "id": "de-screen-good-bye-lenin",
+    "destination": "de",
+    "tier": "before-you-go",
+    "tier_label": "必读之选",
+    "medium": "screen",
+    "medium_label": "影像",
+    "medium_sub": "film",
+    "medium_sub_label": "电影",
+    "title_zh": "再见列宁",
+    "title_original": "Good Bye, Lenin!",
+    "title_alt": [
+      "再见,列宁!"
+    ],
+    "creator": "沃尔夫冈·贝克",
+    "creator_country": "德国",
+    "year": 2003,
+    "extent": "121分钟",
+    "music_style": null,
+    "regions": [
+      "柏林"
+    ],
+    "region_primary": "柏林",
+    "periods": [
+      "转折与统一"
+    ],
+    "theme_main": [
+      "历史与记忆",
+      "社会与日常"
+    ],
+    "theme_tags": [
+      "分裂与柏林墙",
+      "家庭与继承",
+      "冷战日常"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": "one-evening",
+    "time_cost_label": "一个晚上",
+    "summary": "1989年秋天，母亲看见儿子在示威中被捕，心脏病发作昏迷。八个月后她醒来，医生说不能受任何刺激。而这八个月里东德已经不存在了。儿子把公寓布置回原样，到处搜罗停产的东德罐头，甚至找朋友伪造新闻节目，让她相信墙还立着。",
+    "worth": "它最早正面处理了一件后来被叫做 Ostalgie 的事：不是怀念专制，是怀念自己前半生用过的所有东西一夜之间从货架上消失。统一之后东部工厂被大批关停，几百万人失业，很多人五十岁重新开始。你今天在德国东部会感到的那种气氛——包括极右政党在东部得票率明显更高——根子在这里。",
+    "on_the_ground": "卡尔·马克思大道的板楼群 · DDR 博物馆· 东柏林任何一片还没被翻新的居民区",
+    "tier_reason": null,
+    "cn_edition": {
+      "status": "subtitles_available",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://image.tmdb.org/t/p/w500/nxKe04OP2GOpVsGneqFiBg7h0bS.jpg",
+    "sort_order": 7,
+    "cover_source": "TMDB",
+    "cover_source_url": "https://www.themoviedb.org/movie/338"
+  },
+  {
+    "id": "de-book-germany-memories-of-a-nation",
+    "destination": "de",
+    "tier": "before-you-go",
+    "tier_label": "必读之选",
+    "medium": "book",
+    "medium_label": "书籍",
+    "medium_sub": "nonfiction",
+    "medium_sub_label": "非虚构",
+    "title_zh": "德国：一个国家的记忆",
+    "title_original": "Germany: Memories of a Nation",
+    "title_alt": [
+      "德意志:一个国家的记忆"
+    ],
+    "creator": "尼尔·麦格雷戈",
+    "creator_country": "英国",
+    "year": 2014,
+    "extent": "636页",
+    "music_style": null,
+    "regions": [
+      "全国",
+      "巴伐利亚",
+      "图林根与魏玛"
+    ],
+    "region_primary": "全国",
+    "periods": [
+      "统一之前",
+      "德意志帝国",
+      "柏林共和国"
+    ],
+    "theme_main": [
+      "历史与记忆",
+      "身份与传统"
+    ],
+    "theme_tags": [
+      "记忆与罪责",
+      "信仰与宗教改革",
+      "浪漫主义与风景"
+    ],
+    "lens": "outsider",
+    "lens_label": "外来视角",
+    "time_cost": "long-haul",
+    "time_cost_label": "长线投入",
+    "summary": "大英博物馆前馆长用三十件物品讲德国：古腾堡的活字、丢勒的版画、迈森的第一件瓷器、大众甲壳虫、包豪斯的摇篮、布痕瓦尔德集中营的铁门、国会大厦的玻璃穹顶。全书不按时间顺序，按记忆的方式排列。核心论点是：德国没有一条单一的国家叙事——它长期是三百多个邦国拼起来的，所以它的记忆是被刻意建构出来的，而且这个建构至今没有停。",
+    "worth": "关于德国的书大多从1914年讲起，而德国真正独特的东西在那之前：分裂、地方主义、宗教割裂、为什么首都直到1990年才变得理所当然。这本书处理的正是那一段，而且是明确写给外国人的——它假设你什么都不知道，也不因此简化。",
+    "on_the_ground": "纽伦堡 · 魏玛 · 巴伐利亚的小邦国遗迹 · 柏林博物馆岛与德意志历史博物馆",
+    "tier_reason": null,
+    "cn_edition": {
+      "status": "published_translation",
+      "publisher": "重庆大学出版社",
+      "translator": "博望"
+    },
+    "cover": "https://pictures.abebooks.com/isbn/9787562476115-uk.jpg",
+    "sort_order": 8,
+    "cover_source": "AbeBooks",
+    "cover_source_url": "https://www.abebooks.com/9787562476115/"
+  },
+  {
+    "id": "de-book-geschichte-eines-deutschen",
+    "destination": "de",
+    "tier": "before-you-go",
+    "tier_label": "必读之选",
+    "medium": "book",
+    "medium_label": "书籍",
+    "medium_sub": "nonfiction",
+    "medium_sub_label": "非虚构",
+    "title_zh": "一个德国人的故事",
+    "title_original": "Geschichte eines Deutschen",
+    "title_alt": [],
+    "creator": "塞巴斯蒂安·哈夫纳",
+    "creator_country": "德国",
+    "year": 1939,
+    "extent": "约300页",
+    "music_style": null,
+    "regions": [
+      "柏林"
+    ],
+    "region_primary": "柏林",
+    "periods": [
+      "魏玛",
+      "纳粹时期"
+    ],
+    "theme_main": [
+      "历史与记忆",
+      "社会与日常"
+    ],
+    "theme_tags": [
+      "民主的崩解",
+      "记忆与罪责"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": "several-evenings",
+    "time_cost_label": "数个晚上",
+    "summary": "一个柏林法学生的回忆，从1914年写到1933年，写到一半戛然而止——作者流亡英国后搁下了它，直到去世后儿子整理遗稿才面世。书里没有大人物，只有日常：1923年恶性通胀怎么把一代年轻人的心理彻底改造，同事怎么在几周内改口，朋友怎么一个个消失，以及他自己在律师受训营里怎么一步步跟着喊了口号。",
+    "worth": "它回答那个所有人都想问、但很少有书答得好的问题：一个正常、体面、受过教育的社会，怎么在几个月里溶解掉。",
+    "on_the_ground": "真正的对应是你在德国会反复看到的那些博物馆说明牌上的语气——那种小心翼翼的、生怕漏掉责任的措辞，源头就是这类反省",
+    "tier_reason": null,
+    "cn_edition": {
+      "status": "published_translation",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://pictures.abebooks.com/isbn/9787544769433-uk.jpg",
+    "sort_order": 9,
+    "cover_source": "AbeBooks",
+    "cover_source_url": "https://www.abebooks.com/9787544769433/"
+  },
+  {
+    "id": "de-book-berliner-kindheit-um-neunzehnhundert",
+    "destination": "de",
+    "tier": "before-you-go",
+    "tier_label": "必读之选",
+    "medium": "book",
+    "medium_label": "书籍",
+    "medium_sub": "novel",
+    "medium_sub_label": "小说",
+    "title_zh": "柏林童年",
+    "title_original": "Berliner Kindheit um neunzehnhundert",
+    "title_alt": [
+      "一九〇〇年前后柏林的童年"
+    ],
+    "creator": "瓦尔特·本雅明",
+    "creator_country": "德国",
+    "year": 1938,
+    "extent": "约150页",
+    "music_style": null,
+    "regions": [
+      "柏林"
+    ],
+    "region_primary": "柏林",
+    "periods": [
+      "德意志帝国"
+    ],
+    "theme_main": [
+      "地方与空间",
+      "历史与记忆"
+    ],
+    "theme_tags": [
+      "小城与大都会",
+      "家庭与继承"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": "one-evening",
+    "time_cost_label": "一个晚上",
+    "summary": "三十几个短片段，写1900年前后柏林西区一个富裕犹太家庭孩子的记忆：动物园、蒂尔加滕、皇帝全景画馆、胜利柱、公寓的凉台、捉迷藏时藏身的柜子、第一次打电话。每一段两三页，互不相连。",
+    "worth": "这本不是用来读完的，是用来带着走的。关键在于写作的时间：本雅明是1932年之后在流亡途中写的，明知那个世界已经没有了。所以每一段都是隔着毁灭往回看，语气像在收拾遗物。1940年他在西班牙边境自杀。",
+    "on_the_ground": "蒂尔加滕 · 胜利柱 · 夏洛滕堡与旧西区一带",
+    "tier_reason": null,
+    "cn_edition": {
+      "status": "published_translation",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://pictures.abebooks.com/isbn/9787305167928-uk.jpg",
+    "sort_order": 10,
+    "cover_source": "AbeBooks",
+    "cover_source_url": "https://www.abebooks.com/9787305167928/"
+  },
+  {
+    "id": "de-book-der-zoo-der-anderen",
+    "destination": "de",
+    "tier": "before-you-go",
+    "tier_label": "必读之选",
+    "medium": "book",
+    "medium_label": "书籍",
+    "medium_sub": "nonfiction",
+    "medium_sub_label": "非虚构",
+    "title_zh": "别人的动物园",
+    "title_original": "Der Zoo der Anderen",
+    "title_alt": [],
+    "creator": "扬·莫恩豪普特",
+    "creator_country": "德国",
+    "year": 2017,
+    "extent": "约300页",
+    "music_style": null,
+    "regions": [
+      "柏林"
+    ],
+    "region_primary": "柏林",
+    "periods": [
+      "分裂时期"
+    ],
+    "theme_main": [
+      "历史与记忆",
+      "地方与空间"
+    ],
+    "theme_tags": [
+      "分裂与柏林墙",
+      "冷战日常"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": "several-evenings",
+    "time_cost_label": "数个晚上",
+    "summary": "二十世纪六十年代初，冷战进入白热化阶段。在分裂的柏林，军备竞赛以一种怪诞的形式上演着，赛场是动物园。在动物园界，大象是威望的象征——西柏林动物园园长科略斯为此要求市长维利·勃兰特增加大象数量，唯有如此才能压过东边。东柏林动物园园长达特被迫予以还击。一场持续近三十年的动物园军备竞赛就此拉开帷幕，也成了德国分裂的一个缩影。",
+    "worth": "写冷战的书通常写导弹和间谍，这本写的是两个中年男人为一头河马较劲二十年。它有效，是因为把\"体制竞争\"这件抽象的事变成了具体到荒谬的日常：东边要证明社会主义也能把动物养好，西边要证明自由世界的动物更幸福。而这恰恰是那四十年里普通人真正经历的东西——不是恐惧，是无处不在的比较。",
+    "on_the_ground": "Zoologischer Garten（西，选帝侯大街旁）· Tierpark Berlin（东，弗里德里希斯费尔德，面积大得多）。",
+    "tier_reason": null,
+    "cn_edition": {
+      "status": "published_translation",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://pictures.abebooks.com/isbn/9787559460493-uk.jpg",
+    "sort_order": 11,
+    "cover_source": "AbeBooks",
+    "cover_source_url": "https://www.abebooks.com/9787559460493/"
+  },
+  {
+    "id": "de-book-deutschland-ein-wintermärchen",
+    "destination": "de",
+    "tier": "before-you-go",
+    "tier_label": "必读之选",
+    "medium": "book",
+    "medium_label": "书籍",
+    "medium_sub": "novel",
+    "medium_sub_label": "小说",
+    "title_zh": "德国：一个冬天的童话",
+    "title_original": "Deutschland. Ein Wintermärchen",
+    "title_alt": [],
+    "creator": "海因里希·海涅",
+    "creator_country": "德国",
+    "year": 1844,
+    "extent": "约100页",
+    "music_style": null,
+    "regions": [
+      "鲁尔区与莱茵兰"
+    ],
+    "region_primary": "鲁尔区与莱茵兰",
+    "periods": [
+      "统一之前"
+    ],
+    "theme_main": [
+      "地方与空间",
+      "历史与记忆"
+    ],
+    "theme_tags": [
+      "浪漫主义与风景",
+      "民主的崩解"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": "one-evening",
+    "time_cost_label": "一个晚上",
+    "summary": "流亡巴黎十三年之后，海涅在1843年冬天回国探望母亲。这首长诗写的就是那趟旅程：从亚琛入境开始，一路经科隆、明登、汉诺威到汉堡，沿途把海关、宪兵、教堂、普鲁士的鹰徽和当时正在兴起的德意志民族主义挨个挖苦一遍。",
+    "worth": "极好的旅伴读物：短、毒舌、好笑，而且能读出声。它证明了一件事——爱这个国家和刻薄这个国家，在德国从来是同一件事，而且这个传统比统一的德国本身还要老。",
+    "on_the_ground": "整条莱茵河路线可以照着走 · 科隆大教堂（诗里专门损了一段，当时它还没盖完，已经停工三百年）· 亚琛",
+    "tier_reason": null,
+    "cn_edition": {
+      "status": "published_translation",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://pictures.abebooks.com/isbn/9787020158386-uk.jpg",
+    "sort_order": 12,
+    "cover_source": "AbeBooks",
+    "cover_source_url": "https://www.abebooks.com/9787020158386/"
+  },
+  {
+    "id": "de-music-matthäus-passion-bwv-244",
+    "destination": "de",
+    "tier": "before-you-go",
+    "tier_label": "必读之选",
+    "medium": "music",
+    "medium_label": "音乐",
+    "medium_sub": "album",
+    "medium_sub_label": "专辑",
+    "title_zh": "马太受难曲",
+    "title_original": "Matthäus-Passion（BWV 244）",
+    "title_alt": [],
+    "creator": "Johann Sebastian Bach",
+    "creator_country": "德国",
+    "year": 1727,
+    "extent": "约170分钟",
+    "music_style": "巴洛克/宗教音乐",
+    "regions": [
+      "图林根与魏玛",
+      "萨克森"
+    ],
+    "region_primary": "图林根与魏玛",
+    "periods": [
+      "统一之前"
+    ],
+    "theme_main": [
+      "艺术与文化"
+    ],
+    "theme_tags": [
+      "信仰与宗教改革"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": null,
+    "time_cost_label": null,
+    "summary": "1727年受难节，莱比锡托马斯教堂。巴赫把《马太福音》里基督受难的段落交给两个合唱团、两支乐队和一位担任叙述者的男高音，让他们在教堂两端彼此应答。三个小时里，叙述、群众的喧哗和个人的哀悼交替推进；群众合唱被安排在会众所在的方位，于是坐在教堂里的人在结构上站到了人群那一边。",
+    "worth": "这是德国最容易被跳过、也最难绕开的一层。你会去的每座德国城市，中心都是一座教堂，而这些教堂在宗教改革之后换了功能——不再主要是用来看的，是用来听的。新教把仪式重心从图像挪到语言和音乐，巴赫是这个转变最完整的产物。",
+    "on_the_ground": "莱比锡托马斯教堂——巴赫在这里当了二十七年乐监，墓就在祭坛前的地面下 · 教堂唱诗班 Thomanerchor 成立于1212年，至今仍定期演唱",
+    "tier_reason": null,
+    "cn_edition": {
+      "status": "not_applicable",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://coverartarchive.org/release/732c1da6-98e3-4361-a679-79cb35ad5fe6/19440398701-500.jpg",
+    "sort_order": 13,
+    "cover_source": "Cover Art Archive",
+    "cover_source_url": "https://musicbrainz.org/release-group/4489edbf-f992-4354-a912-96d2edbd6800"
+  },
+  {
+    "id": "de-music-die-dreigroschenoper",
+    "destination": "de",
+    "tier": "before-you-go",
+    "tier_label": "必读之选",
+    "medium": "music",
+    "medium_label": "音乐",
+    "medium_sub": "album",
+    "medium_sub_label": "专辑",
+    "title_zh": "三分钱歌剧",
+    "title_original": "Die Dreigroschenoper",
+    "title_alt": [],
+    "creator": "Kurt Weill / Bertolt Brecht",
+    "creator_country": "德国",
+    "year": 1928,
+    "extent": "约90分钟",
+    "music_style": "剧场音乐/魏玛卡巴莱",
+    "regions": [
+      "柏林"
+    ],
+    "region_primary": "柏林",
+    "periods": [
+      "魏玛"
+    ],
+    "theme_main": [
+      "艺术与文化"
+    ],
+    "theme_tags": [
+      "夜生活与亚文化",
+      "民主的崩解"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": null,
+    "time_cost_label": null,
+    "summary": "布莱希特写词，库尔特·魏尔作曲，把十八世纪伦敦的乞丐、妓女和强盗搬上舞台，唱的却全是1928年的柏林。开场那首《小刀麦基》后来成了爵士标准曲，被无数人翻唱，多数人不知道它原本是在介绍一个杀人犯。首演当晚剧场几乎冷场，两周后全城都在哼。",
+    "worth": "魏玛柏林的犬儒和锋利，在这部戏里被固定成了旋律。它的核心笑话是：\"先吃饱，再讲道德\"——1928年说这句话是尖刻，1929年大萧条之后就成了预言。",
+    "on_the_ground": "船坞剧院 Theater am Schiffbauerdamm，首演场地，后来成为布莱希特的柏林剧团所在地· 布莱希特故居与墓地，位于多罗滕城公墓",
+    "tier_reason": null,
+    "cn_edition": {
+      "status": "not_applicable",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://coverartarchive.org/release/6f7cc800-8fbd-400f-b8e6-4073f7908ca8/35464269792-500.jpg",
+    "sort_order": 14,
+    "cover_source": "Cover Art Archive",
+    "cover_source_url": "https://musicbrainz.org/release-group/89192ac5-a84b-3025-b77a-ce93b91f0395"
+  },
+  {
+    "id": "de-music-ich-bin-von-kopf-bis-fuß-auf-liebe-eingestellt",
+    "destination": "de",
+    "tier": "before-you-go",
+    "tier_label": "必读之选",
+    "medium": "music",
+    "medium_label": "音乐",
+    "medium_sub": "single",
+    "medium_sub_label": "单曲",
+    "title_zh": "Ich bin von Kopf bis Fuß auf Liebe eingestellt",
+    "title_original": "Ich bin von Kopf bis Fuß auf Liebe eingestellt",
+    "title_alt": [
+      "Falling in Love Again"
+    ],
+    "creator": "Marlene Dietrich",
+    "creator_country": "德国",
+    "year": 1930,
+    "extent": "约3分钟",
+    "music_style": "卡巴莱/电影歌曲",
+    "regions": [
+      "柏林"
+    ],
+    "region_primary": "柏林",
+    "periods": [
+      "魏玛"
+    ],
+    "theme_main": [
+      "艺术与文化"
+    ],
+    "theme_tags": [
+      "夜生活与亚文化"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": null,
+    "time_cost_label": null,
+    "summary": "电影《蓝天使》里夜总会歌女萝拉唱的那首。一条腿架在椅子上，姿态漫不经心。这部片子和这首歌把二十九岁的黛德丽从柏林送去了好莱坞。",
+    "worth": "一首三分钟的歌后面挂着德国二十世纪最难的一条线索。1933年纳粹上台后多次邀请黛德丽回国当\"帝国电影明星\"，她拒绝了，转而加入美国籍，战时在前线为盟军演出，还录了德语反战广播。于是她在德国被当成叛徒——1960年她回柏林演出，剧院外有人举牌骂她，有人朝她吐口水。",
+    "on_the_ground": "舍恩贝格的黛德丽墓（Friedenau 公墓）· 波茨坦广场的黛德丽广场",
+    "tier_reason": null,
+    "cn_edition": {
+      "status": "not_applicable",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": null,
+    "sort_order": 15
+  },
+  {
+    "id": "de-music-kraftwerk",
+    "destination": "de",
+    "tier": "before-you-go",
+    "tier_label": "必读之选",
+    "medium": "music",
+    "medium_label": "音乐",
+    "medium_sub": "album",
+    "medium_sub_label": "专辑",
+    "title_zh": "Autobahn",
+    "title_original": "Kraftwerk",
+    "title_alt": [],
+    "creator": "Kraftwerk",
+    "creator_country": "德国",
+    "year": 1974,
+    "extent": "约43分钟",
+    "music_style": "Krautrock/电子",
+    "regions": [
+      "鲁尔区与莱茵兰"
+    ],
+    "region_primary": "鲁尔区与莱茵兰",
+    "periods": [
+      "分裂时期"
+    ],
+    "theme_main": [
+      "艺术与文化"
+    ],
+    "theme_tags": [
+      "设计与包豪斯",
+      "工业与劳动"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": null,
+    "time_cost_label": null,
+    "summary": "同名曲长二十二分钟，用合成器模拟一次高速公路上的行驶：引擎点火、并线、超车、收音机、下雨、天黑。人声经过处理，唱的只有一句反复的\"我们行驶在高速公路上\"。发行时德国没人当回事，它先在英美红了，然后才被德国接受。",
+    "worth": "它把德国最平常的基础设施变成了流行音乐，而这件事本身就是一个战后姿态。六十年代末那批德国年轻音乐人面对的问题是：德语流行歌被纳粹彻底污染过，英美摇滚又是别人的语法，那还剩下什么？Kraftwerk 的回答是——技术、重复、精确，以及不假装自己是美国人。",
+    "on_the_ground": "杜塞尔多夫（乐队与 Kling Klang 录音室所在城市，录音室原址不对外开放）· 开车走一段德国高速时听，效果不同",
+    "tier_reason": null,
+    "cn_edition": {
+      "status": "not_applicable",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://coverartarchive.org/release/f099d6f6-cb03-46b6-8902-83f360306765/12871074891.jpg",
+    "sort_order": 16,
+    "cover_source": "Cover Art Archive",
+    "cover_source_url": "https://musicbrainz.org/release-group/5bb58171-9e68-4da2-bdae-f6e5e8ae7524"
+  },
+  {
+    "id": "de-music-nena",
+    "destination": "de",
+    "tier": "before-you-go",
+    "tier_label": "必读之选",
+    "medium": "music",
+    "medium_label": "音乐",
+    "medium_sub": "single",
+    "medium_sub_label": "单曲",
+    "title_zh": "99 Luftballons",
+    "title_original": "Nena",
+    "title_alt": [
+      "99 Red Balloons"
+    ],
+    "creator": "Nena",
+    "creator_country": "德国",
+    "year": 1983,
+    "extent": "约4分钟",
+    "music_style": "新德意志浪潮 NDW",
+    "regions": [
+      "全国"
+    ],
+    "region_primary": "全国",
+    "periods": [
+      "分裂时期"
+    ],
+    "theme_main": [
+      "艺术与文化"
+    ],
+    "theme_tags": [
+      "分裂与柏林墙",
+      "冷战日常"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": null,
+    "time_cost_label": null,
+    "summary": "九十九个气球被雷达误判为敌机，双方将军把它当成开战的理由，九十九年之后世界成了废墟。一首听起来轻快得像儿歌的流行曲，唱完了一场核战。",
+    "worth": "1983年发行，正是北约在西德部署中程导弹、引发战后最大规模抗议的那一年。西德当时是双方核弹头密度最高的地方之一，\"我们会第一个消失\"是那一代年轻人共有的实感。",
+    "on_the_ground": "无固定地点，但它解释了德国政治里一条至今活跃的线索：为什么这个国家对军备、驻军和参战的态度始终格外别扭",
+    "tier_reason": null,
+    "cn_edition": {
+      "status": "not_applicable",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://coverartarchive.org/release/b23b8eb1-9e72-3438-8c3c-afafdf9eeac6/15273715817.jpg",
+    "sort_order": 17,
+    "cover_source": "Cover Art Archive",
+    "cover_source_url": "https://musicbrainz.org/release-group/af6d1dc4-9ed3-3b86-9913-9c7e257f91cd"
+  },
+  {
+    "id": "de-music-advanced-chemistry",
+    "destination": "de",
+    "tier": "before-you-go",
+    "tier_label": "必读之选",
+    "medium": "music",
+    "medium_label": "音乐",
+    "medium_sub": "single",
+    "medium_sub_label": "单曲",
+    "title_zh": "Fremd im eigenen Land",
+    "title_original": "Advanced Chemistry",
+    "title_alt": [],
+    "creator": "Advanced Chemistry",
+    "creator_country": "德国",
+    "year": 1992,
+    "extent": "约5分钟",
+    "music_style": "嘻哈",
+    "regions": [
+      "法兰克福与黑森"
+    ],
+    "region_primary": "法兰克福与黑森",
+    "periods": [
+      "转折与统一"
+    ],
+    "theme_main": [
+      "艺术与文化"
+    ],
+    "theme_tags": [
+      "移民与归属",
+      "极右与社会对峙"
+    ],
+    "lens": "diaspora",
+    "lens_label": "移民与跨文化视角",
+    "time_cost": null,
+    "time_cost_label": null,
+    "summary": "1992年，几个在海德堡长大的年轻人发行了德语世界第一张嘻哈唱片。歌里反复出现那句\"我有一本绿色护照，上面印着一只金鹰\"——他们出生在德国、在德国上学、说标准德语，但每一次都要回答同一个问题：\"你到底是从哪儿来的？\"",
+    "worth": "五分钟，但它比任何一本社会学著作都更快地把问题讲清楚了。1992年不是随便一个年份：德国刚统一两年，罗斯托克和默尔恩接连发生针对移民的纵火袭击。这首歌是那批\"第二代\"给出的回答。",
+    "on_the_ground": "海德堡（乐队所在地），但真正的对应是任何一座德国城市的火车站周边",
+    "tier_reason": null,
+    "cn_edition": {
+      "status": "not_applicable",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://coverartarchive.org/release/bf7fbb2c-e927-4357-8a09-8d9ff3008ab0/35214051194-500.jpg",
+    "sort_order": 18,
+    "cover_source": "Cover Art Archive",
+    "cover_source_url": "https://musicbrainz.org/release-group/fef8ac4b-7c83-3346-8231-d1b413a9dd25"
+  },
+  {
+    "id": "de-music-paul-kalkbrenner",
+    "destination": "de",
+    "tier": "before-you-go",
+    "tier_label": "必读之选",
+    "medium": "music",
+    "medium_label": "音乐",
+    "medium_sub": "album",
+    "medium_sub_label": "专辑",
+    "title_zh": "Berlin Calling (Original Soundtrack)",
+    "title_original": "Paul Kalkbrenner",
+    "title_alt": [],
+    "creator": "Paul Kalkbrenner",
+    "creator_country": "德国",
+    "year": 2008,
+    "extent": "约60分钟",
+    "music_style": "Techno",
+    "regions": [
+      "柏林"
+    ],
+    "region_primary": "柏林",
+    "periods": [
+      "柏林共和国"
+    ],
+    "theme_main": [
+      "艺术与文化"
+    ],
+    "theme_tags": [
+      "夜生活与亚文化",
+      "小城与大都会"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": null,
+    "time_cost_label": null,
+    "summary": "同名电影的原声，由主演本人制作——卡尔克布伦纳自己就是柏林 Techno 场景里的 DJ，电影演的也是一个 DJ 在巡演途中精神崩溃。其中 \"Sky and Sand\" 后来在德国单曲榜上停留了一百二十多周，是德国榜史上停留最久的单曲之一。",
+    "worth": "这是柏林俱乐部文化流传最广的一份样本，也是很多人对柏林最初的想象来源。值得知道的背景是：柏林 Techno 不是凭空长出来的，它长在墙倒之后那几年——东柏林突然空出大量无主厂房、地下室、变电站，产权不清、租金为零、警察管不过来，于是派对在里面自己长了起来。今天那套\"柏林夜生活\"的神话，物质基础就是这段产权真空期。",
+    "on_the_ground": "Tresor · Berghain 一带的弗里德里希斯海因东部· 东柏林沿施普雷河的旧工业区",
+    "tier_reason": null,
+    "cn_edition": {
+      "status": "not_applicable",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://coverartarchive.org/release/4621aba3-8a2c-47a8-b051-362225c731a9/3048002052.jpg",
+    "sort_order": 19,
+    "cover_source": "Cover Art Archive",
+    "cover_source_url": "https://musicbrainz.org/release-group/a52aeb84-0f3e-38b1-b5e0-35e868deb981"
+  },
+  {
+    "id": "de-screen-undine",
+    "destination": "de",
+    "tier": "if-you-have-time",
+    "tier_label": "余力之选",
+    "medium": "screen",
+    "medium_label": "影像",
+    "medium_sub": "film",
+    "medium_sub_label": "电影",
+    "title_zh": "温蒂妮",
+    "title_original": "Undine",
+    "title_alt": [],
+    "creator": "克里斯蒂安·佩措尔德",
+    "creator_country": "德国",
+    "year": 2020,
+    "extent": "90分钟",
+    "music_style": null,
+    "regions": [
+      "柏林"
+    ],
+    "region_primary": "柏林",
+    "periods": [
+      "柏林共和国"
+    ],
+    "theme_main": [
+      "地方与空间"
+    ],
+    "theme_tags": [
+      "小城与大都会"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": "one-evening",
+    "time_cost_label": "一个晚上",
+    "summary": "温蒂妮在柏林城市发展博物馆做讲解员，每天站在沙盘前讲这座城市如何被填埋、拆毁、一次次重建。男友提出分手之后，一个古老的传说找上了她——按德国浪漫主义流传下来的说法，水妖温蒂妮爱上凡人，一旦被背叛，就必须杀死对方才能回到水里。与此同时，她遇见了一个工业潜水员。",
+    "worth": "这部片子完全不碰墙，不碰历史创伤，它碰的是另一件事：这座城市从来没停止过拆自己。片中那几段讲解不是编的，是真实的城建史——洪堡论坛底下埋着共和国宫，共和国宫底下埋着王宫，王宫又是拆掉别的东西盖起来的。你在柏林会不断撞见崭新的\"老建筑\"，这部片子解释了那种诡异感从哪来。",
+    "on_the_ground": "洪堡论坛（片中讲解的核心对象）· 亚历山大广场的城市模型 · 施普雷河沿岸",
+    "tier_reason": null,
+    "cn_edition": {
+      "status": "subtitles_available",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://image.tmdb.org/t/p/w500/x3H5eqHNmL3lVx9mwAiKD5oeYD4.jpg",
+    "sort_order": 20,
+    "cover_source": "TMDB",
+    "cover_source_url": "https://www.themoviedb.org/movie/615761"
+  },
+  {
+    "id": "de-screen-lola-rennt",
+    "destination": "de",
+    "tier": "if-you-have-time",
+    "tier_label": "余力之选",
+    "medium": "screen",
+    "medium_label": "影像",
+    "medium_sub": "film",
+    "medium_sub_label": "电影",
+    "title_zh": "罗拉快跑",
+    "title_original": "Lola rennt",
+    "title_alt": [],
+    "creator": "汤姆·提克威",
+    "creator_country": "德国",
+    "year": 1998,
+    "extent": "80分钟",
+    "music_style": null,
+    "regions": [
+      "柏林"
+    ],
+    "region_primary": "柏林",
+    "periods": [
+      "柏林共和国"
+    ],
+    "theme_main": [
+      "社会与日常"
+    ],
+    "theme_tags": [
+      "小城与大都会",
+      "夜生活与亚文化"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": "one-evening",
+    "time_cost_label": "一个晚上",
+    "summary": "男友在地铁上弄丢了十万马克，二十分钟后要交给黑帮，否则会被杀。罗拉挂掉电话开始跑。同一段路她跑了三遍——每次出门时差几秒，撞到不同的人，于是每个擦肩而过的路人后来的一生都不一样，结局也被推向别处。",
+    "worth": "1998年的柏林，统一后正在大规模重建的城市被拍成了一张可以奔跑的地图。罗拉的路线在地理上并不连贯——她从米特跑到十字山再跑回来，实际距离根本跑不完——但这恰恰是那几年柏林给人的感觉：所有地方都在同时施工，城市还没重新长成一个整体。",
+    "on_the_ground": "奥伯鲍姆桥 · 弗里德里希大街 · 燕妮·特莱普托桥一带（片中多个奔跑段落取景处）",
+    "tier_reason": null,
+    "cn_edition": {
+      "status": "subtitles_available",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://image.tmdb.org/t/p/w500/oq2T6V8EYiYNVmEuqPu9XZT6b5E.jpg",
+    "sort_order": 21,
+    "cover_source": "TMDB",
+    "cover_source_url": "https://www.themoviedb.org/movie/104"
+  },
+  {
+    "id": "de-screen-victoria",
+    "destination": "de",
+    "tier": "if-you-have-time",
+    "tier_label": "余力之选",
+    "medium": "screen",
+    "medium_label": "影像",
+    "medium_sub": "film",
+    "medium_sub_label": "电影",
+    "title_zh": "维多利亚",
+    "title_original": "Victoria",
+    "title_alt": [
+      "victoria"
+    ],
+    "creator": "塞巴斯蒂安·希佩尔",
+    "creator_country": "德国",
+    "year": 2015,
+    "extent": "138分钟",
+    "music_style": null,
+    "regions": [
+      "柏林"
+    ],
+    "region_primary": "柏林",
+    "periods": [
+      "柏林共和国"
+    ],
+    "theme_main": [
+      "社会与日常",
+      "地方与空间"
+    ],
+    "theme_tags": [
+      "夜生活与亚文化",
+      "小城与大都会"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": "one-evening",
+    "time_cost_label": "一个晚上",
+    "summary": "西班牙女孩维多利亚在柏林一家地下夜店认识了四个当地男人。凌晨四点，她跟着他们上了天台、进了便利店、坐进车里，天亮之前卷进一场银行抢劫。全片一百三十八分钟，一个镜头到底，没有一次剪辑，凌晨四点半开拍，一次拍成。",
+    "worth": "这部拍摄了柏林夜晚真实的时间感：夜店散场之后天还没亮，那几个小时里城市空着，什么都可能发生。这种\"夜和早晨之间没有边界\"的状态是柏林独有的，因为这座城市的俱乐部普遍通宵，很多人周日中午才回家。",
+    "on_the_ground": "十字山与米特之间的夜间路线 · 片中的天台、便利店、街区都是真实地点，凌晨拍摄",
+    "tier_reason": null,
+    "cn_edition": {
+      "status": "subtitles_available",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://image.tmdb.org/t/p/w500/yNIppgHZTlDqypRO1qad5x7H8Ak.jpg",
+    "sort_order": 22,
+    "cover_source": "TMDB",
+    "cover_source_url": "https://www.themoviedb.org/movie/320007"
+  },
+  {
+    "id": "de-screen-der-untergang",
+    "destination": "de",
+    "tier": "if-you-have-time",
+    "tier_label": "余力之选",
+    "medium": "screen",
+    "medium_label": "影像",
+    "medium_sub": "film",
+    "medium_sub_label": "电影",
+    "title_zh": "帝国的毁灭",
+    "title_original": "Der Untergang",
+    "title_alt": [
+      "希特勒:最后的十二夜"
+    ],
+    "creator": "奥利弗·希施比格尔",
+    "creator_country": "德国",
+    "year": 2004,
+    "extent": "156分钟",
+    "music_style": null,
+    "regions": [
+      "柏林"
+    ],
+    "region_primary": "柏林",
+    "periods": [
+      "纳粹时期"
+    ],
+    "theme_main": [
+      "历史与记忆"
+    ],
+    "theme_tags": [
+      "记忆与罪责"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": "one-evening",
+    "time_cost_label": "一个晚上",
+    "summary": "1945年4月的柏林，苏军已经打到市中心。地面上的城市正在被炮火犁平，地下八米的元首地堡里，一群人按部就班地过完最后十二天：结婚、口述遗嘱、争论突围方案、给六个孩子喂下氰化物。视角来自希特勒的秘书特劳德尔·荣格，她当时二十二岁，战后活到2002年。",
+    "worth": "这是德国第一次由自己拍出一个会累、会发抖、会说错话的希特勒，公映时为此吵了很久——争论的核心是\"把他拍成人\"是否等于开脱。这场争论本身比电影更能说明德国的记忆政治：任何一次把加害者还原成普通人的尝试，都会立刻遭到审视。",
+    "on_the_ground": "地堡遗址，Gertrud-Kolmar-Straße 停车场（仅一块说明牌）· 恐怖地形图纪念馆 · 本德勒集团德国抵抗运动纪念馆",
+    "tier_reason": null,
+    "cn_edition": {
+      "status": "subtitles_available",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://image.tmdb.org/t/p/w500/zz5PV5ZpKajEP7hHAxGtNfFdb8v.jpg",
+    "sort_order": 23,
+    "cover_source": "TMDB",
+    "cover_source_url": "https://www.themoviedb.org/movie/613"
+  },
+  {
+    "id": "de-screen-barbara",
+    "destination": "de",
+    "tier": "if-you-have-time",
+    "tier_label": "余力之选",
+    "medium": "screen",
+    "medium_label": "影像",
+    "medium_sub": "film",
+    "medium_sub_label": "电影",
+    "title_zh": "芭芭拉",
+    "title_original": "Barbara",
+    "title_alt": [],
+    "creator": "克里斯蒂安·佩措尔德",
+    "creator_country": "德国",
+    "year": 2012,
+    "extent": "105分钟",
+    "music_style": null,
+    "regions": [
+      "乡村与小城"
+    ],
+    "region_primary": "乡村与小城",
+    "periods": [
+      "分裂时期"
+    ],
+    "theme_main": [
+      "社会与日常"
+    ],
+    "theme_tags": [
+      "冷战日常",
+      "监视与国家"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": "one-evening",
+    "time_cost_label": "一个晚上",
+    "summary": "1980年，柏林的女医生芭芭拉因为递交出境申请被下放到波罗的海边一座乡村医院。史塔西定期上门搜查，房东负责汇报，同事既可能是监视者也可能是同类。她在准备偷渡，同时越来越难放下手上的病人。",
+    "worth": "聚焦于柏林以外的东德：省城、乡村诊所、一直在吹的海风，以及由邻居和同事完成的监视。它比任何一部关于史塔西的片子都更接近日常——没有审讯室，没有窃听器特写，只有你不知道谁会写你的报告这件事本身。",
+    "on_the_ground": "波罗的海沿岸（拍摄地）· 东部任何一座未经翻新的小城 · 柏林霍恩舍恩豪森前史塔西监狱纪念馆可作对照",
+    "tier_reason": null,
+    "cn_edition": {
+      "status": "subtitles_available",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://image.tmdb.org/t/p/w500/xS2xJLs2fxZ8a9E7WRYrO5XCydS.jpg",
+    "sort_order": 24,
+    "cover_source": "TMDB",
+    "cover_source_url": "https://www.themoviedb.org/movie/88284"
+  },
+  {
+    "id": "de-screen-one-two-three",
+    "destination": "de",
+    "tier": "if-you-have-time",
+    "tier_label": "余力之选",
+    "medium": "screen",
+    "medium_label": "影像",
+    "medium_sub": "film",
+    "medium_sub_label": "电影",
+    "title_zh": "一，二，三",
+    "title_original": "One, Two, Three",
+    "title_alt": [
+      "玉女风流"
+    ],
+    "creator": "比利·怀尔德",
+    "creator_country": "美国",
+    "year": 1961,
+    "extent": "115分钟",
+    "music_style": null,
+    "regions": [
+      "柏林"
+    ],
+    "region_primary": "柏林",
+    "periods": [
+      "分裂时期"
+    ],
+    "theme_main": [
+      "社会与日常"
+    ],
+    "theme_tags": [
+      "分裂与柏林墙",
+      "冷战日常"
+    ],
+    "lens": "outsider",
+    "lens_label": "外来视角",
+    "time_cost": "one-evening",
+    "time_cost_label": "一个晚上",
+    "summary": "可口可乐西柏林分公司经理接到亚特兰大总部的任务：照看老板的女儿几周。结果她跑去东柏林，嫁给了一个满口反资本主义口号的共产党青年，而老板明天下午就到。经理必须在二十四小时内把这个东德女婿改造成一个能见人的西方绅士。",
+    "worth": "拍摄期间柏林墙正在砌起来。剧组原本在勃兰登堡门实景拍摄，1961年8月13日之后被迫撤到慕尼黑搭布景——所以片中那些穿越东西柏林的镜头，是这座城市被封死之前最后的影像之一。",
+    "on_the_ground": "勃兰登堡门 · 查理检查站一带（片中反复出现的过境概念）",
+    "tier_reason": null,
+    "cn_edition": {
+      "status": "subtitles_available",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://image.tmdb.org/t/p/w500/6G8NNEGnHpcyKpPSjyv9r7xRP1H.jpg",
+    "sort_order": 25,
+    "cover_source": "TMDB",
+    "cover_source_url": "https://www.themoviedb.org/movie/430"
+  },
+  {
+    "id": "de-screen-er-ist-wieder-da",
+    "destination": "de",
+    "tier": "if-you-have-time",
+    "tier_label": "余力之选",
+    "medium": "screen",
+    "medium_label": "影像",
+    "medium_sub": "film",
+    "medium_sub_label": "电影",
+    "title_zh": "希特勒回来了",
+    "title_original": "Er ist wieder da",
+    "title_alt": [
+      "元首回来了"
+    ],
+    "creator": "大卫·韦恩特",
+    "creator_country": "德国",
+    "year": 2015,
+    "extent": "116分钟",
+    "music_style": null,
+    "regions": [
+      "全国"
+    ],
+    "region_primary": "全国",
+    "periods": [
+      "柏林共和国"
+    ],
+    "theme_main": [
+      "历史与记忆",
+      "社会与日常"
+    ],
+    "theme_tags": [
+      "极右与社会对峙",
+      "记忆与罪责"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": "one-evening",
+    "time_cost_label": "一个晚上",
+    "summary": "希特勒在今日柏林一片空地上醒来，穿着1945年的军装，浑身汽油味。他被当成一个极其敬业的模仿艺人，先上了 YouTube，再上电视，迅速成为全国最红的喜剧演员。片中有大量段落是演员穿着戏服走上真实街头，对着毫不知情的路人拍的。",
+    "worth": "那些路人的反应不是演的。他们和\"希特勒\"合影、握手、抱怨移民、说出一些放在剧本里会显得太夸张的话。这部片子最不安的地方就在这里：它没有论证任何东西，只是把摄像机架在街上，然后德国自己走了过来。",
+    "on_the_ground": "无固定地点，街头段落遍布德国各地",
+    "tier_reason": null,
+    "cn_edition": {
+      "status": "subtitles_available",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://image.tmdb.org/t/p/w500/sUldADqpv2HITwngsM8RKqn15zC.jpg",
+    "sort_order": 26,
+    "cover_source": "TMDB",
+    "cover_source_url": "https://www.themoviedb.org/movie/318917"
+  },
+  {
+    "id": "de-screen-die-welle",
+    "destination": "de",
+    "tier": "if-you-have-time",
+    "tier_label": "余力之选",
+    "medium": "screen",
+    "medium_label": "影像",
+    "medium_sub": "film",
+    "medium_sub_label": "电影",
+    "title_zh": "浪潮",
+    "title_original": "Die Welle",
+    "title_alt": [],
+    "creator": "丹尼斯·甘塞尔",
+    "creator_country": "德国",
+    "year": 2008,
+    "extent": "107分钟",
+    "music_style": null,
+    "regions": [
+      "全国"
+    ],
+    "region_primary": "全国",
+    "periods": [
+      "柏林共和国"
+    ],
+    "theme_main": [
+      "社会与日常",
+      "历史与记忆"
+    ],
+    "theme_tags": [
+      "极右与社会对峙",
+      "记忆与罪责"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": "one-evening",
+    "time_cost_label": "一个晚上",
+    "summary": "一位高中老师被分配去上\"独裁统治\"这门项目课。学生们觉得无聊——都过去这么久了，还讲这个干什么。于是他决定做个实验：统一着装、统一手势、集体纪律、一个组织名字。第三天学生开始排斥不参加的人，第五天已经停不下来。",
+    "worth": "原型是1967年美国一位历史老师做的真实实验，德国版把它搬进了本国校园，而这个搬移正是重点：德国把\"防止再次发生\"写进了教学大纲，每个学生都要去集中营遗址参观，都要写反思。这部片子测试的正是那句\"我们这一代不会\"。",
+    "on_the_ground": "无固定地点，但和任何一处集中营纪念馆的参观形成互文",
+    "tier_reason": null,
+    "cn_edition": {
+      "status": "subtitles_available",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://image.tmdb.org/t/p/w500/okD4ZJlmySKI0SBHGFLs0QX4Ief.jpg",
+    "sort_order": 27,
+    "cover_source": "TMDB",
+    "cover_source_url": "https://www.themoviedb.org/movie/7735"
+  },
+  {
+    "id": "de-screen-fabian-oder-der-gang-vor-die-hunde",
+    "destination": "de",
+    "tier": "if-you-have-time",
+    "tier_label": "余力之选",
+    "medium": "screen",
+    "medium_label": "影像",
+    "medium_sub": "film",
+    "medium_sub_label": "电影",
+    "title_zh": "法比安",
+    "title_original": "Fabian oder Der Gang vor die Hunde",
+    "title_alt": [
+      "法比安:通往毁灭"
+    ],
+    "creator": "多米尼克·格拉夫",
+    "creator_country": "德国",
+    "year": 2021,
+    "extent": "178分钟",
+    "music_style": null,
+    "regions": [
+      "柏林"
+    ],
+    "region_primary": "柏林",
+    "periods": [
+      "魏玛"
+    ],
+    "theme_main": [
+      "地方与空间",
+      "社会与日常"
+    ],
+    "theme_tags": [
+      "小城与大都会",
+      "夜生活与亚文化",
+      "民主的崩解"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": "several-evenings",
+    "time_cost_label": "数个晚上",
+    "summary": "1931年的柏林。广告文案撰稿人法比安白天写香烟广告词，晚上在朋友和夜总会之间游荡。他失业，恋爱，看着最好的朋友自杀，看着街上打架的人越来越多。他有道德感，而这在当时是最没用的一样东西。",
+    "worth": "格拉夫把胶片、录像、老纪录片素材和分屏混剪在一起，让1931年同时是历史和现场——你会不断意识到自己在看的是档案，又不断被拽回当下。这个形式上的选择比内容更重要：它拒绝让你把那一年当成一段安全的、已经结束的过去。",
+    "on_the_ground": "原著与影片中的柏林西区、夜总会区一带 · 与凯斯特纳的小说对照看",
+    "tier_reason": null,
+    "cn_edition": {
+      "status": "subtitles_available",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://image.tmdb.org/t/p/w500/9WchQFo6xx73jv8YhoAWfm0nzEh.jpg",
+    "sort_order": 28,
+    "cover_source": "TMDB",
+    "cover_source_url": "https://www.themoviedb.org/movie/620498"
+  },
+  {
+    "id": "de-screen-metropolis",
+    "destination": "de",
+    "tier": "if-you-have-time",
+    "tier_label": "余力之选",
+    "medium": "screen",
+    "medium_label": "影像",
+    "medium_sub": "film",
+    "medium_sub_label": "电影",
+    "title_zh": "大都会",
+    "title_original": "Metropolis",
+    "title_alt": [],
+    "creator": "弗里茨·朗",
+    "creator_country": "德国",
+    "year": 1927,
+    "extent": "148分钟",
+    "music_style": null,
+    "regions": [
+      "全国"
+    ],
+    "region_primary": "全国",
+    "periods": [
+      "魏玛"
+    ],
+    "theme_main": [
+      "地方与空间",
+      "艺术与文化"
+    ],
+    "theme_tags": [
+      "工业与劳动",
+      "设计与包豪斯"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": "one-evening",
+    "time_cost_label": "一个晚上",
+    "summary": "未来城市分成两层：地上是花园、体育场和摩天楼，地下是维持这一切运转的机器和工人。资本家的儿子偶然下到地下，发现了另一个世界，以及一个在那里布道的女性。他父亲请来发明家，把她的形象复制成一个机器人，用来煽动工人自我毁灭。",
+    "worth": "1927年在巴贝尔斯堡拍摄，是当时世界上最贵的电影，几乎拖垮了 UFA 制片厂。魏玛德国对技术、群众、阶级和末日的全部焦虑都装在里面。",
+    "on_the_ground": "巴贝尔斯堡制片厂· 建议看 2010 年修复版",
+    "tier_reason": null,
+    "cn_edition": {
+      "status": "subtitles_available",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://image.tmdb.org/t/p/w500/vODOVn29fr0nLF9MVfpfKDcxuXF.jpg",
+    "sort_order": 29,
+    "cover_source": "TMDB",
+    "cover_source_url": "https://www.themoviedb.org/movie/19"
+  },
+  {
+    "id": "de-screen-im-westen-nichts-neues",
+    "destination": "de",
+    "tier": "if-you-have-time",
+    "tier_label": "余力之选",
+    "medium": "screen",
+    "medium_label": "影像",
+    "medium_sub": "film",
+    "medium_sub_label": "电影",
+    "title_zh": "西线无战事",
+    "title_original": "Im Westen nichts Neues",
+    "title_alt": [
+      "西线无战事",
+      "All Quiet on the Western Front"
+    ],
+    "creator": "爱德华·贝尔格",
+    "creator_country": "德国",
+    "year": 2022,
+    "extent": "148分钟",
+    "music_style": null,
+    "regions": [
+      "全国"
+    ],
+    "region_primary": "全国",
+    "periods": [
+      "德意志帝国"
+    ],
+    "theme_main": [
+      "历史与记忆"
+    ],
+    "theme_tags": [
+      "记忆与罪责",
+      "工业与劳动"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": "one-evening",
+    "time_cost_label": "一个晚上",
+    "summary": "1917年，一群德国中学生在校长的鼓动下集体报名参战，领到的军装是从阵亡者身上洗干净的。四年后战壕里只剩下泥、饥饿和例行的死亡。停战协议在1918年11月11日上午签署，生效时间定在十一点——而进攻命令仍然在那天早上被下达。",
+    "worth": "雷马克的小说1929年出版，1933年被纳粹当众焚烧。这是德国人自己拍的第一版，2023年拿了四项奥斯卡。",
+    "on_the_ground": "无固定德国地点（拍摄于捷克），落地对应在各城市的一战阵亡纪念碑——它们通常比二战纪念碑更古老、也更少被修改",
+    "tier_reason": null,
+    "cn_edition": {
+      "status": "subtitles_available",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://image.tmdb.org/t/p/w500/sNsmI4vQ1A6VG52dquTFx8oNTWk.jpg",
+    "sort_order": 30,
+    "cover_source": "TMDB",
+    "cover_source_url": "https://www.themoviedb.org/movie/49046"
+  },
+  {
+    "id": "de-screen-der-himmel-über-berlin",
+    "destination": "de",
+    "tier": "if-you-have-time",
+    "tier_label": "余力之选",
+    "medium": "screen",
+    "medium_label": "影像",
+    "medium_sub": "film",
+    "medium_sub_label": "电影",
+    "title_zh": "柏林苍穹下",
+    "title_original": "Der Himmel über Berlin",
+    "title_alt": [
+      "欲望之翼",
+      "柏林天使"
+    ],
+    "creator": "维姆·文德斯",
+    "creator_country": "德国",
+    "year": 1987,
+    "extent": "128分钟",
+    "music_style": null,
+    "regions": [
+      "柏林"
+    ],
+    "region_primary": "柏林",
+    "periods": [
+      "分裂时期"
+    ],
+    "theme_main": [
+      "地方与空间",
+      "艺术与文化"
+    ],
+    "theme_tags": [
+      "分裂与柏林墙",
+      "小城与大都会"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": "one-evening",
+    "time_cost_label": "一个晚上",
+    "summary": "两个天使在西柏林上空游荡，听得见每个人心里的独白：地铁上的老人、图书馆里的读者、想自杀的年轻人、公寓里的孕妇。他们看不见颜色，也碰不到任何东西。其中一个爱上了马戏团的空中飞人，决定放弃永生变成人——落地那一刻，他第一次看见血是红的，第一次觉得冷。",
+    "worth": "拍摄时墙还立着，剧组在死亡地带边上搭景。片中大量镜头是今天已经不存在的地方：波茨坦广场当时是一片长满草的荒地，中间横着墙。你今天站在同一位置，四周是索尼中心和玻璃楼群。",
+    "on_the_ground": "国立图书馆阅览室（沙罗恩设计，片中天使聚集的地方，今天可以走进去坐下）· 胜利纪念柱（可登顶）· 波茨坦广场（对照片中的荒地）",
+    "tier_reason": null,
+    "cn_edition": {
+      "status": "subtitles_available",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://image.tmdb.org/t/p/w500/xgPuxj2BHLQ4tPyLwsBr1Jk3sBr.jpg",
+    "sort_order": 31,
+    "cover_source": "TMDB",
+    "cover_source_url": "https://www.themoviedb.org/movie/144"
+  },
+  {
+    "id": "de-book-berlin-diary",
+    "destination": "de",
+    "tier": "if-you-have-time",
+    "tier_label": "余力之选",
+    "medium": "book",
+    "medium_label": "书籍",
+    "medium_sub": "nonfiction",
+    "medium_sub_label": "非虚构",
+    "title_zh": "柏林日记",
+    "title_original": "Berlin Diary",
+    "title_alt": [],
+    "creator": "威廉·夏伊勒",
+    "creator_country": "美国",
+    "year": 1941,
+    "extent": "约600页",
+    "music_style": null,
+    "regions": [
+      "柏林"
+    ],
+    "region_primary": "柏林",
+    "periods": [
+      "纳粹时期"
+    ],
+    "theme_main": [
+      "历史与记忆"
+    ],
+    "theme_tags": [
+      "民主的崩解",
+      "记忆与罪责"
+    ],
+    "lens": "outsider",
+    "lens_label": "外来视角",
+    "time_cost": "several-evenings",
+    "time_cost_label": "数个晚上",
+    "summary": "1934到1940年，CBS 驻柏林记者的日记。党代会、吞并奥地利、慕尼黑协定、开战、审查制度，以及每天在餐桌上、电车上、酒馆里听到的普通德国人的话。他记下咖啡涨价，记下同事被捕，也记下自己猜战争到底会不会真的打起来。",
+    "worth": "它的价值在于没有后见之明。夏伊勒不知道后面会发生什么，所以你看到的是当时那种\"日子照常过\"的质地——这是任何后来写的历史书都给不了的东西。",
+    "on_the_ground": "柏林市中心的记者与外交区一带 · 与《一个德国人的故事》对照看，一个是外来者的日记，一个是本地人的回忆",
+    "tier_reason": null,
+    "cn_edition": {
+      "status": "published_translation",
+      "publisher": "译林出版社",
+      "translator": "张若涵"
+    },
+    "cover": "https://pictures.abebooks.com/isbn/9787544783767-uk.jpg",
+    "sort_order": 32,
+    "cover_source": "AbeBooks",
+    "cover_source_url": "https://www.abebooks.com/9787544783767/"
+  },
+  {
+    "id": "de-book-der-vorleser",
+    "destination": "de",
+    "tier": "if-you-have-time",
+    "tier_label": "余力之选",
+    "medium": "book",
+    "medium_label": "书籍",
+    "medium_sub": "novel",
+    "medium_sub_label": "小说",
+    "title_zh": "朗读者",
+    "title_original": "Der Vorleser",
+    "title_alt": [
+      "生死朗读",
+      "我愿意为你朗读"
+    ],
+    "creator": "本哈德·施林克",
+    "creator_country": "德国",
+    "year": 1995,
+    "extent": "约220页",
+    "music_style": null,
+    "regions": [
+      "全国"
+    ],
+    "region_primary": "全国",
+    "periods": [
+      "零点与占领期",
+      "分裂时期"
+    ],
+    "theme_main": [
+      "历史与记忆"
+    ],
+    "theme_tags": [
+      "记忆与罪责",
+      "家庭与继承"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": "several-evenings",
+    "time_cost_label": "数个晚上",
+    "summary": "十五岁的米夏在放学路上生病，被一个三十六岁的女电车售票员汉娜带回家照顾。那个夏天他们成了情人，她让他每次都先朗读一段小说给她听。她突然消失。八年后米夏在法学院的旁听席上重新见到她——她是被审判的集中营看守，而他知道一个能减轻她刑期、她自己却不肯说出口的秘密。",
+    "worth": "它处理的是第二代人的问题：当施害者是你爱过的人，你还能不能审判她。这个问题在德国不是文学假设——战后德国几乎每个家庭都要面对父辈在做什么，而多数人选择了不问。",
+    "on_the_ground": "无明确地点（故事发生在一座未点名的城市）· 与任何一处集中营纪念馆的参观形成互文",
+    "tier_reason": null,
+    "cn_edition": {
+      "status": "published_translation",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://pictures.abebooks.com/isbn/9787544707923-uk.jpg",
+    "sort_order": 33,
+    "cover_source": "AbeBooks",
+    "cover_source_url": "https://www.abebooks.com/9787544707923/"
+  },
+  {
+    "id": "de-book-kairos",
+    "destination": "de",
+    "tier": "if-you-have-time",
+    "tier_label": "余力之选",
+    "medium": "book",
+    "medium_label": "书籍",
+    "medium_sub": "novel",
+    "medium_sub_label": "小说",
+    "title_zh": "凯罗斯",
+    "title_original": "Kairos",
+    "title_alt": [],
+    "creator": "燕妮·埃彭贝克",
+    "creator_country": "德国",
+    "year": 2021,
+    "extent": "约300页",
+    "music_style": null,
+    "regions": [
+      "柏林"
+    ],
+    "region_primary": "柏林",
+    "periods": [
+      "分裂时期",
+      "转折与统一"
+    ],
+    "theme_main": [
+      "社会与日常",
+      "历史与记忆"
+    ],
+    "theme_tags": [
+      "冷战日常",
+      "统一之后的东西差异",
+      "家庭与继承"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": "several-evenings",
+    "time_cost_label": "数个晚上",
+    "summary": "1986年的东柏林，十九岁的女学生卡塔琳娜在公交车上遇见五十三岁的已婚作家汉斯。关系从迷恋开始，一步步变成审问、控制和羞辱：他要求她记录自己的每一次背叛，写下检讨，反复朗读。与此同时，他们所在的那个国家也在解体。",
+    "worth": "把一段私人关系的崩坏和东德的终结叠在一起写——两者都是从\"我完全信任你\"开始，都是在毫无预兆的某个时刻发现已经无法回头。2024年国际布克奖。",
+    "on_the_ground": "东柏林 · 与《再见列宁》对照，一个是喜剧的处理，一个不是",
+    "tier_reason": null,
+    "cn_edition": {
+      "status": "published_translation",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://img.dushuguan.com/m00/0d/fd/70ea58f8372128bb2bfcaba12ed0f3f5.jpg",
+    "sort_order": 34,
+    "cover_source": "读书馆",
+    "cover_source_url": "https://www.dushuguan.com/book/62627824/"
+  },
+  {
+    "id": "de-book-gehen-ging-gegangen",
+    "destination": "de",
+    "tier": "if-you-have-time",
+    "tier_label": "余力之选",
+    "medium": "book",
+    "medium_label": "书籍",
+    "medium_sub": "novel",
+    "medium_sub_label": "小说",
+    "title_zh": "时世逝",
+    "title_original": "Gehen, ging, gegangen",
+    "title_alt": [
+      "去,去过,去了"
+    ],
+    "creator": "燕妮·埃彭贝克",
+    "creator_country": "德国",
+    "year": 2015,
+    "extent": "约350页",
+    "music_style": null,
+    "regions": [
+      "柏林"
+    ],
+    "region_primary": "柏林",
+    "periods": [
+      "柏林共和国"
+    ],
+    "theme_main": [
+      "身份与传统",
+      "社会与日常"
+    ],
+    "theme_tags": [
+      "移民与归属",
+      "极右与社会对峙"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": "several-evenings",
+    "time_cost_label": "数个晚上",
+    "summary": "退休的古典学教授理查德在柏林奥拉宁广场上看到一群绝食抗议的非洲难民。他起初只是好奇，带着学术式的提问去找他们聊天，做笔记，像做田野调查。慢慢地他开始为他们跑手续、垫钱、腾出自己家的房间，而他自己也是东德人——一个国家在他五十岁那年突然不存在了。",
+    "worth": "作品描写了2015年前后的柏林，而奥拉宁广场的难民抗议是真实事件。作者把\"一夜之间国家没有了\"的东德经验，用来理解另一批无处可去的人，这个并置是这本书真正的发动机。",
+    "on_the_ground": "十字山奥拉宁广场——书中抗议发生地，今天是一个普通的街心广场",
+    "tier_reason": null,
+    "cn_edition": {
+      "status": "published_translation",
+      "publisher": "云南人民出版社",
+      "translator": "李佳川"
+    },
+    "cover": "https://www.ilixiangguo.com/data/upload/thumb/202312/658e8d6eae25c.jpg",
+    "sort_order": 35,
+    "cover_source": "理想国",
+    "cover_source_url": "https://www.ilixiangguo.com/book/book/view/id/1870"
+  },
+  {
+    "id": "de-book-muzej-bezuvjetne-predaje",
+    "destination": "de",
+    "tier": "if-you-have-time",
+    "tier_label": "余力之选",
+    "medium": "book",
+    "medium_label": "书籍",
+    "medium_sub": "novel",
+    "medium_sub_label": "小说",
+    "title_zh": "无条件投降博物馆",
+    "title_original": "Muzej bezuvjetne predaje",
+    "title_alt": [],
+    "creator": "杜布拉夫卡·乌格雷西奇",
+    "creator_country": "克罗地亚",
+    "year": 1996,
+    "extent": "约250页",
+    "music_style": null,
+    "regions": [
+      "柏林"
+    ],
+    "region_primary": "柏林",
+    "periods": [
+      "转折与统一",
+      "柏林共和国"
+    ],
+    "theme_main": [
+      "身份与传统",
+      "历史与记忆"
+    ],
+    "theme_tags": [
+      "移民与归属",
+      "记忆与罪责",
+      "小城与大都会"
+    ],
+    "lens": "diaspora",
+    "lens_label": "移民与跨文化视角",
+    "time_cost": "several-evenings",
+    "time_cost_label": "数个晚上",
+    "summary": "南斯拉夫解体后流亡柏林的作家，用照片、清单、日记片段、别人的家庭相册拼成一本无法归类的书。开头是柏林动物园里一头海象的胃容物清单——打火机、硬币、发卡、一支钢笔，全是游客扔进去的东西，它因此死了。整本书就是这样一份清单。",
+    "worth": "九十年代的柏林是一座刚刚重新拼起来的城市，同时接住了大量从别处散架的人——南斯拉夫、苏联、东欧。这本书写的就是那个时刻：一个人失去国家之后，记忆变成她唯一还能整理的东西。",
+    "on_the_ground": "柏林动物园 · 夏洛滕堡与旧西区的移民聚居带",
+    "tier_reason": null,
+    "cn_edition": {
+      "status": "published_translation",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://pictures.abebooks.com/isbn/9787222224926-uk.jpg",
+    "sort_order": 36,
+    "cover_source": "AbeBooks",
+    "cover_source_url": "https://www.abebooks.com/9787222224926/"
+  },
+  {
+    "id": "de-book-the-spy-who-came-in-from-the-cold",
+    "destination": "de",
+    "tier": "if-you-have-time",
+    "tier_label": "余力之选",
+    "medium": "book",
+    "medium_label": "书籍",
+    "medium_sub": "novel",
+    "medium_sub_label": "小说",
+    "title_zh": "柏林谍影",
+    "title_original": "The Spy Who Came in from the Cold",
+    "title_alt": [
+      "冷战谍魂",
+      "寒风孤谍"
+    ],
+    "creator": "约翰·勒卡雷",
+    "creator_country": "英国",
+    "year": 1963,
+    "extent": "约250页",
+    "music_style": null,
+    "regions": [
+      "柏林"
+    ],
+    "region_primary": "柏林",
+    "periods": [
+      "分裂时期"
+    ],
+    "theme_main": [
+      "历史与记忆"
+    ],
+    "theme_tags": [
+      "分裂与柏林墙",
+      "监视与国家",
+      "冷战日常"
+    ],
+    "lens": "outsider",
+    "lens_label": "外来视角",
+    "time_cost": "one-evening",
+    "time_cost_label": "一个晚上",
+    "summary": "英国特工利马斯在柏林负责的线人一个接一个被杀，最后一个死在检查站的探照灯下。他被召回伦敦，接下一个任务：假装酗酒潦倒、被组织抛弃，好让东德情报机构来招募他——目的是构陷对方的一名高官。任务进行到一半，他开始意识到自己被用来保护的是谁。",
+    "worth": "勒卡雷写这本书时正在英国驻波恩使馆做情报工作，柏林墙刚砌起来两年。他后来说这本书是他对\"我们和他们道德上不一样\"这个说法的回答。",
+    "on_the_ground": "查理检查站及其博物馆· 柏林墙纪念馆（贝尔瑙尔大街，保留了完整的边境结构，比查理检查站真实得多）",
+    "tier_reason": null,
+    "cn_edition": {
+      "status": "published_translation",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://pictures.abebooks.com/isbn/9787208129825-uk.jpg",
+    "sort_order": 37,
+    "cover_source": "AbeBooks",
+    "cover_source_url": "https://www.abebooks.com/9787208129825/"
+  },
+  {
+    "id": "de-book-die-leiden-des-jungen-werthers",
+    "destination": "de",
+    "tier": "if-you-have-time",
+    "tier_label": "余力之选",
+    "medium": "book",
+    "medium_label": "书籍",
+    "medium_sub": "novel",
+    "medium_sub_label": "小说",
+    "title_zh": "少年维特的烦恼",
+    "title_original": "Die Leiden des jungen Werthers",
+    "title_alt": [],
+    "creator": "约翰·沃尔夫冈·冯·歌德",
+    "creator_country": "德国",
+    "year": 1774,
+    "extent": "约150页",
+    "music_style": null,
+    "regions": [
+      "法兰克福与黑森"
+    ],
+    "region_primary": "法兰克福与黑森",
+    "periods": [
+      "统一之前"
+    ],
+    "theme_main": [
+      "身份与传统",
+      "艺术与文化"
+    ],
+    "theme_tags": [
+      "浪漫主义与风景"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": "one-evening",
+    "time_cost_label": "一个晚上",
+    "summary": "二十四岁的歌德在韦茨拉尔的帝国法院实习，爱上了同事的未婚妻夏绿蒂，几个月后离开。不久他听说一位相识因类似的绝望自杀。他用四周时间写完这本书，全部由维特写给朋友的信构成，最后一封写完他借了手枪。",
+    "worth": "出版后引发全欧洲的模仿风潮：年轻人穿维特式的蓝外套黄背心，各地传出模仿自杀的报道，一些地方一度禁售这本书。德国文学第一次成为欧洲事件，就是从这里开始的。",
+    "on_the_ground": "韦茨拉尔的夏绿蒂故居 Lottehaus· 法兰克福歌德故居 · 魏玛歌德故居",
+    "tier_reason": null,
+    "cn_edition": {
+      "status": "published_translation",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://pictures.abebooks.com/isbn/9787020158393-uk.jpg",
+    "sort_order": 38,
+    "cover_source": "AbeBooks",
+    "cover_source_url": "https://www.abebooks.com/9787020158393/"
+  },
+  {
+    "id": "de-book-fabian-die-geschichte-eines-moralisten",
+    "destination": "de",
+    "tier": "if-you-have-time",
+    "tier_label": "余力之选",
+    "medium": "book",
+    "medium_label": "书籍",
+    "medium_sub": "novel",
+    "medium_sub_label": "小说",
+    "title_zh": "法比安",
+    "title_original": "Fabian. Die Geschichte eines Moralisten",
+    "title_alt": [
+      "法比安:一个道德家的故事"
+    ],
+    "creator": "埃里希·凯斯特纳",
+    "creator_country": "德国",
+    "year": 1931,
+    "extent": "约220页",
+    "music_style": null,
+    "regions": [
+      "柏林"
+    ],
+    "region_primary": "柏林",
+    "periods": [
+      "魏玛"
+    ],
+    "theme_main": [
+      "地方与空间",
+      "社会与日常"
+    ],
+    "theme_tags": [
+      "小城与大都会",
+      "夜生活与亚文化",
+      "民主的崩解"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": "one-evening",
+    "time_cost_label": "一个晚上",
+    "summary": "1931年的柏林：失业率超过百分之二十，街上每天都有政治斗殴。广告文案撰稿人法比安丢了工作，遇见一个想当演员的女人，看着最好的朋友因为学术生涯破灭而开枪自杀。凯斯特纳给他的副标题是\"一个道德家的故事\"，而这本书要说明的正是道德在那一年完全不管用。",
+    "worth": "出版两年后，1933年5月10日，凯斯特纳站在柏林歌剧院广场的人群里，亲眼看着自己的书被扔进火堆——他是当晚唯一到场的被焚作者。他后来一直留在德国，被禁止写作，活到战后。",
+    "on_the_ground": "倍倍尔广场（原歌剧院广场）——焚书发生地，地面下嵌着一间空书架的玻璃纪念装置，夜里有灯，很值得专门去一趟",
+    "tier_reason": null,
+    "cn_edition": {
+      "status": "published_translation",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://pictures.abebooks.com/isbn/9787559681287-uk.jpg",
+    "sort_order": 39,
+    "cover_source": "AbeBooks",
+    "cover_source_url": "https://www.abebooks.com/9787559681287/"
+  },
+  {
+    "id": "de-music-sinfonie-nr-9-d-moll-op-125",
+    "destination": "de",
+    "tier": "if-you-have-time",
+    "tier_label": "余力之选",
+    "medium": "music",
+    "medium_label": "音乐",
+    "medium_sub": "album",
+    "medium_sub_label": "专辑",
+    "title_zh": "第九交响曲",
+    "title_original": "Sinfonie Nr. 9 d-Moll（op. 125）",
+    "title_alt": [],
+    "creator": "Ludwig van Beethoven",
+    "creator_country": "德国",
+    "year": 1824,
+    "extent": "约70分钟",
+    "music_style": "古典/浪漫派",
+    "regions": [
+      "鲁尔区与莱茵兰"
+    ],
+    "region_primary": "鲁尔区与莱茵兰",
+    "periods": [
+      "统一之前"
+    ],
+    "theme_main": [
+      "艺术与文化"
+    ],
+    "theme_tags": [
+      "浪漫主义与风景"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": null,
+    "time_cost_label": null,
+    "summary": "交响曲写到第四乐章，贝多芬做了一件此前没人做过的事：把人声放进来，唱席勒的《欢乐颂》。首演在维也纳，他本人已经全聋，站在台上背对观众打拍子，一曲结束还在指挥，是女中音把他转过身来，他才看见全场起立。",
+    "worth": "这首曲子后来被所有立场的人征用过：纳粹在希特勒生日音乐会上演它，东德和西德在奥运会上共用它当国歌，1989年圣诞节伯恩斯坦在刚打开的柏林墙边指挥它，把歌词里的\"欢乐\"改成了\"自由\"。1985年它成为欧盟盟歌。",
+    "on_the_ground": "波恩贝多芬故居（他出生的房子，现为博物馆）· 波恩每年的贝多芬音乐节",
+    "tier_reason": null,
+    "cn_edition": {
+      "status": "not_applicable",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://coverartarchive.org/release/f3e7c0e2-59a8-4da4-b1e5-8111a2e03ff3/22125725806-500.jpg",
+    "sort_order": 40,
+    "cover_source": "Cover Art Archive",
+    "cover_source_url": "https://musicbrainz.org/release-group/458d56a6-430c-4072-a31a-dc9dd3c31a4c"
+  },
+  {
+    "id": "de-music-der-ring-des-nibelungen",
+    "destination": "de",
+    "tier": "if-you-have-time",
+    "tier_label": "余力之选",
+    "medium": "music",
+    "medium_label": "音乐",
+    "medium_sub": "album",
+    "medium_sub_label": "专辑",
+    "title_zh": "尼伯龙根的指环",
+    "title_original": "Der Ring des Nibelungen",
+    "title_alt": [],
+    "creator": "Richard Wagner",
+    "creator_country": "德国",
+    "year": 1876,
+    "extent": "约15小时",
+    "music_style": "歌剧",
+    "regions": [
+      "巴伐利亚"
+    ],
+    "region_primary": "巴伐利亚",
+    "periods": [
+      "德意志帝国"
+    ],
+    "theme_main": [
+      "艺术与文化"
+    ],
+    "theme_tags": [
+      "浪漫主义与风景",
+      "记忆与罪责"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": null,
+    "time_cost_label": null,
+    "summary": "四部歌剧，十五个小时，从莱茵河底被偷走的黄金讲到诸神的宫殿烧掉。瓦格纳为它写了二十六年，还专门发明了一套新的配器方法和一种叫\"主导动机\"的叙事手段——每个人物、每件物品、每种情绪都有自己的旋律，它们在十五小时里互相纠缠、变形、彼此回应。",
+    "worth": "他为了演出它，说服巴伐利亚国王路德维希二世出钱，在拜罗伊特这个小城专门盖了一座剧院。剧院按他的要求设计：乐池埋在舞台下面看不见，观众席全暗，没有包厢等级之分。今天全世界剧场的黑灯规矩，源头在这里。",
+    "on_the_ground": "拜罗伊特节日剧院· 慕尼黑与纽伦堡的瓦格纳相关场馆",
+    "tier_reason": null,
+    "cn_edition": {
+      "status": "not_applicable",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://coverartarchive.org/release/9b832029-8bc1-3726-8ef6-a33411fec63a/13385854263.jpg",
+    "sort_order": 41,
+    "cover_source": "Cover Art Archive",
+    "cover_source_url": "https://musicbrainz.org/release-group/e328daf6-cea5-30e2-903e-0a4cd171e211"
+  },
+  {
+    "id": "de-music-can",
+    "destination": "de",
+    "tier": "if-you-have-time",
+    "tier_label": "余力之选",
+    "medium": "music",
+    "medium_label": "音乐",
+    "medium_sub": "album",
+    "medium_sub_label": "专辑",
+    "title_zh": "Tago Mago",
+    "title_original": "Can",
+    "title_alt": [],
+    "creator": "Can",
+    "creator_country": "德国",
+    "year": 1971,
+    "extent": "约73分钟",
+    "music_style": "Krautrock",
+    "regions": [
+      "鲁尔区与莱茵兰"
+    ],
+    "region_primary": "鲁尔区与莱茵兰",
+    "periods": [
+      "分裂时期"
+    ],
+    "theme_main": [
+      "艺术与文化"
+    ],
+    "theme_tags": [
+      "夜生活与亚文化"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": null,
+    "time_cost_label": null,
+    "summary": "在科隆郊外一座借来的城堡里录了几个月。乐队里两位核心成员是施托克豪森的学生，主唱达磨·铃木是他们在慕尼黑街头捡到的日本流浪艺人——之前那个主唱刚刚精神崩溃。达磨用没有意义的音节唱，两张唱片，越到后面越不像歌，最长的一首十八分钟。",
+    "worth": "六十年代末那批西德年轻音乐人面对的问题很具体：德语流行歌被纳粹彻底污染过，英美摇滚是别人的语法，那还剩下什么？Can 的回答是——什么都不继承，从零开始即兴，让节奏自己找出路。",
+    "on_the_ground": "科隆 · Can 的城堡录音室原址",
+    "tier_reason": null,
+    "cn_edition": {
+      "status": "not_applicable",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://coverartarchive.org/release/8c75af89-acca-384b-85f6-9c9b3688363d/14747894023.jpg",
+    "sort_order": 42,
+    "cover_source": "Cover Art Archive",
+    "cover_source_url": "https://musicbrainz.org/release-group/13d08c0e-14e2-30b2-9ad7-5f501761a8ea"
+  },
+  {
+    "id": "de-music-einstürzende-neubauten",
+    "destination": "de",
+    "tier": "if-you-have-time",
+    "tier_label": "余力之选",
+    "medium": "music",
+    "medium_label": "音乐",
+    "medium_sub": "album",
+    "medium_sub_label": "专辑",
+    "title_zh": "Halber Mensch",
+    "title_original": "Einstürzende Neubauten",
+    "title_alt": [],
+    "creator": "Einstürzende Neubauten",
+    "creator_country": "德国",
+    "year": 1985,
+    "extent": "约40分钟",
+    "music_style": "工业噪音",
+    "regions": [
+      "柏林"
+    ],
+    "region_primary": "柏林",
+    "periods": [
+      "分裂时期"
+    ],
+    "theme_main": [
+      "艺术与文化"
+    ],
+    "theme_tags": [
+      "工业与劳动",
+      "夜生活与亚文化"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": null,
+    "time_cost_label": null,
+    "summary": "乐队名字的意思是\"正在坍塌的新建筑\"，直接嘲讽西德战后那批粗制滥造的重建工程。他们用电钻、铁皮、弹簧、购物车和捡来的废金属当乐器，人声在噪音里更像是在喊。这张专辑里有一整段是几个人在敲一座桥。",
+    "worth": "这些声音就是那个环境本身：八十年代的西柏林被墙围着，房租极低，遍地是没人要的厂房和废墟，年轻人搬进去，把建筑本身拆成乐器。",
+    "on_the_ground": "十字山与舍恩贝格的旧工业建筑 · 与《B-Movie》配合听，同一个城市同一段时间",
+    "tier_reason": null,
+    "cn_edition": {
+      "status": "not_applicable",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://coverartarchive.org/release/94b93f48-6357-49fd-affa-7c07db1f131b/20492902143-500.jpg",
+    "sort_order": 43,
+    "cover_source": "Cover Art Archive",
+    "cover_source_url": "https://musicbrainz.org/release-group/7ebcef25-ee4d-3921-bf04-c489e60d6e9c"
+  },
+  {
+    "id": "de-music-ashra",
+    "destination": "de",
+    "tier": "if-you-have-time",
+    "tier_label": "余力之选",
+    "medium": "music",
+    "medium_label": "音乐",
+    "medium_sub": "album",
+    "medium_sub_label": "专辑",
+    "title_zh": "New Age of Earth",
+    "title_original": "Ashra",
+    "title_alt": [],
+    "creator": "Ashra (Manuel Göttsching)",
+    "creator_country": "德国",
+    "year": 1976,
+    "extent": "约45分钟",
+    "music_style": "柏林学派/电子",
+    "regions": [
+      "柏林"
+    ],
+    "region_primary": "柏林",
+    "periods": [
+      "分裂时期"
+    ],
+    "theme_main": [
+      "艺术与文化"
+    ],
+    "theme_tags": [
+      "夜生活与亚文化"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": null,
+    "time_cost_label": null,
+    "summary": "曼努埃尔·戈特辛一个人用合成器和电吉他做出来的四段长曲，没有鼓，没有明确的开头和结尾，像一整片缓慢移动的天气。最长的一首超过二十分钟。他做这张唱片时二十四岁，此前的乐队刚刚解散。",
+    "worth": "出自七十年代西柏林的电子乐圈子——这批人被统称为\"柏林学派\"，特点是长、慢、不着急到达任何地方。",
+    "on_the_ground": "无固定地点。适合在柏林的长途地铁或者郊外火车上听",
+    "tier_reason": null,
+    "cn_edition": {
+      "status": "not_applicable",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://coverartarchive.org/release/60c9c74c-98e6-4dbb-ac97-bbb725e49c9e/1121491959.jpg",
+    "sort_order": 44,
+    "cover_source": "Cover Art Archive",
+    "cover_source_url": "https://musicbrainz.org/release-group/498baec3-4011-32c8-97a5-cbe42f7afc17"
+  },
+  {
+    "id": "de-screen-das-weiße-band",
+    "destination": "de",
+    "tier": "after-you-return",
+    "tier_label": "归来之后",
+    "medium": "screen",
+    "medium_label": "影像",
+    "medium_sub": "film",
+    "medium_sub_label": "电影",
+    "title_zh": "白丝带",
+    "title_original": "Das weiße Band",
+    "title_alt": [
+      "白色缎带"
+    ],
+    "creator": "米夏埃尔·哈内克",
+    "creator_country": "奥地利",
+    "year": 2009,
+    "extent": "144分钟",
+    "music_style": null,
+    "regions": [
+      "乡村与小城"
+    ],
+    "region_primary": "乡村与小城",
+    "periods": [
+      "德意志帝国"
+    ],
+    "theme_main": [
+      "社会与日常",
+      "历史与记忆"
+    ],
+    "theme_tags": [
+      "家庭与继承",
+      "民主的崩解"
+    ],
+    "lens": "outsider",
+    "lens_label": "外来视角",
+    "time_cost": "one-evening",
+    "time_cost_label": "一个晚上",
+    "summary": "1913年，德国北部一个新教村庄。医生骑马时被人拉的钢丝绊倒，佃农的妻子死于工棚事故，男爵的儿子被吊起来抽打，接生婆的残疾孩子被弄瞎眼睛。村里的牧师给犯错的孩子系上白丝带，提醒他们纯洁。没有人被指认，没有人被惩罚，一年后战争爆发，一切中断。",
+    "worth": "哈内克拍的是1913年，想解释的是1933年——片中那些孩子，到纳粹上台时正好四十岁上下。这个算术是他公开说过的。",
+    "on_the_ground": null,
+    "tier_reason": "没有落地对应，村庄是虚构的。而且它的情绪是慢性的、不给出口的那种，出发前看会带走你相当一部分状态。",
+    "cn_edition": {
+      "status": "subtitles_available",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://image.tmdb.org/t/p/w500/dJZEvGH4ePQlM2dDSa1u32uuQ3d.jpg",
+    "sort_order": 45,
+    "cover_source": "TMDB",
+    "cover_source_url": "https://www.themoviedb.org/movie/37903"
+  },
+  {
+    "id": "de-screen-systemsprenger",
+    "destination": "de",
+    "tier": "after-you-return",
+    "tier_label": "归来之后",
+    "medium": "screen",
+    "medium_label": "影像",
+    "medium_sub": "film",
+    "medium_sub_label": "电影",
+    "title_zh": "系统破坏者",
+    "title_original": "Systemsprenger",
+    "title_alt": [],
+    "creator": "诺拉·芬沙伊德",
+    "creator_country": "德国",
+    "year": 2019,
+    "extent": "119分钟",
+    "music_style": null,
+    "regions": [
+      "全国"
+    ],
+    "region_primary": "全国",
+    "periods": [
+      "柏林共和国"
+    ],
+    "theme_main": [
+      "社会与日常"
+    ],
+    "theme_tags": [
+      "家庭与继承",
+      "极右与社会对峙"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": "one-evening",
+    "time_cost_label": "一个晚上",
+    "summary": "九岁的贝妮被贴上\"系统破坏者\"的标签——这是德国青少年福利系统内部的真实术语，指那些没有任何机构收得下的孩子。她被寄养家庭退回，被学校开除，被儿童精神病院转走。所有人都真心想帮她：社工、老师、陪护、她自己的母亲。所有人都失败。",
+    "worth": "它拍出了德国那套庞大、精密、资源充足的社会保障机器，以及它接不住的人。这比任何关于\"德国效率\"的说法都真实——一个制度完善的社会遇到无法归类的个体时，制度不会崩溃，它只是把人一站站转手，直到人自己耗尽。",
+    "on_the_ground": null,
+    "tier_reason": "没有落地对应，情绪负担重。放在出发前一周不合适。",
+    "cn_edition": {
+      "status": "subtitles_available",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://image.tmdb.org/t/p/w500/bQIUrTkwN1vehbLwjElVkAtbA5Y.jpg",
+    "sort_order": 46,
+    "cover_source": "TMDB",
+    "cover_source_url": "https://www.themoviedb.org/movie/567410"
+  },
+  {
+    "id": "de-screen-werk-ohne-autor",
+    "destination": "de",
+    "tier": "after-you-return",
+    "tier_label": "归来之后",
+    "medium": "screen",
+    "medium_label": "影像",
+    "medium_sub": "film",
+    "medium_sub_label": "电影",
+    "title_zh": "无主之作",
+    "title_original": "Werk ohne Autor",
+    "title_alt": [
+      "另一种艺术",
+      "永不回头"
+    ],
+    "creator": "弗洛里安·亨克尔·冯·多纳斯马尔克",
+    "creator_country": "德国",
+    "year": 2018,
+    "extent": "189分钟",
+    "music_style": null,
+    "regions": [
+      "萨克森",
+      "鲁尔区与莱茵兰"
+    ],
+    "region_primary": "萨克森",
+    "periods": [
+      "纳粹时期",
+      "分裂时期",
+      "柏林共和国"
+    ],
+    "theme_main": [
+      "艺术与文化",
+      "历史与记忆"
+    ],
+    "theme_tags": [
+      "记忆与罪责",
+      "设计与包豪斯"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": "several-evenings",
+    "time_cost_label": "数个晚上",
+    "summary": "库尔特小时候在德累斯顿，最喜欢的姨妈因精神病被纳粹的\"安乐死\"计划带走。他长大后在东德的美术学院学社会主义现实主义壁画，逃到西德，进了杜塞尔多夫艺术学院，终于开始画自己的东西。他不知道的是：当年签字送走姨妈的那位妇科医生，就是他妻子的父亲。",
+    "worth": "从德累斯顿到杜塞尔多夫，横跨纳粹德国、东德和西德三个国家。它把\"如何处理自己的过去\"写成了一个人不知情地和罪责坐在同一张餐桌旁——这个设定的力量在于，德国战后几十年里，这种情况在无数家庭里以不那么戏剧化的方式真实发生过。",
+    "on_the_ground": null,
+    "tier_reason": "一百八十九分钟。而且它跨越的时间和地理太大，如果你还没有德国的空间感，很多转折会落空。如果行程包含德累斯顿，可以提到第二梯队。",
+    "cn_edition": {
+      "status": "subtitles_available",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://image.tmdb.org/t/p/w500/1zAtFzSm2kYyaEKrK3YoI51jwnA.jpg",
+    "sort_order": 47,
+    "cover_source": "TMDB",
+    "cover_source_url": "https://www.themoviedb.org/movie/423612"
+  },
+  {
+    "id": "de-screen-toni-erdmann",
+    "destination": "de",
+    "tier": "after-you-return",
+    "tier_label": "归来之后",
+    "medium": "screen",
+    "medium_label": "影像",
+    "medium_sub": "film",
+    "medium_sub_label": "电影",
+    "title_zh": "托尼·厄德曼",
+    "title_original": "Toni Erdmann",
+    "title_alt": [],
+    "creator": "玛伦·阿德",
+    "creator_country": "德国",
+    "year": 2016,
+    "extent": "162分钟",
+    "music_style": null,
+    "regions": [
+      "全国"
+    ],
+    "region_primary": "全国",
+    "periods": [
+      "柏林共和国"
+    ],
+    "theme_main": [
+      "社会与日常",
+      "身份与传统"
+    ],
+    "theme_tags": [
+      "家庭与继承",
+      "工业与劳动"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": "several-evenings",
+    "time_cost_label": "数个晚上",
+    "summary": "退休的音乐老师温弗里德是个爱恶作剧的人。他去布加勒斯特看在咨询公司工作的女儿伊内丝，发现她的生活由会议、酒会和裁员方案构成。他没有走，而是戴上假牙和假发，以\"托尼·厄德曼\"这个身份重新出现在她的同事面前，拒绝解释自己是谁。",
+    "worth": "故事发生在罗马尼亚，拍的却是德国：那种效率、体面、把情绪当作不专业的态度，以及父女之间隔着的那层永远说不出口的东西。顺带也拍下了德国资本在东欧的样子——伊内丝的工作就是帮德国公司论证为什么要裁掉罗马尼亚工人。",
+    "on_the_ground": null,
+    "tier_reason": "一百六十二分钟，故事全程不在德国，落地对应为零。它的好处在于人物而不是地点。",
+    "cn_edition": {
+      "status": "subtitles_available",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://image.tmdb.org/t/p/w500/rDiSyVUxXnk0IiALGMWni2UJZSb.jpg",
+    "sort_order": 48,
+    "cover_source": "TMDB",
+    "cover_source_url": "https://www.themoviedb.org/movie/374475"
+  },
+  {
+    "id": "de-screen-die-blechtrommel",
+    "destination": "de",
+    "tier": "after-you-return",
+    "tier_label": "归来之后",
+    "medium": "screen",
+    "medium_label": "影像",
+    "medium_sub": "film",
+    "medium_sub_label": "电影",
+    "title_zh": "铁皮鼓",
+    "title_original": "Die Blechtrommel",
+    "title_alt": [],
+    "creator": "沃尔克·施隆多夫",
+    "creator_country": "德国",
+    "year": 1979,
+    "extent": "142分钟",
+    "music_style": null,
+    "regions": [
+      "全国"
+    ],
+    "region_primary": "全国",
+    "periods": [
+      "魏玛",
+      "纳粹时期"
+    ],
+    "theme_main": [
+      "历史与记忆"
+    ],
+    "theme_tags": [
+      "记忆与罪责",
+      "民主的崩解"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": "one-evening",
+    "time_cost_label": "一个晚上",
+    "summary": "1924年的但泽，奥斯卡出生时就能听懂大人说话。三岁生日那天，他决定不再长大，从楼梯上摔下去让身体停在那个尺寸，此后靠一面铁皮鼓和能震碎玻璃的尖叫穿过整个纳粹时期。他的三岁身体旁观着大人们的通奸、投机、入党和死亡。",
+    "worth": "1979年金棕榈，1980年奥斯卡最佳外语片，是德国电影在国际上重新被看见的转折点。",
+    "on_the_ground": null,
+    "tier_reason": "落地对应在波兰不在德国，而且它需要你先理解德国谈论受害经验时的那种紧张，否则容易读成一部单纯的怪诞片。",
+    "cn_edition": {
+      "status": "subtitles_available",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://image.tmdb.org/t/p/w500/jAIZNPX993L0PhBYQCy3wmLlUAb.jpg",
+    "sort_order": 49,
+    "cover_source": "TMDB",
+    "cover_source_url": "https://www.themoviedb.org/movie/659"
+  },
+  {
+    "id": "de-screen-berlin-alexanderplatz",
+    "destination": "de",
+    "tier": "after-you-return",
+    "tier_label": "归来之后",
+    "medium": "screen",
+    "medium_label": "影像",
+    "medium_sub": "series",
+    "medium_sub_label": "剧集",
+    "title_zh": "柏林亚历山大广场",
+    "title_original": "Berlin Alexanderplatz",
+    "title_alt": [],
+    "creator": "赖纳·维尔纳·法斯宾德",
+    "creator_country": "德国",
+    "year": 1980,
+    "extent": "14集/931分钟",
+    "music_style": null,
+    "regions": [
+      "柏林"
+    ],
+    "region_primary": "柏林",
+    "periods": [
+      "魏玛"
+    ],
+    "theme_main": [
+      "地方与空间",
+      "社会与日常"
+    ],
+    "theme_tags": [
+      "小城与大都会",
+      "工业与劳动",
+      "夜生活与亚文化"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": "long-haul",
+    "time_cost_label": "长线投入",
+    "summary": "法斯宾德用十五个半小时把德布林的小说搬上银幕。刑满释放的比伯科普夫站在监狱门口发誓要做个好人，柏林用三次打击回答他：被合伙人骗，被从行驶的车上推下去轧断一条胳膊，女友被同一个人杀死。全片大量夜戏、红光和德语粗话，最后两小时是一场超现实的梦。",
+    "worth": "德国电视史上体量最大的一次文学改编，播出时引发全国性争论——很多人认为它太暗、太脏、太长。法斯宾德1982年去世，三十七岁，这部作品是他留下的核心遗产。",
+    "on_the_ground": null,
+    "tier_reason": "九百三十一分钟。这不是\"有时间就看\"能装下的东西，它是一个项目。想接触这个故事又不想投入十五小时的话，读德布林的原著，或者先看1927年的《柏林：大都市交响曲》，那是同一座城市的六十五分钟版本。",
+    "cn_edition": {
+      "status": "subtitles_available",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://image.tmdb.org/t/p/w500/xTAOJiLGynaptwdWlOSPX4P2mLK.jpg",
+    "sort_order": 50,
+    "cover_source": "TMDB",
+    "cover_source_url": "https://www.themoviedb.org/tv/43189"
+  },
+  {
+    "id": "de-screen-dark",
+    "destination": "de",
+    "tier": "after-you-return",
+    "tier_label": "归来之后",
+    "medium": "screen",
+    "medium_label": "影像",
+    "medium_sub": "series",
+    "medium_sub_label": "剧集",
+    "title_zh": "暗黑",
+    "title_original": "Dark",
+    "title_alt": [],
+    "creator": "巴兰·博·奥达尔",
+    "creator_country": "德国",
+    "year": 2017,
+    "extent": "3季",
+    "music_style": null,
+    "regions": [
+      "乡村与小城"
+    ],
+    "region_primary": "乡村与小城",
+    "periods": [
+      "柏林共和国"
+    ],
+    "theme_main": [
+      "地方与空间",
+      "社会与日常"
+    ],
+    "theme_tags": [
+      "小城与大都会",
+      "家庭与继承"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": "long-haul",
+    "time_cost_label": "长线投入",
+    "summary": "德国小镇温登，一个孩子在森林里失踪。镇上有一座核电站、一个山洞，和四个纠缠了三代人的家庭。随着调查展开，1953、1986、2019、2052这四个年份被连成一个闭环——每个人试图阻止的灾难，恰恰是他们自己造成的。",
+    "worth": "Netflix 的第一部德语原创剧。它值得看的地方不在科幻设定，在质感：德国小镇的森林、雨、混凝土、压抑的家庭结构，以及那种\"所有人都知道彼此的秘密但没人提\"的空气。",
+    "on_the_ground": null,
+    "tier_reason": "三季，体量大，而且温登是虚构的。它的价值是氛围而非地点。",
+    "cn_edition": {
+      "status": "subtitles_available",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://image.tmdb.org/t/p/w500/7yQyDCqSazrYTnmxdQLAZ8YDH87.jpg",
+    "sort_order": 51,
+    "cover_source": "TMDB",
+    "cover_source_url": "https://www.themoviedb.org/tv/70523"
+  },
+  {
+    "id": "de-book-berlin-alexanderplatz-2",
+    "destination": "de",
+    "tier": "after-you-return",
+    "tier_label": "归来之后",
+    "medium": "book",
+    "medium_label": "书籍",
+    "medium_sub": "novel",
+    "medium_sub_label": "小说",
+    "title_zh": "柏林亚历山大广场",
+    "title_original": "Berlin Alexanderplatz",
+    "title_alt": [],
+    "creator": "阿尔弗雷德·德布林",
+    "creator_country": "德国",
+    "year": 1929,
+    "extent": "约470页",
+    "music_style": null,
+    "regions": [
+      "柏林"
+    ],
+    "region_primary": "柏林",
+    "periods": [
+      "魏玛"
+    ],
+    "theme_main": [
+      "地方与空间",
+      "社会与日常"
+    ],
+    "theme_tags": [
+      "小城与大都会",
+      "夜生活与亚文化",
+      "工业与劳动"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": "long-haul",
+    "time_cost_label": "长线投入",
+    "summary": "1928年前后的柏林东区。刑满释放的弗朗茨·比伯科普夫想做个正经人，卖领带、卖报纸、加入过一阵纳粹的报童队伍又退出。他被合伙人骗、被推下车轧断胳膊、女友被杀，三次被打回原点。小说的写法比故事更重要：广告词、圣经段落、屠宰场统计、天气预报和电车噪音被直接剪进叙述，中间毫无过渡。",
+    "worth": "这是这座城市的语言标本。德布林是行医的医生，在亚历山大广场附近的诊所工作了二十年，他写的柏林方言、黑话和市声是从诊室里听来的。",
+    "on_the_ground": null,
+    "tier_reason": "语言密度极高，蒙太奇式的插入会不断打断阅读，中译本读起来相当吃力。它是那种\"读完会留下一辈子\"的书，但不是那种\"三周后要出发所以现在读\"的书。",
+    "cn_edition": {
+      "status": "published_translation",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://pictures.abebooks.com/isbn/9787532776535-uk.jpg",
+    "sort_order": 52,
+    "cover_source": "AbeBooks",
+    "cover_source_url": "https://www.abebooks.com/9787532776535/"
+  },
+  {
+    "id": "de-book-die-blechtrommel-2",
+    "destination": "de",
+    "tier": "after-you-return",
+    "tier_label": "归来之后",
+    "medium": "book",
+    "medium_label": "书籍",
+    "medium_sub": "novel",
+    "medium_sub_label": "小说",
+    "title_zh": "铁皮鼓",
+    "title_original": "Die Blechtrommel",
+    "title_alt": [],
+    "creator": "君特·格拉斯",
+    "creator_country": "德国",
+    "year": 1959,
+    "extent": "约600页",
+    "music_style": null,
+    "regions": [
+      "全国"
+    ],
+    "region_primary": "全国",
+    "periods": [
+      "魏玛",
+      "纳粹时期"
+    ],
+    "theme_main": [
+      "历史与记忆"
+    ],
+    "theme_tags": [
+      "记忆与罪责",
+      "家庭与继承"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": "long-haul",
+    "time_cost_label": "长线投入",
+    "summary": "奥斯卡在精神病院里向看护口述自己的一生：外祖母的四条裙子、但泽的德国人波兰人和卡舒比人、三岁那年决定停止长大、用尖叫震碎玻璃、在纳粹集会上用鼓点把进行曲搅成华尔兹。他是个不可靠的叙述者，而且他知道自己不可靠。",
+    "worth": "战后德国第一次被迫用一个恶意的、侏儒的、拒绝长大的叙述者来面对自己——这本书出版时争议极大，有人要求禁书，也有城市取消了给格拉斯的奖。1999年诺贝尔文学奖。",
+    "on_the_ground": null,
+    "tier_reason": "六百页，而且格拉斯的句子长、密、不留喘息。电影版是一个可行的替代入口。",
+    "cn_edition": {
+      "status": "published_translation",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://pictures.abebooks.com/isbn/9787532745005-uk.jpg",
+    "sort_order": 53,
+    "cover_source": "AbeBooks",
+    "cover_source_url": "https://www.abebooks.com/9787532745005/"
+  },
+  {
+    "id": "de-book-broken-lives",
+    "destination": "de",
+    "tier": "after-you-return",
+    "tier_label": "归来之后",
+    "medium": "book",
+    "medium_label": "书籍",
+    "medium_sub": "nonfiction",
+    "medium_sub_label": "非虚构",
+    "title_zh": "破碎的生活",
+    "title_original": "Broken Lives",
+    "title_alt": [],
+    "creator": "康拉德·雅劳施",
+    "creator_country": "美国",
+    "year": 2018,
+    "extent": "约500页",
+    "music_style": null,
+    "regions": [
+      "全国"
+    ],
+    "region_primary": "全国",
+    "periods": [
+      "德意志帝国",
+      "魏玛",
+      "纳粹时期",
+      "分裂时期"
+    ],
+    "theme_main": [
+      "历史与记忆",
+      "社会与日常"
+    ],
+    "theme_tags": [
+      "记忆与罪责",
+      "家庭与继承",
+      "战后重建"
+    ],
+    "lens": "outsider",
+    "lens_label": "外来视角",
+    "time_cost": "long-haul",
+    "time_cost_label": "长线投入",
+    "summary": "一位美国历史学家收集了几百份普通德国人的自传和回忆录——不是名人，是教师、工人、家庭主妇、小职员——拼出1900年前后出生的那一代人如何穿过帝国、魏玛、纳粹、战争、废墟和分裂。他们中的多数人既不是加害者也不是英雄，只是一直在设法活下去。",
+    "worth": "它回答的是\"普通人当时到底怎么想\"，而这个问题通常只有宏观史的答案。材料全部来自这些人自己写下的东西，所以你能读到他们如何为自己辩解、如何选择性遗忘、如何在晚年重新组织记忆——那种自我说服的过程本身是最有信息量的部分。",
+    "on_the_ground": null,
+    "tier_reason": "五百页的学术性非虚构，没有单一叙事线索。它更像一本参考书，适合在你已经有具体印象之后回过头来找解释。",
+    "cn_edition": {
+      "status": "published_translation",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://pictures.abebooks.com/isbn/9787559845238-uk.jpg",
+    "sort_order": 54,
+    "cover_source": "AbeBooks",
+    "cover_source_url": "https://www.abebooks.com/9787559845238/"
+  },
+  {
+    "id": "de-book-austerlitz",
+    "destination": "de",
+    "tier": "after-you-return",
+    "tier_label": "归来之后",
+    "medium": "book",
+    "medium_label": "书籍",
+    "medium_sub": "novel",
+    "medium_sub_label": "小说",
+    "title_zh": "奥斯特利茨",
+    "title_original": "Austerlitz",
+    "title_alt": [],
+    "creator": "W. G. 泽巴尔德",
+    "creator_country": "德国",
+    "year": 2001,
+    "extent": "约300页",
+    "music_style": null,
+    "regions": [
+      "全国"
+    ],
+    "region_primary": "全国",
+    "periods": [
+      "纳粹时期",
+      "柏林共和国"
+    ],
+    "theme_main": [
+      "历史与记忆"
+    ],
+    "theme_tags": [
+      "记忆与罪责",
+      "移民与归属"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": "several-evenings",
+    "time_cost_label": "数个晚上",
+    "summary": "叙述者在安特卫普火车站遇见一个建筑史学者，此后二十年间在各地偶遇他，听他断断续续讲自己的来历。奥斯特利茨从小在威尔士一个牧师家庭长大，直到中学才知道自己不叫这个名字——他是\"儿童撤离运动\"从布拉格送到英国的孩子，父母死于集中营。他用一生研究车站、堡垒和要塞，却始终不去追问自己。",
+    "worth": "书里几乎不出现\"德国\"这个词，但整本书都是关于德国留下的空缺。泽巴尔德的写法是长句、几乎不分段、正文里插入没有说明的灰调照片，让你分不清纪实和虚构。他从不正面写大屠杀，只写它留下的凹陷。",
+    "on_the_ground": null,
+    "tier_reason": "慢，需要耐心，而且它的力量来自累积而非情节。适合旅途中的火车上或者回来之后。",
+    "cn_edition": {
+      "status": "published_translation",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://pictures.abebooks.com/isbn/9787559814234-uk.jpg",
+    "sort_order": 55,
+    "cover_source": "AbeBooks",
+    "cover_source_url": "https://www.abebooks.com/9787559814234/"
+  },
+  {
+    "id": "de-book-die-ausgewanderten",
+    "destination": "de",
+    "tier": "after-you-return",
+    "tier_label": "归来之后",
+    "medium": "book",
+    "medium_label": "书籍",
+    "medium_sub": "novel",
+    "medium_sub_label": "小说",
+    "title_zh": "移民",
+    "title_original": "Die Ausgewanderten",
+    "title_alt": [
+      "移民们"
+    ],
+    "creator": "W. G. 泽巴尔德",
+    "creator_country": "德国",
+    "year": 1992,
+    "extent": "约250页",
+    "music_style": null,
+    "regions": [
+      "全国"
+    ],
+    "region_primary": "全国",
+    "periods": [
+      "纳粹时期"
+    ],
+    "theme_main": [
+      "历史与记忆",
+      "身份与传统"
+    ],
+    "theme_tags": [
+      "移民与归属",
+      "记忆与罪责"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": "several-evenings",
+    "time_cost_label": "数个晚上",
+    "summary": "四段人物志：一个在英国的退休医生、叙述者的小学老师、一个移居美国的舅公、一个在曼彻斯特的画家。四个人都是德裔或德国犹太人，都在很久以前离开了德国，都活了很长时间，然后在某一天决定不再活下去。写法和《奥斯特利茨》一样：长句、旧照片、真假难辨。",
+    "worth": "四个人的共同点是被德国赶走。这本书处理的不是灾难本身，而是幸存之后那几十年——一个人可以在异国过完体面的一生，然后在七十岁那年走进结冰的湖里。",
+    "on_the_ground": null,
+    "tier_reason": "和《奥斯特利茨》属于同一种阅读体验，两本连读效果最好。都不适合赶进度。",
+    "cn_edition": {
+      "status": "published_translation",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://pictures.abebooks.com/isbn/9787559825742-uk.jpg",
+    "sort_order": 56,
+    "cover_source": "AbeBooks",
+    "cover_source_url": "https://www.abebooks.com/9787559825742/"
+  },
+  {
+    "id": "de-book-gespräche-mit-goethe",
+    "destination": "de",
+    "tier": "after-you-return",
+    "tier_label": "归来之后",
+    "medium": "book",
+    "medium_label": "书籍",
+    "medium_sub": "essay",
+    "medium_sub_label": "散文",
+    "title_zh": "歌德谈话录",
+    "title_original": "Gespräche mit Goethe",
+    "title_alt": [],
+    "creator": "约翰·彼得·爱克曼",
+    "creator_country": "德国",
+    "year": 1836,
+    "extent": "约600页",
+    "music_style": null,
+    "regions": [
+      "图林根与魏玛"
+    ],
+    "region_primary": "图林根与魏玛",
+    "periods": [
+      "统一之前"
+    ],
+    "theme_main": [
+      "艺术与文化"
+    ],
+    "theme_tags": [
+      "浪漫主义与风景"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": "long-haul",
+    "time_cost_label": "长线投入",
+    "summary": "1823年，二十九岁的爱克曼来到魏玛，成为七十四岁的歌德的助手，此后九年几乎每天见面。他把两人关于文学、政治、自然科学、剧场、拿破仑、天气和日常琐事的谈话记了下来。歌德去世后他整理出版，这本书成为后世了解晚年歌德最主要的材料。",
+    "worth": "它是德国\"文化之邦\"自我形象的原始文件。魏玛在当时是一个人口不到八千的小城，却因为歌德、席勒、赫尔德、维兰德同时住在这里而成为德语世界的文化中心——这个\"小地方出大文化\"的模式后来被反复援引，也是德国至今地方文化机构密度极高的一个源头。",
+    "on_the_ground": null,
+    "tier_reason": "六百页的谈话记录，没有情节，需要你对歌德本人已经有兴趣。如果行程包含魏玛，可以挑其中几段在当地读，效果完全不同。",
+    "cn_edition": {
+      "status": "published_translation",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://pictures.abebooks.com/isbn/9787547431627-uk.jpg",
+    "sort_order": 57,
+    "cover_source": "AbeBooks",
+    "cover_source_url": "https://www.abebooks.com/9787547431627/"
+  },
+  {
+    "id": "de-book-faust",
+    "destination": "de",
+    "tier": "after-you-return",
+    "tier_label": "归来之后",
+    "medium": "book",
+    "medium_label": "书籍",
+    "medium_sub": "nonfiction",
+    "medium_sub_label": "非虚构",
+    "title_zh": "浮士德",
+    "title_original": "Faust",
+    "title_alt": [],
+    "creator": "约翰·沃尔夫冈·冯·歌德",
+    "creator_country": "德国",
+    "year": 1808,
+    "extent": "约500页",
+    "music_style": null,
+    "regions": [
+      "图林根与魏玛"
+    ],
+    "region_primary": "图林根与魏玛",
+    "periods": [
+      "统一之前"
+    ],
+    "theme_main": [
+      "艺术与文化",
+      "身份与传统"
+    ],
+    "theme_tags": [
+      "信仰与宗教改革",
+      "浪漫主义与风景"
+    ],
+    "lens": "local",
+    "lens_label": "本地视角",
+    "time_cost": "long-haul",
+    "time_cost_label": "长线投入",
+    "summary": "学者浮士德把所有学问都研究遍了，仍然什么都不满足，于是和魔鬼梅菲斯特订约：魔鬼在人间服侍他，如果有哪一刻他愿意对时间说\"停下吧，你真美\"，灵魂就归对方。第一部他毁掉了一个爱他的姑娘，第二部他造海堤、填海造陆、开发土地，最终在一片工程蓝图里说出了那句话。",
+    "worth": "歌德写了六十年，第二部在他去世后才出版。\"浮士德式\"后来成了德国人形容自己的词——永远向前，永远不满足，代价另算。这个自我形象在德国的工业史、工程传统和环境争论里都能找到回声。",
+    "on_the_ground": null,
+    "tier_reason": "诗剧，五百页，第二部尤其晦涩。如果只是想接触，第一部前半段（书斋、街头、格蕾琴的故事）是可以单独读的，第二部可以等等。",
+    "cn_edition": {
+      "status": "published_translation",
+      "publisher": null,
+      "translator": null
+    },
+    "cover": "https://pictures.abebooks.com/isbn/9787308205948-uk.jpg",
+    "sort_order": 58,
+    "cover_source": "AbeBooks",
+    "cover_source_url": "https://www.abebooks.com/9787308205948/"
+  }
+]

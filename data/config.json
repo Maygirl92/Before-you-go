@@ -1,0 +1,327 @@
+{
+  "brand": {
+    "wordmark": "Before You Go",
+    "wordmark_lang": "en",
+    "chinese_name": null,
+    "slogan_zh": "在这里，背起精神行囊"
+  },
+  "destination": {
+    "id": "de",
+    "name_zh": "德国",
+    "name_original": "Deutschland",
+    "signature": {
+      "face": "#C6E3E8",
+      "side": "#EAF0A4"
+    },
+    "intro": {
+      "气质与日常": "",
+      "历史底色": "",
+      "地区差异": "",
+      "常见想象": ""
+    }
+  },
+  "tiers": [
+    {
+      "id": "before-you-go",
+      "label": "必读之选",
+      "note": "落地对应与解释力都强，成本可接受"
+    },
+    {
+      "id": "if-you-have-time",
+      "label": "余力之选",
+      "note": "两样只强一样，或时长偏高"
+    },
+    {
+      "id": "after-you-return",
+      "label": "归来之后",
+      "note": "没有落地对应／体量太大／需要先有上下文"
+    }
+  ],
+  "palette": {
+    "page": "#F1F2F2",
+    "card": "#FFFFFF",
+    "rule": "#F0EEE8",
+    "ink": "#241F18",
+    "ink_muted": "#6E6A60",
+    "ink_faint": "#8A8578",
+    "map_field": "#FFFFFF",
+    "map_fold": "#F5F3ED",
+    "country_inactive": "#EDEBE5",
+    "country_inactive_ink": "#A8A398"
+  },
+  "facets": {
+    "medium": [
+      {
+        "id": "screen",
+        "label": "影像"
+      },
+      {
+        "id": "book",
+        "label": "书籍"
+      },
+      {
+        "id": "music",
+        "label": "音乐"
+      }
+    ],
+    "theme_main": [
+      {
+        "label": "历史与记忆",
+        "fill": "#DCE7F3",
+        "ink": "#2C4763"
+      },
+      {
+        "label": "社会与日常",
+        "fill": "#DDEBD6",
+        "ink": "#3A5531"
+      },
+      {
+        "label": "地方与空间",
+        "fill": "#F7E7C4",
+        "ink": "#6B4712"
+      },
+      {
+        "label": "身份与传统",
+        "fill": "#F7DBDD",
+        "ink": "#7A3841"
+      },
+      {
+        "label": "艺术与文化",
+        "fill": "#E4DDEF",
+        "ink": "#493869"
+      }
+    ],
+    "lens": [
+      {
+        "id": "local",
+        "label": "本地视角"
+      },
+      {
+        "id": "outsider",
+        "label": "外来视角"
+      },
+      {
+        "id": "diaspora",
+        "label": "移民与跨文化视角"
+      }
+    ],
+    "region": [
+      {
+        "label": "全国",
+        "count": 14,
+        "primary_count": 14
+      },
+      {
+        "label": "柏林",
+        "count": 28,
+        "primary_count": 28
+      },
+      {
+        "label": "巴伐利亚",
+        "count": 4,
+        "primary_count": 3
+      },
+      {
+        "label": "汉堡与北部",
+        "count": 0,
+        "primary_count": 0
+      },
+      {
+        "label": "鲁尔区与莱茵兰",
+        "count": 5,
+        "primary_count": 4
+      },
+      {
+        "label": "萨克森",
+        "count": 2,
+        "primary_count": 1
+      },
+      {
+        "label": "图林根与魏玛",
+        "count": 4,
+        "primary_count": 3
+      },
+      {
+        "label": "法兰克福与黑森",
+        "count": 2,
+        "primary_count": 2
+      },
+      {
+        "label": "乡村与小城",
+        "count": 3,
+        "primary_count": 3
+      }
+    ],
+    "time_cost": [
+      {
+        "id": "one-evening",
+        "label": "一个晚上"
+      },
+      {
+        "id": "several-evenings",
+        "label": "数个晚上"
+      },
+      {
+        "id": "long-haul",
+        "label": "长线投入"
+      }
+    ]
+  },
+  "theme_tags": [
+    {
+      "label": "记忆与罪责",
+      "home_theme": "历史与记忆",
+      "fill": "#DCE7F3",
+      "ink": "#2C4763",
+      "count": 18
+    },
+    {
+      "label": "分裂与柏林墙",
+      "home_theme": "历史与记忆",
+      "fill": "#DCE7F3",
+      "ink": "#2C4763",
+      "count": 9
+    },
+    {
+      "label": "监视与国家",
+      "home_theme": "历史与记忆",
+      "fill": "#DCE7F3",
+      "ink": "#2C4763",
+      "count": 3
+    },
+    {
+      "label": "战后重建",
+      "home_theme": "历史与记忆",
+      "fill": "#DCE7F3",
+      "ink": "#2C4763",
+      "count": 1
+    },
+    {
+      "label": "民主的崩解",
+      "home_theme": "历史与记忆",
+      "fill": "#DCE7F3",
+      "ink": "#2C4763",
+      "count": 9
+    },
+    {
+      "label": "工业与劳动",
+      "home_theme": "社会与日常",
+      "fill": "#DDEBD6",
+      "ink": "#3A5531",
+      "count": 8
+    },
+    {
+      "label": "家庭与继承",
+      "home_theme": "社会与日常",
+      "fill": "#DDEBD6",
+      "ink": "#3A5531",
+      "count": 11
+    },
+    {
+      "label": "冷战日常",
+      "home_theme": "社会与日常",
+      "fill": "#DDEBD6",
+      "ink": "#3A5531",
+      "count": 7
+    },
+    {
+      "label": "统一之后的东西差异",
+      "home_theme": "社会与日常",
+      "fill": "#DDEBD6",
+      "ink": "#3A5531",
+      "count": 1
+    },
+    {
+      "label": "极右与社会对峙",
+      "home_theme": "社会与日常",
+      "fill": "#DDEBD6",
+      "ink": "#3A5531",
+      "count": 5
+    },
+    {
+      "label": "小城与大都会",
+      "home_theme": "地方与空间",
+      "fill": "#F7E7C4",
+      "ink": "#6B4712",
+      "count": 14
+    },
+    {
+      "label": "浪漫主义与风景",
+      "home_theme": "地方与空间",
+      "fill": "#F7E7C4",
+      "ink": "#6B4712",
+      "count": 7
+    },
+    {
+      "label": "移民与归属",
+      "home_theme": "身份与传统",
+      "fill": "#F7DBDD",
+      "ink": "#7A3841",
+      "count": 6
+    },
+    {
+      "label": "信仰与宗教改革",
+      "home_theme": "身份与传统",
+      "fill": "#F7DBDD",
+      "ink": "#7A3841",
+      "count": 3
+    },
+    {
+      "label": "设计与包豪斯",
+      "home_theme": "艺术与文化",
+      "fill": "#E4DDEF",
+      "ink": "#493869",
+      "count": 3
+    },
+    {
+      "label": "夜生活与亚文化",
+      "home_theme": "艺术与文化",
+      "fill": "#E4DDEF",
+      "ink": "#493869",
+      "count": 14
+    }
+  ],
+  "periods": [
+    "统一之前",
+    "德意志帝国",
+    "魏玛",
+    "纳粹时期",
+    "零点与占领期",
+    "分裂时期",
+    "转折与统一",
+    "柏林共和国"
+  ],
+  "cn_edition_status": [
+    {
+      "id": "published_translation",
+      "label": "有中译本",
+      "valid_for": [
+        "book",
+        "screen"
+      ]
+    },
+    {
+      "id": "subtitles_available",
+      "label": "有中文字幕",
+      "valid_for": [
+        "screen"
+      ]
+    },
+    {
+      "id": "not_applicable",
+      "label": "无语言门槛",
+      "valid_for": [
+        "music"
+      ]
+    }
+  ],
+  "rules": {
+    "theme_tags_not_filterable": true,
+    "theme_tags_need_not_match_theme_main": true,
+    "theme_main_hidden_on_card": true,
+    "music_exempt_from_time_cost": true,
+    "default_grouping": "tier",
+    "tier_is_not_a_facet": true,
+    "region_primary_counts_for_quota": true
+  }
+}

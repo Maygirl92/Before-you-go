@@ -1,0 +1,555 @@
+{
+  "de-screen-b-movie-lust-sound-in-west-berlin-1979-1989": {
+    "status": "matched",
+    "source": "TMDB",
+    "cover": "https://image.tmdb.org/t/p/w500/sftNxbMF8PlzDsg2P6Dnj5etX7j.jpg",
+    "source_url": "https://www.themoviedb.org/movie/318042",
+    "matched_title": "B-Movie: Lust & Sound in West-Berlin 1979-1989",
+    "matched_year": 2015,
+    "score": 125
+  },
+  "de-screen-herr-lehmann": {
+    "status": "matched",
+    "source": "TMDB",
+    "cover": "https://image.tmdb.org/t/p/w500/fdH4E51jkMwLx3D8BfZr3BZZdl4.jpg",
+    "source_url": "https://www.themoviedb.org/movie/4326",
+    "matched_title": "Herr Lehmann",
+    "matched_year": 2003,
+    "score": 125
+  },
+  "de-screen-angst-essen-seele-auf": {
+    "status": "matched",
+    "source": "TMDB",
+    "cover": "https://image.tmdb.org/t/p/w500/vyXRTXtL5nUvrXNIJCWg2zPNhVX.jpg",
+    "source_url": "https://www.themoviedb.org/movie/216",
+    "matched_title": "Angst essen Seele auf",
+    "matched_year": 1974,
+    "score": 125
+  },
+  "de-screen-sophie-scholl-die-letzten-tage": {
+    "status": "matched",
+    "source": "TMDB",
+    "cover": "https://image.tmdb.org/t/p/w500/pIGMaBiA2uyh8NRjyqgYAPcrse5.jpg",
+    "source_url": "https://www.themoviedb.org/movie/2117",
+    "matched_title": "Sophie Scholl – Die letzten Tage",
+    "matched_year": 2005,
+    "score": 125
+  },
+  "de-screen-das-leben-der-anderen": {
+    "status": "matched",
+    "source": "TMDB",
+    "cover": "https://image.tmdb.org/t/p/w500/ghdrI7Q5TbbtLjIOEspjLB4xcE4.jpg",
+    "source_url": "https://www.themoviedb.org/movie/582",
+    "matched_title": "Das Leben der Anderen",
+    "matched_year": 2006,
+    "score": 125
+  },
+  "de-screen-berlin-die-sinfonie-der-großstadt": {
+    "status": "review",
+    "source": "TMDB",
+    "candidates": [
+      {
+        "adult": false,
+        "backdrop_path": "/lVnUdJ7nqho86UievvSr1LpfU6k.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 222,
+        "title": "Berlin, die Symphonie der Großstadt",
+        "original_language": "de",
+        "original_title": "Berlin, die Symphonie der Großstadt",
+        "overview": "Der dokumentarische Film beschreibt einen Tag in der Großstadt Berlin, die in den 1920er Jahren einen industriellen Aufschwung erlebte, und gibt auch heute noch einen Einblick in die Lebens- und Arbeitsverhältnisse zu dieser Zeit.",
+        "popularity": 1.4288,
+        "poster_path": "/jE92co3sb86ounZAocQ9SGKJQeZ.jpg",
+        "release_date": "1927-09-23",
+        "softcore": false,
+        "video": false,
+        "vote_average": 7.531,
+        "vote_count": 130,
+        "matched_title": "Berlin, die Symphonie der Großstadt",
+        "matched_year": 1927,
+        "score": 25
+      }
+    ]
+  },
+  "de-screen-good-bye-lenin": {
+    "status": "matched",
+    "source": "TMDB",
+    "cover": "https://image.tmdb.org/t/p/w500/nxKe04OP2GOpVsGneqFiBg7h0bS.jpg",
+    "source_url": "https://www.themoviedb.org/movie/338",
+    "matched_title": "Good Bye, Lenin!",
+    "matched_year": 2003,
+    "score": 125
+  },
+  "de-book-germany-memories-of-a-nation": {
+    "status": "unmatched",
+    "source": "Open Library",
+    "candidates": [
+      {
+        "author_name": [
+          "Britta Schilling"
+        ],
+        "cover_i": 7849337,
+        "edition_key": [
+          "OL26177325M"
+        ],
+        "first_publish_year": 2014,
+        "isbn": [
+          "0198703465",
+          "9780198703464"
+        ],
+        "key": "/works/OL17574181W",
+        "title": "Postcolonial Germany Memories Of Empire In A Decolonized Nation",
+        "score": 20
+      }
+    ]
+  },
+  "de-book-geschichte-eines-deutschen": {
+    "status": "review",
+    "source": "Open Library",
+    "cover": "https://covers.openlibrary.org/b/id/5345982-L.jpg",
+    "source_url": "https://openlibrary.org/works/OL11873416W",
+    "matched_title": "Max Schmeling: Berufsboxer, Propagandafigur, Unternehmer; die Geschichte eines deutschen Idols",
+    "score": 75
+  },
+  "de-book-berliner-kindheit-um-neunzehnhundert": {
+    "status": "matched",
+    "source": "Open Library",
+    "cover": "https://covers.openlibrary.org/b/id/1015706-L.jpg",
+    "source_url": "https://openlibrary.org/works/OL156202W",
+    "matched_title": "Berliner Kindheit um Neunzehnhundert",
+    "matched_year": 1950,
+    "score": 108
+  },
+  "de-book-der-zoo-der-anderen": {
+    "status": "matched",
+    "source": "Open Library",
+    "cover": "https://covers.openlibrary.org/b/id/8848886-L.jpg",
+    "source_url": "https://openlibrary.org/works/OL20199003W",
+    "matched_title": "Der Zoo der Anderen",
+    "matched_year": 2017,
+    "score": 120
+  },
+  "de-book-deutschland-ein-wintermärchen": {
+    "status": "matched",
+    "source": "Open Library",
+    "cover": "https://covers.openlibrary.org/b/id/4811152-L.jpg",
+    "source_url": "https://openlibrary.org/works/OL15281593W",
+    "matched_title": "Deutschland, ein Wintermärchen",
+    "matched_year": 1915,
+    "score": 100
+  },
+  "de-music-matthäus-passion-bwv-244": {
+    "status": "matched",
+    "source": "Cover Art Archive",
+    "cover": "https://coverartarchive.org/release/732c1da6-98e3-4361-a679-79cb35ad5fe6/19440398701-500.jpg",
+    "source_url": "https://musicbrainz.org/release-group/4489edbf-f992-4354-a912-96d2edbd6800",
+    "matched_title": "Matthäus-Passion",
+    "matched_year": "2017",
+    "score": 100
+  },
+  "de-music-die-dreigroschenoper": {
+    "status": "matched",
+    "source": "Cover Art Archive",
+    "cover": "https://coverartarchive.org/release/6f7cc800-8fbd-400f-b8e6-4073f7908ca8/35464269792-500.jpg",
+    "source_url": "https://musicbrainz.org/release-group/89192ac5-a84b-3025-b77a-ce93b91f0395",
+    "matched_title": "Die Dreigroschenoper",
+    "matched_year": "1999-10-04",
+    "score": 94
+  },
+  "de-music-ich-bin-von-kopf-bis-fuß-auf-liebe-eingestellt": {
+    "status": "unmatched",
+    "source": "Cover Art Archive",
+    "release_title": "Ich bin von Kopf bis Fuß auf Liebe eingestellt",
+    "candidates": [
+      {
+        "id": "26f6a2a6-e8fa-37bc-8d09-0c9ce9b0df7f",
+        "title": "Ich bin von Kopf bis Fuß auf Liebe eingestellt",
+        "first_release_date": "1930",
+        "score": 100,
+        "exact": true
+      }
+    ]
+  },
+  "de-music-kraftwerk": {
+    "status": "matched",
+    "source": "Cover Art Archive",
+    "cover": "https://coverartarchive.org/release/f099d6f6-cb03-46b6-8902-83f360306765/12871074891.jpg",
+    "source_url": "https://musicbrainz.org/release-group/5bb58171-9e68-4da2-bdae-f6e5e8ae7524",
+    "matched_title": "Autobahn",
+    "matched_year": "1974",
+    "score": 100
+  },
+  "de-music-nena": {
+    "status": "matched",
+    "source": "Cover Art Archive",
+    "cover": "https://coverartarchive.org/release/b23b8eb1-9e72-3438-8c3c-afafdf9eeac6/15273715817.jpg",
+    "source_url": "https://musicbrainz.org/release-group/af6d1dc4-9ed3-3b86-9913-9c7e257f91cd",
+    "matched_title": "99 Luftballons",
+    "matched_year": "1984",
+    "score": 100
+  },
+  "de-music-advanced-chemistry": {
+    "status": "matched",
+    "source": "Cover Art Archive",
+    "cover": "https://coverartarchive.org/release/bf7fbb2c-e927-4357-8a09-8d9ff3008ab0/35214051194-500.jpg",
+    "source_url": "https://musicbrainz.org/release-group/fef8ac4b-7c83-3346-8231-d1b413a9dd25",
+    "matched_title": "Fremd im eigenen Land",
+    "matched_year": "1992-10-30",
+    "score": 100
+  },
+  "de-music-paul-kalkbrenner": {
+    "status": "unmatched",
+    "source": "Cover Art Archive",
+    "release_title": "Berlin Calling (Original Soundtrack)",
+    "candidates": []
+  },
+  "de-screen-undine": {
+    "status": "matched",
+    "source": "TMDB",
+    "cover": "https://image.tmdb.org/t/p/w500/x3H5eqHNmL3lVx9mwAiKD5oeYD4.jpg",
+    "source_url": "https://www.themoviedb.org/movie/615761",
+    "matched_title": "Undine",
+    "matched_year": 2020,
+    "score": 125
+  },
+  "de-screen-lola-rennt": {
+    "status": "matched",
+    "source": "TMDB",
+    "cover": "https://image.tmdb.org/t/p/w500/oq2T6V8EYiYNVmEuqPu9XZT6b5E.jpg",
+    "source_url": "https://www.themoviedb.org/movie/104",
+    "matched_title": "Lola rennt",
+    "matched_year": 1998,
+    "score": 125
+  },
+  "de-screen-victoria": {
+    "status": "matched",
+    "source": "TMDB",
+    "cover": "https://image.tmdb.org/t/p/w500/yNIppgHZTlDqypRO1qad5x7H8Ak.jpg",
+    "source_url": "https://www.themoviedb.org/movie/320007",
+    "matched_title": "Victoria",
+    "matched_year": 2015,
+    "score": 125
+  },
+  "de-screen-der-untergang": {
+    "status": "matched",
+    "source": "TMDB",
+    "cover": "https://image.tmdb.org/t/p/w500/zz5PV5ZpKajEP7hHAxGtNfFdb8v.jpg",
+    "source_url": "https://www.themoviedb.org/movie/613",
+    "matched_title": "Der Untergang",
+    "matched_year": 2004,
+    "score": 125
+  },
+  "de-screen-barbara": {
+    "status": "matched",
+    "source": "TMDB",
+    "cover": "https://image.tmdb.org/t/p/w500/xS2xJLs2fxZ8a9E7WRYrO5XCydS.jpg",
+    "source_url": "https://www.themoviedb.org/movie/88284",
+    "matched_title": "Barbara",
+    "matched_year": 2012,
+    "score": 125
+  },
+  "de-screen-one-two-three": {
+    "status": "matched",
+    "source": "TMDB",
+    "cover": "https://image.tmdb.org/t/p/w500/6G8NNEGnHpcyKpPSjyv9r7xRP1H.jpg",
+    "source_url": "https://www.themoviedb.org/movie/430",
+    "matched_title": "One, Two, Three",
+    "matched_year": 1961,
+    "score": 125
+  },
+  "de-screen-er-ist-wieder-da": {
+    "status": "matched",
+    "source": "TMDB",
+    "cover": "https://image.tmdb.org/t/p/w500/sUldADqpv2HITwngsM8RKqn15zC.jpg",
+    "source_url": "https://www.themoviedb.org/movie/318917",
+    "matched_title": "Er ist wieder da",
+    "matched_year": 2015,
+    "score": 125
+  },
+  "de-screen-die-welle": {
+    "status": "matched",
+    "source": "TMDB",
+    "cover": "https://image.tmdb.org/t/p/w500/okD4ZJlmySKI0SBHGFLs0QX4Ief.jpg",
+    "source_url": "https://www.themoviedb.org/movie/7735",
+    "matched_title": "Die Welle",
+    "matched_year": 2008,
+    "score": 125
+  },
+  "de-screen-fabian-oder-der-gang-vor-die-hunde": {
+    "status": "matched",
+    "source": "TMDB",
+    "cover": "https://image.tmdb.org/t/p/w500/9WchQFo6xx73jv8YhoAWfm0nzEh.jpg",
+    "source_url": "https://www.themoviedb.org/movie/620498",
+    "matched_title": "Fabian oder der Gang vor die Hunde",
+    "matched_year": 2021,
+    "score": 125
+  },
+  "de-screen-metropolis": {
+    "status": "matched",
+    "source": "TMDB",
+    "cover": "https://image.tmdb.org/t/p/w500/vODOVn29fr0nLF9MVfpfKDcxuXF.jpg",
+    "source_url": "https://www.themoviedb.org/movie/19",
+    "matched_title": "Metropolis",
+    "matched_year": 1927,
+    "score": 125
+  },
+  "de-screen-im-westen-nichts-neues": {
+    "status": "matched",
+    "source": "TMDB",
+    "cover": "https://image.tmdb.org/t/p/w500/sNsmI4vQ1A6VG52dquTFx8oNTWk.jpg",
+    "source_url": "https://www.themoviedb.org/movie/49046",
+    "matched_title": "Im Westen nichts Neues",
+    "matched_year": 2022,
+    "score": 125
+  },
+  "de-screen-der-himmel-über-berlin": {
+    "status": "matched",
+    "source": "TMDB",
+    "cover": "https://image.tmdb.org/t/p/w500/xgPuxj2BHLQ4tPyLwsBr1Jk3sBr.jpg",
+    "source_url": "https://www.themoviedb.org/movie/144",
+    "matched_title": "Der Himmel über Berlin",
+    "matched_year": 1987,
+    "score": 125
+  },
+  "de-book-berlin-diary": {
+    "status": "matched",
+    "source": "Open Library",
+    "cover": "https://covers.openlibrary.org/b/id/6382090-L.jpg",
+    "source_url": "https://openlibrary.org/works/OL47182W",
+    "matched_title": "Berlin diary",
+    "matched_year": 1941,
+    "score": 120
+  },
+  "de-book-der-vorleser": {
+    "status": "matched",
+    "source": "Open Library",
+    "cover": "https://covers.openlibrary.org/b/id/998445-L.jpg",
+    "source_url": "https://openlibrary.org/works/OL14871157W",
+    "matched_title": "Der Vorleser",
+    "matched_year": 1995,
+    "score": 120
+  },
+  "de-book-kairos": {
+    "status": "matched",
+    "source": "Open Library",
+    "cover": "https://covers.openlibrary.org/b/id/13913814-L.jpg",
+    "source_url": "https://openlibrary.org/works/OL29330702W",
+    "matched_title": "Kairos",
+    "matched_year": 2021,
+    "score": 120
+  },
+  "de-book-gehen-ging-gegangen": {
+    "status": "matched",
+    "source": "Open Library",
+    "cover": "https://covers.openlibrary.org/b/id/14471346-L.jpg",
+    "source_url": "https://openlibrary.org/works/OL19718462W",
+    "matched_title": "Gehen, ging, gegangen",
+    "matched_year": 2015,
+    "score": 120
+  },
+  "de-book-muzej-bezuvjetne-predaje": {
+    "status": "matched",
+    "source": "Open Library",
+    "cover": "https://covers.openlibrary.org/b/id/501189-L.jpg",
+    "source_url": "https://openlibrary.org/works/OL276301W",
+    "matched_title": "Muzej bezuvjetne predaje",
+    "matched_year": 1997,
+    "score": 119
+  },
+  "de-book-the-spy-who-came-in-from-the-cold": {
+    "status": "matched",
+    "source": "Open Library",
+    "cover": "https://covers.openlibrary.org/b/id/15068283-L.jpg",
+    "source_url": "https://openlibrary.org/works/OL43120358W",
+    "matched_title": "THe SPy Who CAme in From the Cold ",
+    "matched_year": 1963,
+    "score": 120
+  },
+  "de-book-die-leiden-des-jungen-werthers": {
+    "status": "matched",
+    "source": "Open Library",
+    "cover": "https://covers.openlibrary.org/b/id/10501247-L.jpg",
+    "source_url": "https://openlibrary.org/works/OL22839397W",
+    "matched_title": "Die Leiden des jungen Werthers",
+    "matched_year": 1774,
+    "score": 120
+  },
+  "de-book-fabian-die-geschichte-eines-moralisten": {
+    "status": "matched",
+    "source": "Open Library",
+    "cover": "https://covers.openlibrary.org/b/id/13825232-L.jpg",
+    "source_url": "https://openlibrary.org/works/OL9018739W",
+    "matched_title": "Fabian; die Geschichte eines Moralisten",
+    "matched_year": 1975,
+    "score": 100
+  },
+  "de-music-sinfonie-nr-9-d-moll-op-125": {
+    "status": "review",
+    "source": "Cover Art Archive",
+    "cover": "https://coverartarchive.org/release/f3e7c0e2-59a8-4da4-b1e5-8111a2e03ff3/22125725806-500.jpg",
+    "source_url": "https://musicbrainz.org/release-group/458d56a6-430c-4072-a31a-dc9dd3c31a4c",
+    "matched_title": "Sinfonie Nr. 9 D-moll Op. 125 (Mit Schlußchor Über Schillers Ode »An Die Freude«) / Sinfonie Nr. 2 D-dur Op. 36",
+    "matched_year": "1976",
+    "score": 100
+  },
+  "de-music-der-ring-des-nibelungen": {
+    "status": "matched",
+    "source": "Cover Art Archive",
+    "cover": "https://coverartarchive.org/release/9b832029-8bc1-3726-8ef6-a33411fec63a/13385854263.jpg",
+    "source_url": "https://musicbrainz.org/release-group/e328daf6-cea5-30e2-903e-0a4cd171e211",
+    "matched_title": "Der Ring des Nibelungen",
+    "matched_year": "2013-07-22",
+    "score": 100
+  },
+  "de-music-can": {
+    "status": "matched",
+    "source": "Cover Art Archive",
+    "cover": "https://coverartarchive.org/release/8c75af89-acca-384b-85f6-9c9b3688363d/14747894023.jpg",
+    "source_url": "https://musicbrainz.org/release-group/13d08c0e-14e2-30b2-9ad7-5f501761a8ea",
+    "matched_title": "Tago Mago",
+    "matched_year": "1971",
+    "score": 100
+  },
+  "de-music-einstürzende-neubauten": {
+    "status": "matched",
+    "source": "Cover Art Archive",
+    "cover": "https://coverartarchive.org/release/94b93f48-6357-49fd-affa-7c07db1f131b/20492902143-500.jpg",
+    "source_url": "https://musicbrainz.org/release-group/7ebcef25-ee4d-3921-bf04-c489e60d6e9c",
+    "matched_title": "Halber Mensch",
+    "matched_year": "1985",
+    "score": 100
+  },
+  "de-music-ashra": {
+    "status": "unmatched",
+    "source": "Cover Art Archive",
+    "release_title": "New Age of Earth",
+    "candidates": []
+  },
+  "de-screen-das-weiße-band": {
+    "status": "matched",
+    "source": "TMDB",
+    "cover": "https://image.tmdb.org/t/p/w500/dJZEvGH4ePQlM2dDSa1u32uuQ3d.jpg",
+    "source_url": "https://www.themoviedb.org/movie/37903",
+    "matched_title": "Das weiße Band - Eine deutsche Kindergeschichte",
+    "matched_year": 2009,
+    "score": 90
+  },
+  "de-screen-systemsprenger": {
+    "status": "matched",
+    "source": "TMDB",
+    "cover": "https://image.tmdb.org/t/p/w500/bQIUrTkwN1vehbLwjElVkAtbA5Y.jpg",
+    "source_url": "https://www.themoviedb.org/movie/567410",
+    "matched_title": "Systemsprenger",
+    "matched_year": 2019,
+    "score": 125
+  },
+  "de-screen-werk-ohne-autor": {
+    "status": "matched",
+    "source": "TMDB",
+    "cover": "https://image.tmdb.org/t/p/w500/1zAtFzSm2kYyaEKrK3YoI51jwnA.jpg",
+    "source_url": "https://www.themoviedb.org/movie/423612",
+    "matched_title": "Werk ohne Autor",
+    "matched_year": 2018,
+    "score": 125
+  },
+  "de-screen-toni-erdmann": {
+    "status": "matched",
+    "source": "TMDB",
+    "cover": "https://image.tmdb.org/t/p/w500/rDiSyVUxXnk0IiALGMWni2UJZSb.jpg",
+    "source_url": "https://www.themoviedb.org/movie/374475",
+    "matched_title": "Toni Erdmann",
+    "matched_year": 2016,
+    "score": 125
+  },
+  "de-screen-die-blechtrommel": {
+    "status": "matched",
+    "source": "TMDB",
+    "cover": "https://image.tmdb.org/t/p/w500/jAIZNPX993L0PhBYQCy3wmLlUAb.jpg",
+    "source_url": "https://www.themoviedb.org/movie/659",
+    "matched_title": "Die Blechtrommel",
+    "matched_year": 1979,
+    "score": 125
+  },
+  "de-screen-berlin-alexanderplatz": {
+    "status": "matched",
+    "source": "TMDB",
+    "cover": "https://image.tmdb.org/t/p/w500/xTAOJiLGynaptwdWlOSPX4P2mLK.jpg",
+    "source_url": "https://www.themoviedb.org/tv/43189",
+    "matched_title": "Berlin Alexanderplatz",
+    "matched_year": 1980,
+    "score": 125
+  },
+  "de-screen-dark": {
+    "status": "matched",
+    "source": "TMDB",
+    "cover": "https://image.tmdb.org/t/p/w500/7yQyDCqSazrYTnmxdQLAZ8YDH87.jpg",
+    "source_url": "https://www.themoviedb.org/tv/70523",
+    "matched_title": "Dark",
+    "matched_year": 2017,
+    "score": 125
+  },
+  "de-book-berlin-alexanderplatz-2": {
+    "status": "matched",
+    "source": "Open Library",
+    "cover": "https://covers.openlibrary.org/b/id/577140-L.jpg",
+    "source_url": "https://openlibrary.org/works/OL1434640W",
+    "matched_title": "Berlin Alexanderplatz",
+    "matched_year": 1929,
+    "score": 120
+  },
+  "de-book-die-blechtrommel-2": {
+    "status": "matched",
+    "source": "Open Library",
+    "cover": "https://covers.openlibrary.org/b/id/419922-L.jpg",
+    "source_url": "https://openlibrary.org/works/OL67334W",
+    "matched_title": "Die Blechtrommel",
+    "matched_year": 1959,
+    "score": 120
+  },
+  "de-book-broken-lives": {
+    "status": "matched",
+    "source": "Open Library",
+    "cover": "https://covers.openlibrary.org/b/id/12909077-L.jpg",
+    "source_url": "https://openlibrary.org/works/OL28943025W",
+    "matched_title": "Broken lives",
+    "matched_year": 2015,
+    "score": 117
+  },
+  "de-book-austerlitz": {
+    "status": "matched",
+    "source": "Open Library",
+    "cover": "https://covers.openlibrary.org/b/id/227868-L.jpg",
+    "source_url": "https://openlibrary.org/works/OL46615W",
+    "matched_title": "Austerlitz",
+    "matched_year": 2001,
+    "score": 120
+  },
+  "de-book-die-ausgewanderten": {
+    "status": "matched",
+    "source": "Open Library",
+    "cover": "https://covers.openlibrary.org/b/id/10675261-L.jpg",
+    "source_url": "https://openlibrary.org/works/OL46609W",
+    "matched_title": "Die Ausgewanderten",
+    "matched_year": 1992,
+    "score": 120
+  },
+  "de-book-gespräche-mit-goethe": {
+    "status": "matched",
+    "source": "Open Library",
+    "cover": "https://covers.openlibrary.org/b/id/8398965-L.jpg",
+    "source_url": "https://openlibrary.org/works/OL19082320W",
+    "matched_title": "Gespräche mit Goethe",
+    "matched_year": 1837,
+    "score": 119
+  },
+  "de-book-faust": {
+    "status": "matched",
+    "source": "Open Library",
+    "cover": "https://covers.openlibrary.org/b/id/6499459-L.jpg",
+    "source_url": "https://openlibrary.org/works/OL52456W",
+    "matched_title": "Faust",
+    "matched_year": 1800,
+    "score": 112
+  }
+}
