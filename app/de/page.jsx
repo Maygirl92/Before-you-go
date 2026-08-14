@@ -86,6 +86,7 @@ function Card({ work }) {
           <div className="detail-meta">
             <span>{work.creator_country}</span><span>{work.year}</span><span>{work.creator}</span>{work.extent && <span>{work.extent}</span>}
           </div>
+          <div className="mobile-detail-tags"><Tags tags={work.theme_tags} /></div>
           <div className="detail-grid">
             <section><h3>简介</h3><p>{work.summary}</p></section>
             <section><h3>值得之处</h3><p>{work.worth}</p></section>
@@ -105,6 +106,7 @@ function GermanyPageContent() {
   const active = useMemo(() => parseFilters(params), [params]);
   const sortMode = params.get("sort") || "recommended";
   const filtered = useMemo(() => filterWorks(works, active), [active]);
+  const [collapsedTiers, setCollapsedTiers] = useState(() => new Set(["if-you-have-time", "after-you-return"]));
 
   const updateUrl = (next, nextSort = sortMode) => {
     const query = new URLSearchParams(serialiseFilters(next));
@@ -117,6 +119,12 @@ function GermanyPageContent() {
   });
   const removeFilter = (key, value) => updateUrl({ ...active, [key]: active[key].filter((item) => item !== value) });
   const changeSort = (event) => updateUrl(active, event.target.value);
+  const toggleTier = (tierId) => setCollapsedTiers((current) => {
+    const next = new Set(current);
+    if (next.has(tierId)) next.delete(tierId);
+    else next.add(tierId);
+    return next;
+  });
   const activeEntries = FACET_KEYS.flatMap((key) => active[key].map((value) => [key, value]));
   const musicExcluded = active.time_cost.length ? works.filter((work) => work.medium === "music").length : 0;
 
@@ -155,9 +163,22 @@ function GermanyPageContent() {
       {config.tiers.map((tier) => {
         const section = sortWorks(filtered.filter((work) => work.tier === tier.id), sortMode);
         if (!section.length) return null;
+        const collapsed = collapsedTiers.has(tier.id);
+        const sectionId = `tier-${tier.id}`;
         return <section className="tier-section" key={tier.id}>
-          <header className="tier-header"><h2>{tier.label} <span>· {section.length} 部</span></h2></header>
-          <div className="cards">{section.map((work) => <Card key={work.id} work={work} />)}</div>
+          <header className="tier-header">
+            <h2>{tier.label} <span>· {section.length} 部</span></h2>
+            <button
+              className="tier-toggle"
+              type="button"
+              aria-expanded={!collapsed}
+              aria-controls={sectionId}
+              onClick={() => toggleTier(tier.id)}
+            >
+              {collapsed ? "展开" : "收起"}<span aria-hidden="true">{collapsed ? "＋" : "−"}</span>
+            </button>
+          </header>
+          <div id={sectionId} className="cards" hidden={collapsed}>{section.map((work) => <Card key={work.id} work={work} />)}</div>
         </section>;
       })}
     </div>}
