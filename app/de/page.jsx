@@ -17,6 +17,7 @@ const facetMeta = [
 const tagMap = new Map(config.theme_tags.map((tag) => [tag.label, tag]));
 const hasPublishedDates = works.some((work) => work.published_at);
 const coverSources = new Set(works.map((work) => work.cover_source).filter(Boolean));
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 function filterLabel(key, value) {
   const facet = facetMeta.find(([facetKey]) => facetKey === key);
@@ -130,7 +131,7 @@ function GermanyPageContent() {
 
   return <main className="page-shell">
     <header className="site-header">
-      <div><a className="wordmark" href="/de">{config.brand.wordmark}</a><p>{config.brand.slogan_zh}</p></div>
+      <div><a className="wordmark" href={`${basePath}/de`}>{config.brand.wordmark}</a><p>{config.brand.slogan_zh}</p></div>
       <span className="map-link">← 欧洲地图</span>
     </header>
 

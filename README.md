@@ -1,53 +1,30 @@
-# Before You Go: Europe — data foundation
+# Before You Go
 
-Germany v1 data foundation. This repository deliberately contains no frontend,
-scraper, external API integration, fuzzy matching, or review UI.
+在这里，背起精神行囊
 
-## Phase status
+## Website
 
-- Phase 1: Pydantic data shapes, SQLite schema, configuration, and canonical
-  JSON placeholders.
-- Phase 2: CSV/JSON import and export — not implemented yet.
-- Phase 3: Class A/Class B validation and the readable quota-gap report — not
-  implemented yet.
+[Open Before You Go](https://maygirl92.github.io/Before-you-go/)
 
-The committed files in `data/*.json` are the source of truth. SQLite is only an
-editing store.
+The current release covers Germany. The site is a responsive, static Next.js
+application backed by the curated records in `data/works.json` and the
+configuration in `data/config.json`.
 
-## Requirements
-
-- Python 3.11+
-- Pydantic v2
-- pandas
-- pytest (development)
-
-## Setup
+## Local development
 
 ```bash
-python3 -m venv .venv
-. .venv/bin/activate
-python -m pip install -e '.[dev]'
+npm install
+npm run dev
 ```
 
-## Initialize the editing database
+Open `http://localhost:3000/de`.
+
+## Validation
 
 ```bash
-python -m before_you_go.database --path data/curation.sqlite
+npm test
+npm run build
 ```
 
-The command is idempotent. It creates the `candidates`, `mentions`, and `works`
-tables. Code that edits them should open connections through
-`before_you_go.database.connect_database`, which enables SQLite foreign keys
-for every connection.
-
-## Run tests
-
-```bash
-pytest
-```
-
-## Configuration
-
-All controlled vocabularies and quota values live in `data/config.json`.
-Application code reads this file rather than duplicating those values. Copy
-`.env.example` to `.env` only when local overrides are needed.
+GitHub Pages is built and published automatically from `main` by the workflow
+in `.github/workflows/deploy-pages.yml`.
