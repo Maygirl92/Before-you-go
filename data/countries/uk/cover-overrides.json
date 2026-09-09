@@ -122,5 +122,21 @@
     "cover": "https://pictures.abebooks.com/isbn/9787229143855-uk.jpg",
     "source_url": "https://www.abebooks.com/9787229143855/plp",
     "isbn": "9787229143855"
+  },
+  "uk-music-franz-ferdinand": {
+    "status": "matched",
+    "source": "Cover Art Archive",
+    "cover": "https://coverartarchive.org/release/1755aa40-6c51-4b27-82bd-bb3bb54f33f7/37385019516.jpg",
+    "source_url": "https://musicbrainz.org/release/1755aa40-6c51-4b27-82bd-bb3bb54f33f7",
+    "matched_title": "Franz Ferdinand",
+    "matched_year": "2004-02-09"
+  },
+  "uk-music-ziggy-stardust": {
+    "status": "matched",
+    "source": "Cover Art Archive",
+    "cover": "https://coverartarchive.org/release/7dc5edce-ead6-41e4-9c4b-240223c9bab0/5676750691.jpg",
+    "source_url": "https://musicbrainz.org/release/7dc5edce-ead6-41e4-9c4b-240223c9bab0",
+    "matched_title": "The Rise and Fall of Ziggy Stardust and the Spiders From Mars",
+    "matched_year": "1972-06-16"
   }
 }
