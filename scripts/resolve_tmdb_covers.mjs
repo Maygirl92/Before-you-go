@@ -1,15 +1,20 @@
 import fs from "node:fs/promises";
 
 const token = process.env.TMDB_API_TOKEN;
+const destination = process.argv[2] || "de";
+if (!/^[a-z]{2,3}$/.test(destination)) throw new Error("Destination must be a short lowercase slug.");
 if (!token) {
   console.error("TMDB_API_TOKEN is required. Add it to .env.local, then run npm run covers:tmdb.");
   process.exit(1);
 }
 
-const dataUrl = new URL("../data/works.json", import.meta.url);
-const reportUrl = new URL("../data/cover-match-report.json", import.meta.url);
+const dataUrl = new URL(`../data/countries/${destination}/works.json`, import.meta.url);
+const reportUrl = new URL(`../data/countries/${destination}/cover-match-report.json`, import.meta.url);
 const works = JSON.parse(await fs.readFile(dataUrl, "utf8"));
-const report = JSON.parse(await fs.readFile(reportUrl, "utf8"));
+let report = {};
+try {
+  report = JSON.parse(await fs.readFile(reportUrl, "utf8"));
+} catch {}
 
 const clean = (value = "") => value
   .normalize("NFKD")
@@ -22,7 +27,7 @@ async function search(work) {
   const type = work.medium_sub === "series" ? "tv" : "movie";
   const url = new URL(`https://api.themoviedb.org/3/search/${type}`);
   url.searchParams.set("query", work.title_original);
-  url.searchParams.set("language", "de-DE");
+  url.searchParams.set("language", destination === "uk" ? "en-GB" : "de-DE");
   url.searchParams.set(type === "tv" ? "first_air_date_year" : "primary_release_year", String(work.year));
   const response = await fetch(url, { headers: { Authorization: `Bearer ${token}`, Accept: "application/json" } });
   if (!response.ok) throw new Error(`TMDB request failed (${response.status}) for ${work.id}`);

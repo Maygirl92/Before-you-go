@@ -1,6 +1,8 @@
 import fs from "node:fs/promises";
 
-const works = JSON.parse(await fs.readFile(new URL("../data/works.json", import.meta.url), "utf8"));
+const destination = process.argv[2] || "de";
+if (!/^[a-z]{2,3}$/.test(destination)) throw new Error("Destination must be a short lowercase slug.");
+const works = JSON.parse(await fs.readFile(new URL(`../data/countries/${destination}/works.json`, import.meta.url), "utf8"));
 const userAgent = "BeforeYouGo/1.0 (local curation tool)";
 
 const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
@@ -35,13 +37,14 @@ async function resolveBook(work) {
   const match = candidates[0];
   if (!match || match.score < 60) return { status: "unmatched", source: "Open Library", candidates: candidates.slice(0, 3) };
   return {
-    status: match.score >= 100 ? "matched" : "review",
+    status: destination === "uk" ? "review" : (match.score >= 100 ? "matched" : "review"),
     source: "Open Library",
     cover: `https://covers.openlibrary.org/b/id/${match.cover_i}-L.jpg`,
     source_url: `https://openlibrary.org${match.key}`,
     matched_title: match.title,
     matched_year: match.first_publish_year,
-    score: match.score
+    score: match.score,
+    note: destination === "uk" ? "英国书籍需先人工核对指定中文译本 ISBN，再使用 AbeBooks 封面；本候选不得直接写回。" : undefined
   };
 }
 
@@ -49,7 +52,7 @@ function musicReleaseTitle(work) {
   const original = clean(work.title_original);
   const creator = clean(work.creator.split(/[/(]/)[0]);
   return original === creator || creator.startsWith(original) || original.startsWith(creator)
-    ? work.title_zh
+    ? (work.title_zh || work.title_original)
     : work.title_original.replace(/（[^）]+）|\([^)]*\)/g, "").trim();
 }
 
@@ -90,7 +93,7 @@ async function resolveMusic(work) {
   return { status: "unmatched", source: "Cover Art Archive", release_title: releaseTitle, candidates: candidates.slice(0, 3) };
 }
 
-const reportUrl = new URL("../data/cover-match-report.json", import.meta.url);
+const reportUrl = new URL(`../data/countries/${destination}/cover-match-report.json`, import.meta.url);
 let report = {};
 try {
   report = JSON.parse(await fs.readFile(reportUrl, "utf8"));

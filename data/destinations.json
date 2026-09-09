@@ -1,0 +1,11 @@
+[
+  { "id": "uk", "name_zh": "英国", "name_original": "United Kingdom", "position": "uk", "shape": "islands" },
+  { "id": "fr", "name_zh": "法国", "name_original": "France", "position": "fr", "shape": "hex" },
+  { "id": "nl", "name_zh": "荷兰", "name_original": "Nederland", "position": "nl", "shape": "narrow" },
+  { "id": "de", "name_zh": "德国", "name_original": "Deutschland", "position": "de", "shape": "angular" },
+  { "id": "pl", "name_zh": "波兰", "name_original": "Polska", "position": "pl", "shape": "wide" },
+  { "id": "ch", "name_zh": "瑞士", "name_original": "Schweiz", "position": "ch", "shape": "compact" },
+  { "id": "at", "name_zh": "奥地利", "name_original": "Österreich", "position": "at", "shape": "wide" },
+  { "id": "es", "name_zh": "西班牙", "name_original": "España", "position": "es", "shape": "hex" },
+  { "id": "it", "name_zh": "意大利", "name_original": "Italia", "position": "it", "shape": "boot" }
+]

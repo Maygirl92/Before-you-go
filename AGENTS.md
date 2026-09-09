@@ -2,10 +2,11 @@
 
 ## Sources of truth
 
-- `docs/A-Build-PRD-v2.0.md` — product behaviour, screens, interaction, schema, validation, visual system, metrics.
-- `docs/B-Curation-Handbook-v2.0.md` — vocabularies, quota values, prose style rules, inclusion rules, dataset shape.
-- `data/works.json` — 58 finished records. **Content is final.**
-- `data/config.json` — vocabularies, palette, brand strings, rules.
+- `docs/A-Build-PRD-v2.1.md` — product behaviour, screens, interaction, schema, validation, visual system, metrics.
+- `docs/B-Curation-Handbook-v2.1.md` — vocabularies, quota values, prose style rules, inclusion rules, dataset shape.
+- `data/countries/de/works.json` — 58 finished German records. **Content is final.**
+- `data/countries/uk/works.json` — 50 finished UK records; covers remain to be resolved. **Text content is final.**
+- `data/countries/{destination}/config.json` — destination vocabularies, palette, brand strings, rules and quotas.
 
 When the documents overlap, follow the ownership boundary in §0 of each. Do not silently override, reinterpret or weaken either specification. If implementation reveals a contradiction, report it before inventing behaviour.
 
@@ -24,13 +25,13 @@ When the documents overlap, follow the ownership boundary in §0 of each. Do not
 
 ## Scope
 
-Germany only. Responsive web only. The European map stays as the expansion frame with one active country.
+Germany and the United Kingdom. Responsive web only. The European map stays as the expansion frame with two active countries.
 
 **Do not add:** accounts · login · favourites · watched status · progress · ratings · reviews · social features · user-generated content · watch or purchase links · booking · itineraries · native apps · other countries · automated scraping · automated ingestion · AI entity linking.
 
 ## Implementation boundaries
 
-- Build in the order given in Build PRD §12. Ship the Germany page before the map.
+- Build in the order given in Build PRD §12. Keep destination pages on one shared component and activate a map tile only after its page works.
 - Vocabularies, quotas, palette and brand strings are configuration-driven. No hardcoding.
 - Preserve the three-table shape (`candidates`, `mentions`, `works`). Local JSON is sufficient; do not introduce a database, CMS or auth provider without first documenting why the scope requires it.
 - Stable English slugs in URLs and internal state.
@@ -43,10 +44,13 @@ Germany only. Responsive web only. The European map stays as the expansion frame
 - **`tier` is not a facet.** It is the default grouping and it replaces `sort_order` as the primary ordering. `sort_order` orders within a tier section.
 - **Sub-tags are not filterable.** They display only. Filtering uses `theme_main`.
 - **`theme_tags` need not be covered by `theme_main`.** This is legal and deliberate — **do not write a validation rule against it.** See Build PRD §8.5.
+- `theme_tags` contains 1–4 values. Do not invent a second tag merely to increase the count.
 - **`theme_main` is not displayed on the card.** Because of the rule above.
 - `region_primary` is required, must be a member of `regions`, and alone counts toward regional minimum quotas. Region *filtering* matches any member of `regions`.
 - `time_cost` is null if and only if `medium == "music"`. Music is excluded from the time-cost facet and its exclusion must be disclosed with a count.
-- `medium_sub` includes `series`. Two records use it. Any earlier instruction excluding series is superseded.
+- `medium_sub` includes `series` and `poetry`. Any earlier instruction excluding either is superseded.
+- `title_zh` may be null; render `title_original` as the main title and do not repeat it below.
+- `cn_edition.status` includes `original_only`; render its configured label when present.
 - `on_the_ground` and `tier_reason` may be null — omit the block, never render an empty heading.
 
 ## Visual rules that are easy to get wrong
@@ -61,7 +65,7 @@ Germany only. Responsive web only. The European map stays as the expansion frame
 
 - Implement both modes. Schema violations fail in both; quota violations warn in development and fail in production.
 - Print the quota gap report in both modes, as readable text.
-- Two quotas are currently unmet (移民与跨文化视角 2/4, 萨克森 primary 1/2). This is expected and visible by design — do not relax the numbers to make the build pass.
+- Print every country quota gap. Schema violations always fail. Current release exceptions are explicit configuration, never relaxed quota values: Germany quotas are not enforced; the initial 50-record UK release also prints its known gaps without lowering targets.
 - Add tests for filtering logic, facet counts, URL serialisation, schema rules and representative quotas. Run them after every change. Do not weaken or skip tests to make them pass.
 
 ## Working method

@@ -23,6 +23,12 @@ test("URL state round trips", () => {
   assert.deepEqual(parseFilters(new URLSearchParams(query)), { ...active, region: ["柏林", "萨克森"], time_cost: ["one-evening"] });
 });
 
+test("URL values serialise in a deterministic order", () => {
+  const first = serialiseFilters({ ...active, region: ["萨克森", "柏林"] });
+  const second = serialiseFilters({ ...active, region: ["柏林", "萨克森"] });
+  assert.equal(first, second);
+});
+
 test("year sorting is newest first and time sorting leaves music last", () => {
   assert.deepEqual(sortWorks(works.map((work, index) => ({ ...work, year: 2000 + index, sort_order: index + 1 })), "year").map((work) => work.id), ["c", "b", "a"]);
   assert.deepEqual(sortWorks(works.map((work, index) => ({ ...work, sort_order: index + 1 })), "time").map((work) => work.id), ["a", "b", "c"]);

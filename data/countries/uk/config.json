@@ -6,12 +6,13 @@
     "slogan_zh": "在这里，背起精神行囊"
   },
   "destination": {
-    "id": "de",
-    "name_zh": "德国",
-    "name_original": "Deutschland",
+    "id": "uk",
+    "name_zh": "英国",
+    "name_original": "United Kingdom",
     "signature": {
-      "face": "#C6E3E8",
-      "side": "#EAF0A4"
+      "face": null,
+      "side": null,
+      "_note": "待定，参考德国的 #C6E3E8 / #EAF0A4，需另选一组明亮色"
     },
     "intro": {
       "气质与日常": "",
@@ -38,7 +39,7 @@
     }
   ],
   "palette": {
-    "page": "#F1F2F2",
+    "page": "#FBFAF6",
     "card": "#FFFFFF",
     "rule": "#F0EEE8",
     "ink": "#241F18",
@@ -108,48 +109,43 @@
     "region": [
       {
         "label": "全国",
-        "count": 14,
-        "primary_count": 14
-      },
-      {
-        "label": "柏林",
-        "count": 28,
-        "primary_count": 28
-      },
-      {
-        "label": "巴伐利亚",
         "count": 4,
-        "primary_count": 3
-      },
-      {
-        "label": "汉堡与北部",
-        "count": 0,
-        "primary_count": 0
-      },
-      {
-        "label": "鲁尔区与莱茵兰",
-        "count": 5,
         "primary_count": 4
       },
       {
-        "label": "萨克森",
-        "count": 2,
-        "primary_count": 1
+        "label": "伦敦",
+        "count": 17,
+        "primary_count": 17
       },
       {
-        "label": "图林根与魏玛",
-        "count": 4,
-        "primary_count": 3
+        "label": "英格兰北部",
+        "count": 6,
+        "primary_count": 6
       },
       {
-        "label": "法兰克福与黑森",
+        "label": "苏格兰",
+        "count": 8,
+        "primary_count": 8
+      },
+      {
+        "label": "威尔士",
         "count": 2,
         "primary_count": 2
       },
       {
-        "label": "乡村与小城",
+        "label": "北爱尔兰",
         "count": 3,
         "primary_count": 3
+      },
+      {
+        "label": "英格兰中部",
+        "count": 2,
+        "primary_count": 2
+      },
+      {
+        "label": "英格兰南部与西南",
+        "count": 8,
+        "primary_count": 8
       }
     ],
     "time_cost": [
@@ -169,25 +165,11 @@
   },
   "theme_tags": [
     {
-      "label": "记忆与罪责",
+      "label": "帝国与清算",
       "home_theme": "历史与记忆",
       "fill": "#DCE7F3",
       "ink": "#2C4763",
-      "count": 18
-    },
-    {
-      "label": "分裂与柏林墙",
-      "home_theme": "历史与记忆",
-      "fill": "#DCE7F3",
-      "ink": "#2C4763",
-      "count": 9
-    },
-    {
-      "label": "监视与国家",
-      "home_theme": "历史与记忆",
-      "fill": "#DCE7F3",
-      "ink": "#2C4763",
-      "count": 3
+      "count": 2
     },
     {
       "label": "战后重建",
@@ -197,46 +179,53 @@
       "count": 1
     },
     {
-      "label": "民主的崩解",
+      "label": "监视与国家",
       "home_theme": "历史与记忆",
       "fill": "#DCE7F3",
       "ink": "#2C4763",
-      "count": 9
+      "count": 2
+    },
+    {
+      "label": "冲突与和解",
+      "home_theme": "历史与记忆",
+      "fill": "#DCE7F3",
+      "ink": "#2C4763",
+      "count": 3
+    },
+    {
+      "label": "阶级与出身",
+      "home_theme": "社会与日常",
+      "fill": "#DDEBD6",
+      "ink": "#3A5531",
+      "count": 26
     },
     {
       "label": "工业与劳动",
       "home_theme": "社会与日常",
       "fill": "#DDEBD6",
       "ink": "#3A5531",
-      "count": 8
+      "count": 4
+    },
+    {
+      "label": "去工业化",
+      "home_theme": "社会与日常",
+      "fill": "#DDEBD6",
+      "ink": "#3A5531",
+      "count": 6
     },
     {
       "label": "家庭与继承",
       "home_theme": "社会与日常",
       "fill": "#DDEBD6",
       "ink": "#3A5531",
-      "count": 11
-    },
-    {
-      "label": "冷战日常",
-      "home_theme": "社会与日常",
-      "fill": "#DDEBD6",
-      "ink": "#3A5531",
-      "count": 7
-    },
-    {
-      "label": "统一之后的东西差异",
-      "home_theme": "社会与日常",
-      "fill": "#DDEBD6",
-      "ink": "#3A5531",
-      "count": 1
+      "count": 18
     },
     {
       "label": "极右与社会对峙",
       "home_theme": "社会与日常",
       "fill": "#DDEBD6",
       "ink": "#3A5531",
-      "count": 5
+      "count": 4
     },
     {
       "label": "小城与大都会",
@@ -250,14 +239,14 @@
       "home_theme": "地方与空间",
       "fill": "#F7E7C4",
       "ink": "#6B4712",
-      "count": 7
+      "count": 8
     },
     {
       "label": "移民与归属",
       "home_theme": "身份与传统",
       "fill": "#F7DBDD",
       "ink": "#7A3841",
-      "count": 6
+      "count": 9
     },
     {
       "label": "信仰与宗教改革",
@@ -267,29 +256,29 @@
       "count": 3
     },
     {
-      "label": "设计与包豪斯",
-      "home_theme": "艺术与文化",
-      "fill": "#E4DDEF",
-      "ink": "#493869",
-      "count": 3
-    },
-    {
       "label": "夜生活与亚文化",
       "home_theme": "艺术与文化",
       "fill": "#E4DDEF",
       "ink": "#493869",
-      "count": 14
+      "count": 13
+    },
+    {
+      "label": "设计与工艺",
+      "home_theme": "艺术与文化",
+      "fill": "#E4DDEF",
+      "ink": "#493869",
+      "count": 1
     }
   ],
   "periods": [
-    "统一之前",
-    "德意志帝国",
-    "魏玛",
-    "纳粹时期",
-    "零点与占领期",
-    "分裂时期",
-    "转折与统一",
-    "柏林共和国"
+    "都铎与宗教改革",
+    "内战与革命",
+    "摄政与工业革命",
+    "维多利亚",
+    "两次大战之间",
+    "战后与福利国家",
+    "撒切尔与之后",
+    "当代"
   ],
   "cn_edition_status": [
     {
@@ -311,8 +300,19 @@
       "id": "not_applicable",
       "label": "无语言门槛",
       "valid_for": [
+        "book",
         "music"
       ]
+    },
+    {
+      "id": "original_only",
+      "label": "仅原文",
+      "valid_for": [
+        "book",
+        "screen",
+        "music"
+      ],
+      "note": "无已出版中译本，以原文或原声收录。卡片上应显著标注，避免用户按中文书名去搜。"
     }
   ],
   "rules": {
@@ -323,5 +323,32 @@
     "default_grouping": "tier",
     "tier_is_not_a_facet": true,
     "region_primary_counts_for_quota": true
+  },
+  "quotas": {
+    "_note": "数值取自《英国·词表提案 v0.1》§五，按 58 条目标设计；当前实际 50 条，缺口保持可见。",
+    "total_min": 58,
+    "outsider_min": 4,
+    "diaspora_min": 10,
+    "diaspora_screen_min": null,
+    "capital_max_share": null,
+    "capital_region": "伦敦",
+    "_capital_note": "伦敦刻意不设上限：英国出版影视产业高度集中于伦敦。防的是其他地区归零，由下面各地区下限解决。",
+    "nationwide_max_share": 0.2,
+    "nationwide_region": "全国",
+    "theme_main_min_each": 8,
+    "region_primary_min": {
+      "苏格兰": 6,
+      "英格兰北部": 6,
+      "英格兰南部与西南": 5,
+      "北爱尔兰": 4,
+      "威尔士": 3,
+      "英格兰中部": 3
+    },
+    "contemporary_year_from": 1979,
+    "contemporary_min": 18,
+    "one_evening_min": 16,
+    "supplementary_max_share": 0.3,
+    "_enforced": false,
+    "_enforced_note": "当前 50 条作为首发版本按任务书上线；所有缺口照常打印，目标值保持不变。补齐至生产标准后再开启阻断。"
   }
 }

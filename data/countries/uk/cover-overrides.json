@@ -1,0 +1,126 @@
+{
+  "uk-book-mrs-dalloway": {
+    "status": "review",
+    "source": "AbeBooks",
+    "source_url": "https://www.abebooks.com/9787020039760/plp",
+    "note": "指定 ISBN 的 AbeBooks 图片为占位图，暂不写回。"
+  },
+  "uk-book-the-road-to-wigan-pier": {
+    "status": "review",
+    "source": "AbeBooks",
+    "source_url": "https://www.abebooks.com/9787532793259/plp",
+    "note": "已核对译者、出版社与 ISBN，但 AbeBooks 暂无可用封面图片，暂不写回。"
+  },
+  "uk-book-londoners": {
+    "status": "matched",
+    "source": "AbeBooks",
+    "cover": "https://pictures.abebooks.com/isbn/9787540493448-uk.jpg",
+    "source_url": "https://www.abebooks.com/9787540493448/plp",
+    "isbn": "9787540493448"
+  },
+  "uk-book-13": {
+    "status": "matched",
+    "source": "AbeBooks",
+    "cover": "https://pictures.abebooks.com/isbn/9787020026586-uk.jpg",
+    "source_url": "https://www.abebooks.com/9787020026586/plp",
+    "isbn": "9787020026586"
+  },
+  "uk-book-the-silent-traveller-in-london": {
+    "status": "matched",
+    "source": "AbeBooks",
+    "cover": "https://pictures.abebooks.com/isbn/9787513594141-uk.jpg",
+    "source_url": "https://www.abebooks.com/9787513594141/plp",
+    "isbn": "9787513594141"
+  },
+  "uk-book-the-living-mountain": {
+    "status": "matched",
+    "source": "AbeBooks",
+    "cover": "https://pictures.abebooks.com/isbn/9787549625635-uk.jpg",
+    "source_url": "https://www.abebooks.com/9787549625635/plp",
+    "isbn": "9787549625635"
+  },
+  "uk-book-under-milk-wood": {
+    "status": "matched",
+    "source": "AbeBooks",
+    "cover": "https://pictures.abebooks.com/isbn/9780753810286-uk.jpg",
+    "source_url": "https://www.abebooks.com/9780753810286/Under-Milk-Wood-Definitive-Edition-075381028X/plp",
+    "isbn": "9780753810286"
+  },
+  "uk-book-17": {
+    "status": "matched",
+    "source": "AbeBooks",
+    "cover": "https://pictures.abebooks.com/isbn/9787301333235-uk.jpg",
+    "source_url": "https://www.abebooks.com/9787301333235/plp",
+    "isbn": "9787301333235"
+  },
+  "uk-book-notes-from-a-small-island": {
+    "status": "matched",
+    "source": "AbeBooks",
+    "cover": "https://pictures.abebooks.com/isbn/9787532747733-uk.jpg",
+    "source_url": "https://www.abebooks.com/9787532747733/plp",
+    "isbn": "9787532747733"
+  },
+  "uk-book-wuthering-heights": {
+    "status": "matched",
+    "source": "AbeBooks",
+    "cover": "https://pictures.abebooks.com/isbn/9787544711630-uk.jpg",
+    "source_url": "https://www.abebooks.com/9787544711630/plp",
+    "isbn": "9787544711630"
+  },
+  "uk-book-the-remains-of-the-day": {
+    "status": "matched",
+    "source": "AbeBooks",
+    "cover": "https://pictures.abebooks.com/isbn/9787532784486-uk.jpg",
+    "source_url": "https://www.abebooks.com/9787532784486/plp",
+    "isbn": "9787532784486"
+  },
+  "uk-book-pride-and-prejudice": {
+    "status": "matched",
+    "source": "AbeBooks",
+    "cover": "https://pictures.abebooks.com/isbn/9787532739783-uk.jpg",
+    "source_url": "https://www.abebooks.com/9787532739783/plp",
+    "isbn": "9787532739783"
+  },
+  "uk-book-atonement": {
+    "status": "matched",
+    "source": "AbeBooks",
+    "cover": "https://pictures.abebooks.com/isbn/9787532777754-uk.jpg",
+    "source_url": "https://www.abebooks.com/9787532777754/plp",
+    "isbn": "9787532777754"
+  },
+  "uk-book-the-silent-traveller-in-edinburgh": {
+    "status": "matched",
+    "source": "AbeBooks",
+    "cover": "https://pictures.abebooks.com/isbn/9787513594134-uk.jpg",
+    "source_url": "https://www.abebooks.com/9787513594134/plp",
+    "isbn": "9787513594134"
+  },
+  "uk-book-white-teeth": {
+    "status": "matched",
+    "source": "AbeBooks",
+    "cover": "https://pictures.abebooks.com/isbn/9787532788866-uk.jpg",
+    "source_url": "https://www.abebooks.com/9787532788866/plp",
+    "isbn": "9787532788866"
+  },
+  "uk-book-brideshead-revisited": {
+    "status": "matched",
+    "source": "AbeBooks",
+    "cover": "https://pictures.abebooks.com/isbn/9787020124152-uk.jpg",
+    "source_url": "https://www.abebooks.com/9787020124152/plp",
+    "isbn": "9787020124152"
+  },
+  "uk-book-milkman": {
+    "status": "matched",
+    "source": "AbeBooks",
+    "cover": "https://pictures.abebooks.com/isbn/9787559444677-uk.jpg",
+    "source_url": "https://www.abebooks.com/9787559444677/plp",
+    "isbn": "9787559444677"
+  },
+  "uk-book-trainspotting": {
+    "status": "matched",
+    "source": "AbeBooks",
+    "cover": "https://pictures.abebooks.com/isbn/9787229143855-uk.jpg",
+    "source_url": "https://www.abebooks.com/9787229143855/plp",
+    "isbn": "9787229143855"
+  }
+}

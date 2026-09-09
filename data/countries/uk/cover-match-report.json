@@ -1,0 +1,386 @@
+{
+  "uk-screen-my-beautiful-laundrette": {
+    "status": "needs_tmdb_key",
+    "source": "TMDB",
+    "title": "My Beautiful Laundrette",
+    "year": 1985
+  },
+  "uk-screen-the-long-good-friday": {
+    "status": "needs_tmdb_key",
+    "source": "TMDB",
+    "title": "The Long Good Friday",
+    "year": 1980
+  },
+  "uk-screen-paddington": {
+    "status": "needs_tmdb_key",
+    "source": "TMDB",
+    "title": "Paddington",
+    "year": 2014
+  },
+  "uk-screen-the-full-monty": {
+    "status": "needs_tmdb_key",
+    "source": "TMDB",
+    "title": "The Full Monty",
+    "year": 1997
+  },
+  "uk-screen-trainspotting": {
+    "status": "needs_tmdb_key",
+    "source": "TMDB",
+    "title": "Trainspotting",
+    "year": 1996
+  },
+  "uk-screen-in-the-name-of-the-father": {
+    "status": "needs_tmdb_key",
+    "source": "TMDB",
+    "title": "In the Name of the Father",
+    "year": 1993
+  },
+  "uk-screen-this-is-england": {
+    "status": "needs_tmdb_key",
+    "source": "TMDB",
+    "title": "This Is England",
+    "year": 2006
+  },
+  "uk-screen-derry-girls": {
+    "status": "needs_tmdb_key",
+    "source": "TMDB",
+    "title": "Derry Girls",
+    "year": 2018
+  },
+  "uk-screen-broadchurch": {
+    "status": "needs_tmdb_key",
+    "source": "TMDB",
+    "title": "Broadchurch",
+    "year": 2013
+  },
+  "uk-book-mrs-dalloway": {
+    "status": "review",
+    "source": "Open Library",
+    "cover": "https://covers.openlibrary.org/b/id/6397580-L.jpg",
+    "source_url": "https://openlibrary.org/works/OL39349W",
+    "matched_title": "Mrs. Dalloway",
+    "matched_year": 1925,
+    "score": 120,
+    "note": "英国书籍需先人工核对指定中文译本 ISBN，再使用 AbeBooks 封面；本候选不得直接写回。"
+  },
+  "uk-book-the-road-to-wigan-pier": {
+    "status": "review",
+    "source": "Open Library",
+    "cover": "https://covers.openlibrary.org/b/id/116484-L.jpg",
+    "source_url": "https://openlibrary.org/works/OL1168126W",
+    "matched_title": "The Road to Wigan Pier",
+    "matched_year": 1724,
+    "score": 100,
+    "note": "英国书籍需先人工核对指定中文译本 ISBN，再使用 AbeBooks 封面；本候选不得直接写回。"
+  },
+  "uk-book-londoners": {
+    "status": "review",
+    "source": "Open Library",
+    "cover": "https://covers.openlibrary.org/b/id/210725-L.jpg",
+    "source_url": "https://openlibrary.org/works/OL2647295W",
+    "matched_title": "London",
+    "matched_year": 1997,
+    "score": 61,
+    "note": "英国书籍需先人工核对指定中文译本 ISBN，再使用 AbeBooks 封面；本候选不得直接写回。"
+  },
+  "uk-book-13": {
+    "status": "unmatched",
+    "source": "Open Library",
+    "candidates": []
+  },
+  "uk-book-the-silent-traveller-in-london": {
+    "status": "review",
+    "source": "Open Library",
+    "cover": "https://covers.openlibrary.org/b/id/807134-L.jpg",
+    "source_url": "https://openlibrary.org/works/OL1349829W",
+    "matched_title": "The silent traveller in London",
+    "matched_year": 1938,
+    "score": 120,
+    "note": "英国书籍需先人工核对指定中文译本 ISBN，再使用 AbeBooks 封面；本候选不得直接写回。"
+  },
+  "uk-book-the-living-mountain": {
+    "status": "review",
+    "source": "Open Library",
+    "cover": "https://covers.openlibrary.org/b/id/10665302-L.jpg",
+    "source_url": "https://openlibrary.org/works/OL12862894W",
+    "matched_title": "The living mountain",
+    "matched_year": 1977,
+    "score": 120,
+    "note": "英国书籍需先人工核对指定中文译本 ISBN，再使用 AbeBooks 封面；本候选不得直接写回。"
+  },
+  "uk-book-under-milk-wood": {
+    "status": "review",
+    "source": "Open Library",
+    "cover": "https://covers.openlibrary.org/b/id/1056288-L.jpg",
+    "source_url": "https://openlibrary.org/works/OL1358969W",
+    "matched_title": "Under Milk Wood",
+    "matched_year": 1950,
+    "score": 116,
+    "note": "英国书籍需先人工核对指定中文译本 ISBN，再使用 AbeBooks 封面；本候选不得直接写回。"
+  },
+  "uk-book-17": {
+    "status": "unmatched",
+    "source": "Open Library",
+    "candidates": []
+  },
+  "uk-book-notes-from-a-small-island": {
+    "status": "review",
+    "source": "Open Library",
+    "cover": "https://covers.openlibrary.org/b/id/8598315-L.jpg",
+    "source_url": "https://openlibrary.org/works/OL74129W",
+    "matched_title": "Notes from a small island",
+    "matched_year": 1995,
+    "score": 120,
+    "note": "英国书籍需先人工核对指定中文译本 ISBN，再使用 AbeBooks 封面；本候选不得直接写回。"
+  },
+  "uk-music-revolver": {
+    "status": "matched",
+    "source": "Cover Art Archive",
+    "cover": "https://coverartarchive.org/release/b2807172-c20a-4aed-a4f2-02c57ce03b6d/39706846519-500.jpg",
+    "source_url": "https://musicbrainz.org/release-group/72d15666-99a7-321e-b1f3-a3f8c09dff9f",
+    "matched_title": "Revolver",
+    "matched_year": "1966-08-05",
+    "score": 100
+  },
+  "uk-music-the-queen-is-dead": {
+    "status": "matched",
+    "source": "Cover Art Archive",
+    "cover": "https://coverartarchive.org/release/527277a6-0ea1-3281-aa8f-abbe03a781b0/2571659463-500.jpg",
+    "source_url": "https://musicbrainz.org/release-group/d8dde278-482c-3cc8-a530-fea70476f3a5",
+    "matched_title": "The Queen Is Dead",
+    "matched_year": "1986-06-16",
+    "score": 100
+  },
+  "uk-music-london-calling": {
+    "status": "matched",
+    "source": "Cover Art Archive",
+    "cover": "https://coverartarchive.org/release/efc61929-387e-42a9-8194-caccdca7012e/1978576697.jpg",
+    "source_url": "https://musicbrainz.org/release-group/68cd609c-112c-3240-b6e4-9daa51e1f0a7",
+    "matched_title": "London Calling",
+    "matched_year": "1979-12",
+    "score": 100
+  },
+  "uk-music-everything-must-go": {
+    "status": "matched",
+    "source": "Cover Art Archive",
+    "cover": "https://coverartarchive.org/release/060a83c5-c6e9-409f-a339-0e3db111259d/19328412370-500.jpg",
+    "source_url": "https://musicbrainz.org/release-group/c2b875b3-68c3-3182-8b62-a34b1347281c",
+    "matched_title": "Everything Must Go",
+    "matched_year": "1996-07-22",
+    "score": 100
+  },
+  "uk-music-glasvegas": {
+    "status": "matched",
+    "source": "Cover Art Archive",
+    "cover": "https://coverartarchive.org/release/d12fb85f-fe28-4070-81b2-5a7e16411889/12851739538.jpg",
+    "source_url": "https://musicbrainz.org/release-group/a6e7a20f-3850-3064-a543-318cc978d092",
+    "matched_title": "Glasvegas",
+    "matched_year": "2008-09-05",
+    "score": 100
+  },
+  "uk-music-franz-ferdinand": {
+    "status": "review",
+    "source": "Cover Art Archive",
+    "cover": "https://coverartarchive.org/release/b85a241d-8bfd-48b0-9873-1d22a5fddee7/14209969215.jpg",
+    "source_url": "https://musicbrainz.org/release-group/d2865bd5-ed06-496d-b5c1-e05d8fcac1dc",
+    "matched_title": "Franz Ferdinand",
+    "matched_year": "2005-10-23",
+    "score": 100,
+    "note": "候选发行日期为 2005，与作品首发年份 2004 不一致；暂不写回。"
+  },
+  "uk-music-amazing-grace": {
+    "status": "unmatched",
+    "source": "Cover Art Archive",
+    "release_title": "Amazing Grace",
+    "candidates": []
+  },
+  "uk-screen-blow-up": {
+    "status": "needs_tmdb_key",
+    "source": "TMDB",
+    "title": "Blow-Up",
+    "year": 1966
+  },
+  "uk-screen-notting-hill": {
+    "status": "needs_tmdb_key",
+    "source": "TMDB",
+    "title": "Notting Hill",
+    "year": 1999
+  },
+  "uk-screen-four-weddings-and-a-funeral": {
+    "status": "needs_tmdb_key",
+    "source": "TMDB",
+    "title": "Four Weddings and a Funeral",
+    "year": 1994
+  },
+  "uk-screen-all-of-us-strangers": {
+    "status": "needs_tmdb_key",
+    "source": "TMDB",
+    "title": "All of Us Strangers",
+    "year": 2023
+  },
+  "uk-screen-fleabag": {
+    "status": "needs_tmdb_key",
+    "source": "TMDB",
+    "title": "Fleabag",
+    "year": 2016
+  },
+  "uk-screen-i-may-destroy-you": {
+    "status": "needs_tmdb_key",
+    "source": "TMDB",
+    "title": "I May Destroy You",
+    "year": 2020
+  },
+  "uk-screen-all-creatures-great-and-small": {
+    "status": "needs_tmdb_key",
+    "source": "TMDB",
+    "title": "All Creatures Great and Small",
+    "year": 2020
+  },
+  "uk-screen-clarkson-s-farm": {
+    "status": "needs_tmdb_key",
+    "source": "TMDB",
+    "title": "Clarkson's Farm",
+    "year": 2021
+  },
+  "uk-book-wuthering-heights": {
+    "status": "review",
+    "source": "Open Library",
+    "cover": "https://covers.openlibrary.org/b/id/12818862-L.jpg",
+    "source_url": "https://openlibrary.org/works/OL21177W",
+    "matched_title": "Wuthering Heights",
+    "matched_year": 1846,
+    "score": 119,
+    "note": "英国书籍需先人工核对指定中文译本 ISBN，再使用 AbeBooks 封面；本候选不得直接写回。"
+  },
+  "uk-book-the-remains-of-the-day": {
+    "status": "review",
+    "source": "Open Library",
+    "cover": "https://covers.openlibrary.org/b/id/95742-L.jpg",
+    "source_url": "https://openlibrary.org/works/OL59048W",
+    "matched_title": "The Remains of the Day",
+    "matched_year": 1989,
+    "score": 120,
+    "note": "英国书籍需先人工核对指定中文译本 ISBN，再使用 AbeBooks 封面；本候选不得直接写回。"
+  },
+  "uk-book-pride-and-prejudice": {
+    "status": "review",
+    "source": "Open Library",
+    "cover": "https://covers.openlibrary.org/b/id/14348537-L.jpg",
+    "source_url": "https://openlibrary.org/works/OL66554W",
+    "matched_title": "Pride and Prejudice",
+    "matched_year": 1813,
+    "score": 120,
+    "note": "英国书籍需先人工核对指定中文译本 ISBN，再使用 AbeBooks 封面；本候选不得直接写回。"
+  },
+  "uk-book-atonement": {
+    "status": "review",
+    "source": "Open Library",
+    "cover": "https://covers.openlibrary.org/b/id/8381043-L.jpg",
+    "source_url": "https://openlibrary.org/works/OL1855944W",
+    "matched_title": "Atonement",
+    "matched_year": 2001,
+    "score": 120,
+    "note": "英国书籍需先人工核对指定中文译本 ISBN，再使用 AbeBooks 封面；本候选不得直接写回。"
+  },
+  "uk-book-the-silent-traveller-in-edinburgh": {
+    "status": "review",
+    "source": "Open Library",
+    "cover": "https://covers.openlibrary.org/b/id/888200-L.jpg",
+    "source_url": "https://openlibrary.org/works/OL1349824W",
+    "matched_title": "The silent traveller in Edinburgh",
+    "matched_year": 1948,
+    "score": 120,
+    "note": "英国书籍需先人工核对指定中文译本 ISBN，再使用 AbeBooks 封面；本候选不得直接写回。"
+  },
+  "uk-music-ziggy-stardust": {
+    "status": "review",
+    "source": "Cover Art Archive",
+    "cover": "https://coverartarchive.org/release/24540263-d929-4cac-ba53-584a90f65fb1/12113877365.jpg",
+    "source_url": "https://musicbrainz.org/release-group/531bb024-ee29-4171-a747-54696e058732",
+    "matched_title": "Ziggy Stardust",
+    "matched_year": "1994",
+    "score": 100,
+    "note": "候选发行日期为 1994，与作品首发年份 1972 不一致；暂不写回。"
+  },
+  "uk-music-ok-computer": {
+    "status": "matched",
+    "source": "Cover Art Archive",
+    "cover": "https://coverartarchive.org/release/30702389-5c67-4438-9ea0-2351c8de0f1d/43287476628-500.jpg",
+    "source_url": "https://musicbrainz.org/release-group/b1392450-e666-3926-a536-22c65f834433",
+    "matched_title": "OK Computer",
+    "matched_year": "1997-05-21",
+    "score": 100
+  },
+  "uk-music-parklife": {
+    "status": "matched",
+    "source": "Cover Art Archive",
+    "cover": "https://coverartarchive.org/release/4ccd12b3-4bd0-4fdb-b85b-716d4f5b1d49/18480510416-500.jpg",
+    "source_url": "https://musicbrainz.org/release-group/e7fea4c1-bfe0-3b2e-8440-960428c7f9d8",
+    "matched_title": "Parklife",
+    "matched_year": "1994-08-22",
+    "score": 100
+  },
+  "uk-music-music-has-the-right-to-children": {
+    "status": "matched",
+    "source": "Cover Art Archive",
+    "cover": "https://coverartarchive.org/release/3fdcf49c-e297-4c21-880d-dba4c40d98dd/20976434672-500.jpg",
+    "source_url": "https://musicbrainz.org/release-group/17d74d52-c92b-3b8d-9f87-218ab2d1c4a0",
+    "matched_title": "Music Has the Right to Children",
+    "matched_year": "1998-04-20",
+    "score": 100
+  },
+  "uk-screen-seven-up": {
+    "status": "needs_tmdb_key",
+    "source": "TMDB",
+    "title": "Seven Up!",
+    "year": 1964
+  },
+  "uk-screen-the-beatles-get-back": {
+    "status": "needs_tmdb_key",
+    "source": "TMDB",
+    "title": "The Beatles: Get Back",
+    "year": 2021
+  },
+  "uk-screen-peaky-blinders": {
+    "status": "needs_tmdb_key",
+    "source": "TMDB",
+    "title": "Peaky Blinders",
+    "year": 2013
+  },
+  "uk-screen-the-crown": {
+    "status": "needs_tmdb_key",
+    "source": "TMDB",
+    "title": "The Crown",
+    "year": 2016
+  },
+  "uk-book-white-teeth": {
+    "status": "network_error",
+    "source": "Open Library",
+    "message": "fetch failed"
+  },
+  "uk-book-brideshead-revisited": {
+    "status": "network_error",
+    "source": "Open Library",
+    "message": "fetch failed"
+  },
+  "uk-book-milkman": {
+    "status": "review",
+    "source": "Open Library",
+    "cover": "https://covers.openlibrary.org/b/id/13561491-L.jpg",
+    "source_url": "https://openlibrary.org/works/OL19344016W",
+    "matched_title": "Milkman",
+    "matched_year": 2018,
+    "score": 120,
+    "note": "英国书籍需先人工核对指定中文译本 ISBN，再使用 AbeBooks 封面；本候选不得直接写回。"
+  },
+  "uk-book-trainspotting": {
+    "status": "review",
+    "source": "Open Library",
+    "cover": "https://covers.openlibrary.org/b/id/6673876-L.jpg",
+    "source_url": "https://openlibrary.org/works/OL816259W",
+    "matched_title": "Trainspotting",
+    "matched_year": 1993,
+    "score": 120,
+    "note": "英国书籍需先人工核对指定中文译本 ISBN，再使用 AbeBooks 封面；本候选不得直接写回。"
+  }
+}

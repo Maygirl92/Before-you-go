@@ -1,4 +1,4 @@
-"""Configuration loading for the v2.0 frontend vocabularies."""
+"""Configuration loading for the v2.1 frontend vocabularies."""
 
 from __future__ import annotations
 
@@ -58,6 +58,6 @@ class ProjectConfig(BaseModel):
         return self
 
 
-def load_config(path: str | Path = "data/config.json") -> ProjectConfig:
+def load_config(path: str | Path = "data/countries/de/config.json") -> ProjectConfig:
     with Path(path).open(encoding="utf-8") as handle:
         return ProjectConfig.model_validate(json.load(handle))
