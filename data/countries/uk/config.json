@@ -10,9 +10,9 @@
     "name_zh": "英国",
     "name_original": "United Kingdom",
     "signature": {
-      "face": null,
-      "side": null,
-      "_note": "待定，参考德国的 #C6E3E8 / #EAF0A4，需另选一组明亮色"
+      "face": "#3E756C",
+      "side": "#F1F2F2",
+      "_note": "与德国使用同一人口阶梯颜色；地图侧面统一使用页面浅灰色。"
     },
     "intro": {
       "气质与日常": "",

@@ -4,7 +4,7 @@
 **Version** 2.1
 **Status** Ready for build
 **Owner** Isla
-**Date** 9 September 2026
+**Date** 10 September 2026
 **Companion** *B · Curation & Data Handbook v2.1* — owns vocabularies, style rules and country `config.json` contents
 
 ### Changelog 2.0 → 2.1
@@ -16,6 +16,14 @@
 | 3 | `theme_tags` changes from 2–4 to **1–4** | Requiring a second tag creates false metadata; sub-tags are display-only |
 | 4 | `poetry` is added to book `medium_sub`; `original_only` is added to `cn_edition.status` | Correct classification and honest language availability |
 | 5 | Destination vocabularies and data are isolated by country while the page component remains shared | Prevent UK regions, periods and sub-tags from leaking into Germany |
+
+### Map visual decision · 10 September 2026
+
+- Replace the nine abstract block tiles with a geographically recognisable Europe map generated from Natural Earth boundaries.
+- Keep the nine planned destinations labelled; Germany and the United Kingdom remain the only active destinations. Other European countries provide geographic context only.
+- Fill every country from one six-step teal population scale using World Bank 2024 population data. Lower-population countries are lighter; no red is used.
+- Germany and the United Kingdom share the same darkest teal population tier. Pale apricot is an interaction accent, not a data value.
+- Every active country's revealed side uses the page's light grey `#F1F2F2`.
 
 ### Changelog 1.3 → 2.0
 
@@ -94,13 +102,15 @@ Accounts · login · favourites · watched status · progress · watch or purcha
 
 ### 5.1 Home
 
-Page background `#FBFAF6`. Header per §3. Below it, a horizontal map field on `#FFFFFF` with vertical fold lines at `#F5F3ED` — the field reads as a folded paper map.
+Page background is light grey. Header per §3. Below it, a white map field contains geographically recognisable European country shapes with natural coastlines and softly separated boundaries.
 
-Nine countries as **flat polygons with no stroke**. Germany and the United Kingdom are active; the other seven are `#EDEBE5` with `#A8A398` labels, no pointer cursor, no hover response.
+The nine planned destinations keep Chinese and original-language labels. Germany and the United Kingdom are active. The other seven planned destinations stay non-interactive, while the remaining European countries appear only as unlabeled geographic context.
+
+Country colour encodes World Bank 2024 total population in six teal steps: `<2m`, `2–5m`, `5–10m`, `10–30m`, `30–60m`, `≥60m`. Population is a map visualisation only, never a content ranking or filter. A compact legend and source year must remain visible.
 
 ### 5.2 Map interaction
 
-**Desktop.** Hovering an active country translates the tile's top face up by 10px over 240ms (`cubic-bezier(.2,.7,.3,1)`), revealing a second polygon of identical geometry behind it in that destination's configured side colour. The brief panel fades in below the map.
+**Desktop.** Hovering an active country translates its top face up by 7px over 260ms (`cubic-bezier(.2,.7,.3,1)`), revealing an identical country shape behind it in the shared page grey `#F1F2F2`. The selected label receives a pale apricot ground. The brief panel updates below the map.
 
 Clicking anywhere on an active tile or on the panel's button enters that destination page.
 
@@ -330,13 +340,16 @@ All pass WCAG AA comfortably. **Re-verify on any change** — and note that ligh
 | Role | Hex |
 |---|---|
 | 地图场 | `#FFFFFF` |
-| 折痕 | `#F5F3ED` |
-| 德国 · 板块面 | `#C6E3E8` |
-| 德国 · 浮起侧面 | `#EAF0A4` |
-| 未开放国家 | `#EDEBE5` |
-| 未开放国家标签 | `#A8A398` |
+| 人口 `<2m` | `#DCEBE5` |
+| 人口 `2–5m` | `#C8E0D7` |
+| 人口 `5–10m` | `#A9CEC2` |
+| 人口 `10–30m` | `#7FB3A5` |
+| 人口 `30–60m` | `#5C9588` |
+| 人口 `≥60m` | `#3E756C` |
+| 交互杏色 | `#EBC9A2` / `#F5E5D1` |
+| 浮起侧面 | `#F1F2F2` |
 
-**No outlines. No drop shadows. No scattered decorative dots.** The lift is communicated entirely by the 10px translate revealing the yellow side face. The face and side colours differ by hue, not by lightness (contrast between them is 1.13) — this is intentional and matches the reference material.
+Use Natural Earth coastline and border geometry rather than model-authored country silhouettes. Boundaries use a thin map-field-colour separation with round joins, not a heavy outline. **No drop shadows, red population tier or scattered decorative dots.** The hover lift is communicated entirely by the 7px translate revealing the shared grey side shape.
 
 ### 9.4 Typography
 
@@ -430,7 +443,7 @@ Printed on every build in both modes, readable text, not JSON:
 
 1. `works.json` + `config.json` load, tier grouping, card collapsed and expanded
 2. Five facets with live counts, URL state, empty states
-3. Map: flat tiles, hover lift, brief panel, enter
+3. Map: geographic shapes, population scale, hover lift, brief panel, enter
 4. Header, slogan, typography
 5. Covers via the three APIs
 6. Validation script and gap report

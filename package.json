@@ -10,6 +10,7 @@
     "lint": "next lint",
     "test": "node --test tests/web/*.test.mjs",
     "validate:data": "node scripts/validate-data.mjs",
+    "map:generate": "node scripts/generate-europe-map.mjs",
     "covers:candidates": "node scripts/resolve_cover_candidates.mjs",
     "covers:apply": "node scripts/apply_cover_matches.mjs",
     "covers:tmdb": "node --env-file-if-exists=.env.local scripts/resolve_tmdb_covers.mjs"
@@ -23,8 +24,11 @@
     "@types/node": "^26.2.0",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.4",
+    "d3-geo": "^3.1.1",
     "eslint": "^9.39.5",
     "eslint-config-next": "^16.3.0",
-    "typescript": "^6.0.3"
+    "topojson-client": "^3.1.0",
+    "typescript": "^6.0.3",
+    "world-atlas": "^2.0.2"
   }
 }

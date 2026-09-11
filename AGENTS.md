@@ -55,8 +55,9 @@ Germany and the United Kingdom. Responsive web only. The European map stays as t
 
 ## Visual rules that are easy to get wrong
 
-- **No outlines on map tiles. No drop shadows. No decorative dots.** The hover lift is a 10px translate revealing a second polygon in `#EAF0A4` behind the `#C6E3E8` face.
-- Face and side colours differ by hue, not lightness (contrast 1.13). This is intentional.
+- The map uses Natural Earth country geometry and a configuration-driven six-step teal scale based on World Bank 2024 population. Lower population is lighter; no red tier.
+- Country boundaries are a thin map-field-colour separation with round joins. No heavy outlines, drop shadows or decorative dots.
+- Germany and the United Kingdom share `#3E756C`. The hover lift is 7px and reveals the shared page grey `#F1F2F2`; apricot is an interaction accent only.
 - **No double-click anywhere.** Hover (desktop) or tap (touch) reveals the brief; an explicit button enters.
 - Theme fills are pale with deep same-hue ink. **Lightening a fill raises contrast here.** Do not darken fills to improve legibility.
 - Every facet option shows a live count at rest, with no hover dependency. Zero-count options grey out but stay in place and keep their position.

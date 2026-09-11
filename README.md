@@ -10,6 +10,9 @@ The current release covers Germany and the United Kingdom. The site is a
 responsive, static Next.js application backed by the curated country packages
 in `data/countries/`.
 
+The Europe overview uses public-domain Natural Earth country geometry and the
+World Bank's 2024 `SP.POP.TOTL` data for its six-step population colour scale.
+
 ## Documentation
 
 - `docs/A-Build-PRD-v2.1.md` — product behaviour and implementation source of truth.

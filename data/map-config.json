@@ -1,0 +1,25 @@
+{
+  "population": {
+    "year": 2024,
+    "source_label": "World Bank",
+    "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+    "tiers": [
+      { "min": 0, "label": "200万以下", "fill": "#DCEBE5" },
+      { "min": 2000000, "label": "200万—500万", "fill": "#C8E0D7" },
+      { "min": 5000000, "label": "500万—1000万", "fill": "#A9CEC2" },
+      { "min": 10000000, "label": "1000万—3000万", "fill": "#7FB3A5" },
+      { "min": 30000000, "label": "3000万—6000万", "fill": "#5C9588" },
+      { "min": 60000000, "label": "6000万以上", "fill": "#3E756C" }
+    ]
+  },
+  "palette": {
+    "field": "#FFFFFF",
+    "page": "#F1F2F2",
+    "boundary": "#F7F8F7",
+    "side": "#F1F2F2",
+    "apricot": "#EBC9A2",
+    "apricot_pale": "#F5E5D1",
+    "label": "#253E39",
+    "label_on_dark": "#FFFFFF"
+  }
+}

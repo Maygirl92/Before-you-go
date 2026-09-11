@@ -1,11 +1,11 @@
 [
-  { "id": "uk", "name_zh": "英国", "name_original": "United Kingdom", "position": "uk", "shape": "islands" },
-  { "id": "fr", "name_zh": "法国", "name_original": "France", "position": "fr", "shape": "hex" },
-  { "id": "nl", "name_zh": "荷兰", "name_original": "Nederland", "position": "nl", "shape": "narrow" },
-  { "id": "de", "name_zh": "德国", "name_original": "Deutschland", "position": "de", "shape": "angular" },
-  { "id": "pl", "name_zh": "波兰", "name_original": "Polska", "position": "pl", "shape": "wide" },
-  { "id": "ch", "name_zh": "瑞士", "name_original": "Schweiz", "position": "ch", "shape": "compact" },
-  { "id": "at", "name_zh": "奥地利", "name_original": "Österreich", "position": "at", "shape": "wide" },
-  { "id": "es", "name_zh": "西班牙", "name_original": "España", "position": "es", "shape": "hex" },
-  { "id": "it", "name_zh": "意大利", "name_original": "Italia", "position": "it", "shape": "boot" }
+  { "id": "uk", "map_id": "826", "name_zh": "英国", "name_original": "United Kingdom", "label_offset": [-5, 2] },
+  { "id": "fr", "map_id": "250", "name_zh": "法国", "name_original": "France", "label_offset": [0, 3] },
+  { "id": "nl", "map_id": "528", "name_zh": "荷兰", "name_original": "Nederland", "label_offset": [-24, -10] },
+  { "id": "de", "map_id": "276", "name_zh": "德国", "name_original": "Deutschland", "label_offset": [7, 6] },
+  { "id": "pl", "map_id": "616", "name_zh": "波兰", "name_original": "Polska", "label_offset": [9, 1] },
+  { "id": "ch", "map_id": "756", "name_zh": "瑞士", "name_original": "Schweiz", "label_offset": [-28, 16] },
+  { "id": "at", "map_id": "040", "name_zh": "奥地利", "name_original": "Österreich", "label_offset": [28, 18] },
+  { "id": "es", "map_id": "724", "name_zh": "西班牙", "name_original": "España", "label_offset": [-3, 5] },
+  { "id": "it", "map_id": "380", "name_zh": "意大利", "name_original": "Italia", "label_offset": [11, 18] }
 ]
