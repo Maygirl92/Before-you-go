@@ -7,7 +7,7 @@
   "population_source": "World Bank SP.POP.TOTL",
   "population_source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
   "population_year": 2024,
-  "generated_at": "2026-09-12T16:30:03.708Z",
+  "generated_at": "2026-09-13T15:40:44.285Z",
   "countries": [
     {
       "map_id": "008",
@@ -16,7 +16,7 @@
       "name_zh": "阿尔巴尼亚",
       "population": 2377128,
       "population_tier": 1,
-      "label_zoom": 3,
+      "label_zoom": 6,
       "label": [
         595.8,
         474.1
@@ -30,7 +30,7 @@
       "name_zh": "安道尔",
       "population": 81938,
       "population_tier": 0,
-      "label_zoom": 3,
+      "label_zoom": 9,
       "label": [
         428,
         457.2
@@ -44,7 +44,7 @@
       "name_zh": "奥地利",
       "population": 9177982,
       "population_tier": 2,
-      "label_zoom": 2,
+      "label_zoom": 3,
       "label": [
         542.1,
         392.2
@@ -58,7 +58,7 @@
       "name_zh": "白俄罗斯",
       "population": 9132629,
       "population_tier": 2,
-      "label_zoom": 2,
+      "label_zoom": 3,
       "label": [
         668.4,
         306.5
@@ -72,7 +72,7 @@
       "name_zh": "比利时",
       "population": 11858610,
       "population_tier": 3,
-      "label_zoom": 2,
+      "label_zoom": 3,
       "label": [
         455.9,
         349.8
@@ -86,7 +86,7 @@
       "name_zh": "波斯尼亚和黑塞哥维那",
       "population": 3164253,
       "population_tier": 1,
-      "label_zoom": 2,
+      "label_zoom": 5,
       "label": [
         575.1,
         436.7
@@ -100,7 +100,7 @@
       "name_zh": "保加利亚",
       "population": 6441421,
       "population_tier": 2,
-      "label_zoom": 2,
+      "label_zoom": 4,
       "label": [
         642.7,
         454.2
@@ -114,7 +114,7 @@
       "name_zh": "克罗地亚",
       "population": 3866200,
       "population_tier": 1,
-      "label_zoom": 2,
+      "label_zoom": 5,
       "label": [
         562.8,
         425
@@ -128,7 +128,7 @@
       "name_zh": "塞浦路斯",
       "population": 1358282,
       "population_tier": 0,
-      "label_zoom": 3,
+      "label_zoom": 7,
       "label": [
         713.4,
         546
@@ -142,7 +142,7 @@
       "name_zh": "捷克",
       "population": 10905028,
       "population_tier": 3,
-      "label_zoom": 2,
+      "label_zoom": 3,
       "label": [
         552.8,
         362.6
@@ -156,7 +156,7 @@
       "name_zh": "丹麦",
       "population": 5976992,
       "population_tier": 2,
-      "label_zoom": 2,
+      "label_zoom": 4,
       "label": [
         504.8,
         268.3
@@ -170,7 +170,7 @@
       "name_zh": "爱沙尼亚",
       "population": 1372341,
       "population_tier": 0,
-      "label_zoom": 3,
+      "label_zoom": 7,
       "label": [
         645.7,
         223.2
@@ -184,7 +184,7 @@
       "name_zh": "芬兰",
       "population": 5619911,
       "population_tier": 2,
-      "label_zoom": 2,
+      "label_zoom": 4,
       "label": [
         652.5,
         113.9
@@ -226,7 +226,7 @@
       "name_zh": "希腊",
       "population": 10405134,
       "population_tier": 3,
-      "label_zoom": 2,
+      "label_zoom": 3,
       "label": [
         622.2,
         498.1
@@ -240,7 +240,7 @@
       "name_zh": "匈牙利",
       "population": 9562065,
       "population_tier": 2,
-      "label_zoom": 2,
+      "label_zoom": 3,
       "label": [
         590,
         397.8
@@ -254,7 +254,7 @@
       "name_zh": "冰岛",
       "population": 386506,
       "population_tier": 0,
-      "label_zoom": 3,
+      "label_zoom": 9,
       "label": [
         245.3,
         100.7
@@ -268,7 +268,7 @@
       "name_zh": "爱尔兰",
       "population": 5395790,
       "population_tier": 2,
-      "label_zoom": 2,
+      "label_zoom": 4,
       "label": [
         340,
         312.2
@@ -296,7 +296,7 @@
       "name_zh": "拉脱维亚",
       "population": 1866124,
       "population_tier": 0,
-      "label_zoom": 3,
+      "label_zoom": 7,
       "label": [
         639.9,
         254.2
@@ -310,7 +310,7 @@
       "name_zh": "列支敦士登",
       "population": 40450,
       "population_tier": 0,
-      "label_zoom": 3,
+      "label_zoom": 9,
       "label": [
         500.4,
         398.3
@@ -324,7 +324,7 @@
       "name_zh": "立陶宛",
       "population": 2888278,
       "population_tier": 1,
-      "label_zoom": 3,
+      "label_zoom": 6,
       "label": [
         630.6,
         279
@@ -338,7 +338,7 @@
       "name_zh": "卢森堡",
       "population": 677012,
       "population_tier": 0,
-      "label_zoom": 3,
+      "label_zoom": 8,
       "label": [
         469,
         362.3
@@ -352,7 +352,7 @@
       "name_zh": "马耳他",
       "population": 568847,
       "population_tier": 0,
-      "label_zoom": 3,
+      "label_zoom": 8,
       "label": [
         544.6,
         534.8
@@ -366,7 +366,7 @@
       "name_zh": "摩尔多瓦",
       "population": 2402306,
       "population_tier": 1,
-      "label_zoom": 3,
+      "label_zoom": 6,
       "label": [
         672.1,
         397.3
@@ -380,7 +380,7 @@
       "name_zh": "摩纳哥",
       "population": 38631,
       "population_tier": 0,
-      "label_zoom": 3,
+      "label_zoom": 9,
       "label": [
         481.1,
         442.1
@@ -394,7 +394,7 @@
       "name_zh": "黑山",
       "population": 623525,
       "population_tier": 0,
-      "label_zoom": 3,
+      "label_zoom": 8,
       "label": [
         588.5,
         454.1
@@ -408,7 +408,7 @@
       "name_zh": "荷兰",
       "population": 17993485,
       "population_tier": 3,
-      "label_zoom": 1,
+      "label_zoom": 2,
       "label": [
         464.7,
         326
@@ -422,7 +422,7 @@
       "name_zh": "北马其顿",
       "population": 1824359,
       "population_tier": 0,
-      "label_zoom": 3,
+      "label_zoom": 7,
       "label": [
         610.7,
         468.7
@@ -436,7 +436,7 @@
       "name_zh": "挪威",
       "population": 5572279,
       "population_tier": 2,
-      "label_zoom": 2,
+      "label_zoom": 4,
       "label": [
         509,
         147.9
@@ -464,7 +464,7 @@
       "name_zh": "葡萄牙",
       "population": 10694681,
       "population_tier": 3,
-      "label_zoom": 2,
+      "label_zoom": 3,
       "label": [
         336.9,
         492.1
@@ -478,7 +478,7 @@
       "name_zh": "罗马尼亚",
       "population": 19051804,
       "population_tier": 3,
-      "label_zoom": 1,
+      "label_zoom": 2,
       "label": [
         640.5,
         414.8
@@ -506,7 +506,7 @@
       "name_zh": "圣马力诺",
       "population": 33977,
       "population_tier": 0,
-      "label_zoom": 3,
+      "label_zoom": 9,
       "label": [
         526.9,
         439.7
@@ -520,7 +520,7 @@
       "name_zh": "塞尔维亚",
       "population": 6586476,
       "population_tier": 2,
-      "label_zoom": 2,
+      "label_zoom": 4,
       "label": [
         602.5,
         435.9
@@ -534,7 +534,7 @@
       "name_zh": "斯洛伐克",
       "population": 5422069,
       "population_tier": 2,
-      "label_zoom": 2,
+      "label_zoom": 4,
       "label": [
         590.7,
         377
@@ -548,7 +548,7 @@
       "name_zh": "斯洛文尼亚",
       "population": 2127400,
       "population_tier": 1,
-      "label_zoom": 3,
+      "label_zoom": 6,
       "label": [
         548.2,
         411.8
@@ -576,7 +576,7 @@
       "name_zh": "瑞典",
       "population": 10569709,
       "population_tier": 3,
-      "label_zoom": 2,
+      "label_zoom": 3,
       "label": [
         567.9,
         135.2
@@ -590,7 +590,7 @@
       "name_zh": "瑞士",
       "population": 9005582,
       "population_tier": 2,
-      "label_zoom": 2,
+      "label_zoom": 3,
       "label": [
         488.4,
         402.7

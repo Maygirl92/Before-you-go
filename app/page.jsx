@@ -1,7 +1,8 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
+import { clampMapPan, dragMapPan } from "@/lib/map-viewport.mjs";
 import destinations from "@/data/destinations.json";
 import europeMap from "@/data/europe-map.json";
 import mapConfig from "@/data/map-config.json";
@@ -93,15 +94,11 @@ function ZoomControls({ level, maxLevel, onChange }) {
 
 function DestinationBrief({ country }) {
   const { config, works } = country;
-  const intro = Object.entries(config.destination.intro || {}).filter(([, text]) => text);
   return <section className="destination-brief" aria-live="polite">
     <div className="brief-heading">
       <p>DESTINATION</p>
       <h2>{config.destination.name_zh} <em>{config.destination.name_original}</em></h2>
     </div>
-    {intro.length > 0 && <div className="brief-intro">
-      {intro.map(([label, text]) => <section key={label}><h3>{label}</h3><p>{text}</p></section>)}
-    </div>}
     <div className="brief-footer">
       <div className="brief-themes">{config.facets.theme_main.map((theme) => <span key={theme.label} style={{ backgroundColor: theme.fill, color: theme.ink }}>{theme.label}</span>)}</div>
       <a href={`${basePath}/${config.destination.id}/`}>进入{config.destination.name_zh} · {works.length} 部作品</a>
@@ -114,9 +111,13 @@ export default function Home() {
   const [previewId, setPreviewId] = useState("de");
   const [raisedId, setRaisedId] = useState(null);
   const [zoomLevel, setZoomLevel] = useState(0);
+  const [pan, setPan] = useState({ x: 0, y: 0 });
+  const [dragging, setDragging] = useState(false);
+  const dragRef = useRef(null);
+  const suppressClickRef = useRef(false);
   const selectedCountry = useMemo(() => activeCountries[previewId] || activeCountries.de, [previewId]);
   const zoomScale = mapConfig.zoom.scales[zoomLevel];
-  const mapTransform = `translate(${europeMap.width / 2} ${europeMap.height / 2}) scale(${zoomScale}) translate(${-europeMap.width / 2} ${-europeMap.height / 2})`;
+  const mapTransform = `translate(${europeMap.width / 2 + pan.x} ${europeMap.height / 2 + pan.y}) scale(${zoomScale}) translate(${-europeMap.width / 2} ${-europeMap.height / 2})`;
   const enterCountry = (id) => router.push(`/${id}`);
   const previewCountry = (id) => {
     setPreviewId(id);
@@ -125,6 +126,60 @@ export default function Home() {
   const selectCountry = (id) => {
     setPreviewId(id);
     setRaisedId(id);
+  };
+  const changeZoom = (nextLevel) => {
+    const level = Math.min(Math.max(nextLevel, 0), mapConfig.zoom.scales.length - 1);
+    const scale = mapConfig.zoom.scales[level];
+    setZoomLevel(level);
+    setPan((current) => clampMapPan(current, europeMap.width, europeMap.height, scale));
+  };
+  const handleMapPointerDown = (event) => {
+    if (!event.isPrimary || event.button !== 0) return;
+    event.currentTarget.setPointerCapture(event.pointerId);
+    dragRef.current = {
+      pointerId: event.pointerId,
+      clientX: event.clientX,
+      clientY: event.clientY,
+      origin: pan,
+      moved: false
+    };
+    setDragging(true);
+  };
+  const handleMapPointerMove = (event) => {
+    const drag = dragRef.current;
+    if (!drag || drag.pointerId !== event.pointerId) return;
+    const delta = { x: event.clientX - drag.clientX, y: event.clientY - drag.clientY };
+    if (Math.hypot(delta.x, delta.y) > 4) drag.moved = true;
+    const bounds = event.currentTarget.getBoundingClientRect();
+    setPan(dragMapPan({
+      origin: drag.origin,
+      delta,
+      viewport: { width: bounds.width, height: bounds.height },
+      map: { width: europeMap.width, height: europeMap.height },
+      scale: zoomScale
+    }));
+    event.preventDefault();
+  };
+  const finishMapDrag = (event) => {
+    const drag = dragRef.current;
+    if (!drag || drag.pointerId !== event.pointerId) return;
+    if (event.currentTarget.hasPointerCapture(event.pointerId)) event.currentTarget.releasePointerCapture(event.pointerId);
+    if (drag.moved) {
+      suppressClickRef.current = true;
+      window.setTimeout(() => { suppressClickRef.current = false; }, 0);
+    }
+    dragRef.current = null;
+    setDragging(false);
+  };
+  const cancelMapDrag = (event) => {
+    if (dragRef.current?.pointerId !== event.pointerId) return;
+    dragRef.current = null;
+    setDragging(false);
+  };
+  const suppressDraggedClick = (event) => {
+    if (!suppressClickRef.current) return;
+    event.preventDefault();
+    event.stopPropagation();
   };
 
   return <main
@@ -150,10 +205,15 @@ export default function Home() {
       </div>
       <div className="europe-map">
         <svg
-          className="europe-map-svg"
+          className={`europe-map-svg ${dragging ? "is-dragging" : ""}`}
           viewBox={`0 0 ${europeMap.width} ${europeMap.height}`}
           role="img"
           aria-label="欧洲目的地地图，国家颜色表示2024年人口规模"
+          onPointerDown={handleMapPointerDown}
+          onPointerMove={handleMapPointerMove}
+          onPointerUp={finishMapDrag}
+          onPointerCancel={cancelMapDrag}
+          onClickCapture={suppressDraggedClick}
         >
           <g className="map-viewport" transform={mapTransform}>
             <g className="map-country-layer">
@@ -176,7 +236,7 @@ export default function Home() {
             </g>
           </g>
         </svg>
-        <ZoomControls level={zoomLevel} maxLevel={mapConfig.zoom.scales.length - 1} onChange={setZoomLevel} />
+        <ZoomControls level={zoomLevel} maxLevel={mapConfig.zoom.scales.length - 1} onChange={changeZoom} />
         <PopulationLegend />
       </div>
     </section>

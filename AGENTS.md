@@ -58,8 +58,10 @@ Germany and the United Kingdom. Responsive web only. The European map stays as t
 - The map uses Natural Earth country geometry and a configuration-driven six-step teal scale based on World Bank 2024 population. Lower population is lighter; no red tier.
 - Country boundaries are a thin map-field-colour separation with round joins. No heavy outlines, drop shadows or decorative dots.
 - Germany and the United Kingdom share `#3E756C`. The map is flat by default; the hover/focus/touch lift is 7px and reveals the shared page grey `#F1F2F2`.
-- Country labels are small black sans-serif type with a thin white halo. Four zoom levels progressively reveal all mapped country names. Do not add original-language sublabels, selection grounds or an availability legend.
+- Country labels use the Chinese editorial serif in `#74333A` with a thin `#F2D8D5` halo. Ten zoom levels progressively reveal all mapped country names without overlap at maximum zoom. Do not add original-language sublabels, selection grounds or an availability legend.
+- Mouse-held drag and one-finger touch drag pan the bounded map at every zoom level; a drag must suppress the following country click.
 - Unavailable countries never react. Keep only the top-right open-count copy and the population legend/source.
+- Keep the four destination-introduction fields in country data, but do not render them on the home page until this decision is revisited.
 - **No double-click anywhere.** Hover (desktop) or tap (touch) reveals the brief; an explicit button enters.
 - Theme fills are pale with deep same-hue ink. **Lightening a fill raises contrast here.** Do not darken fills to improve legibility.
 - Every facet option shows a live count at rest, with no hover dependency. Zero-count options grey out but stay in place and keep their position.
