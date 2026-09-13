@@ -250,6 +250,7 @@ button { cursor: pointer; }
   border-radius: 28px 28px 8px 8px;
 }
 .europe-map-svg { display: block; width: 100%; height: auto; aspect-ratio: 11 / 6; }
+.map-viewport { transition: transform 260ms cubic-bezier(.2, .7, .3, 1); }
 .map-country-face,
 .map-country-side {
   vector-effect: non-scaling-stroke;
@@ -265,17 +266,48 @@ button { cursor: pointer; }
 .map-country.is-planned:not(.is-active) { cursor: default; }
 .map-country.is-active { cursor: pointer; outline: none; }
 .map-country.is-active.is-selected .map-country-lift,
-.map-country.is-active:hover .map-country-lift { transform: translateY(-7px); }
+.map-country.is-active:hover .map-country-lift,
+.map-country.is-active:focus-visible .map-country-lift { transform: translateY(-7px); }
 .map-country.is-active:focus-visible .map-country-face { filter: brightness(.9); }
+.map-label-layer { pointer-events: none; }
 .map-country-label { pointer-events: none; }
-.map-country-label text { fill: var(--map-label); font-size: 15px; font-weight: 500; }
-.map-country-label.on-dark text { fill: var(--map-label-on-dark); }
-.map-country-original { font-family: Georgia, "Times New Roman", serif; font-size: 8.5px; font-style: italic; font-weight: 400; }
-.map-country-label-bg { fill: var(--map-apricot-pale); opacity: 0; transition: opacity 180ms ease; }
-.map-country.is-active.is-selected .map-country-label-bg,
-.map-country.is-active:hover .map-country-label-bg { opacity: 1; }
-.map-country.is-active.is-selected .map-country-label text,
-.map-country.is-active:hover .map-country-label text { fill: var(--map-label); }
+.map-country-label text {
+  fill: var(--map-label);
+  stroke: var(--map-label-halo);
+  stroke-width: 2.6px;
+  stroke-linejoin: round;
+  paint-order: stroke fill;
+  font-family: var(--font-ui), "Noto Sans SC", "PingFang SC", sans-serif;
+  font-size: 10px;
+  font-weight: 550;
+  letter-spacing: .01em;
+}
+.map-zoom-controls {
+  position: absolute;
+  z-index: 3;
+  left: 18px;
+  bottom: 17px;
+  display: flex;
+  gap: 8px;
+}
+.map-zoom-controls button {
+  display: grid;
+  width: 32px;
+  height: 32px;
+  padding: 0 0 2px;
+  place-items: center;
+  border: 1px solid #D8DCDA;
+  border-radius: 50%;
+  background: rgb(255 255 255 / 92%);
+  color: var(--ink);
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1;
+}
+.map-zoom-controls button:hover:not(:disabled) { background: #F1F2F2; border-color: #B9BFBC; }
+.map-zoom-controls button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.map-zoom-controls button:disabled { cursor: default; opacity: .36; }
 .population-legend {
   position: absolute;
   right: 22px;
@@ -290,9 +322,8 @@ button { cursor: pointer; }
   font-size: 9px;
   backdrop-filter: blur(8px);
 }
-.population-scale, .population-scale > div, .active-key { display: flex; align-items: center; gap: 5px; }
+.population-scale, .population-scale > div { display: flex; align-items: center; gap: 5px; }
 .population-scale i { display: block; width: 13px; height: 8px; border-radius: 2px; }
-.active-key i { width: 13px; height: 8px; border-radius: 2px; background: var(--map-apricot); }
 .population-legend a { color: inherit; text-decoration: none; }
 .population-legend a:hover { color: var(--ink); text-decoration: underline; }
 .destination-brief {
@@ -426,13 +457,13 @@ button { cursor: pointer; }
   .map-title-row h1 { font-size: 29px; }
   .map-title-row > span { padding-top: 22px; font-size: 9px; }
   .europe-map { border-radius: 18px 18px 6px 6px; }
-  .map-country-label text { font-size: 20px; }
-  .map-country-original { display: none; }
+  .map-country-label text { font-size: 9px; stroke-width: 2.4px; }
+  .map-zoom-controls { left: 10px; bottom: 10px; gap: 6px; }
+  .map-zoom-controls button { width: 29px; height: 29px; font-size: 18px; }
   .population-legend { position: static; justify-content: space-between; gap: 8px; padding: 9px 4px 3px; background: transparent; backdrop-filter: none; }
   .population-scale { gap: 4px; }
   .population-scale > div { gap: 2px; }
   .population-scale i { width: 9px; height: 7px; }
-  .active-key { display: none; }
   .population-legend a { white-space: nowrap; }
   .destination-brief { margin-top: 12px; padding: 22px 18px 20px; }
   .brief-heading { display: block; }
@@ -447,5 +478,7 @@ button { cursor: pointer; }
 @media (prefers-reduced-motion: reduce) {
   .tier-content,
   .tier-toggle span,
-  .card-detail-shell { transition-duration: 1ms; }
+  .card-detail-shell,
+  .map-viewport,
+  .map-country-lift { transition-duration: 1ms; }
 }

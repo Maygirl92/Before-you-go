@@ -17,13 +17,15 @@
 | 4 | `poetry` is added to book `medium_sub`; `original_only` is added to `cn_edition.status` | Correct classification and honest language availability |
 | 5 | Destination vocabularies and data are isolated by country while the page component remains shared | Prevent UK regions, periods and sub-tags from leaking into Germany |
 
-### Map visual decision · 10 September 2026
+### Map visual decision · 11 September 2026
 
 - Replace the nine abstract block tiles with a geographically recognisable Europe map generated from Natural Earth boundaries.
-- Keep the nine planned destinations labelled; Germany and the United Kingdom remain the only active destinations. Other European countries provide geographic context only.
+- Germany and the United Kingdom remain the only active destinations. Other European countries provide geographic context only and do not respond to hover or tap.
 - Fill every country from one six-step teal population scale using World Bank 2024 population data. Lower-population countries are lighter; no red is used.
-- Germany and the United Kingdom share the same darkest teal population tier. Pale apricot is an interaction accent, not a data value.
+- Germany and the United Kingdom share the same darkest teal population tier. The default map is completely flat; an active country rises only while hovered, keyboard-focused or touch-selected.
 - Every active country's revealed side uses the page's light grey `#F1F2F2`.
+- Labels use one small black sans-serif style with a fine white halo. At the default zoom only the six countries above 50 million people are labelled; three zoom-in steps progressively reveal all mapped country names.
+- Circular zoom controls sit at the lower left, ordered minus then plus. The population legend remains, but no separate open/closed key is shown; availability is communicated only by interaction and the `02 / 09 已开放` count.
 
 ### Changelog 1.3 → 2.0
 
@@ -104,13 +106,13 @@ Accounts · login · favourites · watched status · progress · watch or purcha
 
 Page background is light grey. Header per §3. Below it, a white map field contains geographically recognisable European country shapes with natural coastlines and softly separated boundaries.
 
-The nine planned destinations keep Chinese and original-language labels. Germany and the United Kingdom are active. The other seven planned destinations stay non-interactive, while the remaining European countries appear only as unlabeled geographic context.
+Every mapped country has a Chinese label. Labels are progressively disclosed by zoom level: the default view shows only the six countries above 50 million people; later levels add countries above 15 million, then 3 million, then all remaining countries. Labels use one small black sans-serif style with a fine white halo and never change colour with the underlying population fill. Germany and the United Kingdom are active; every other country remains non-interactive.
 
-Country colour encodes World Bank 2024 total population in six teal steps: `<2m`, `2–5m`, `5–10m`, `10–30m`, `30–60m`, `≥60m`. Population is a map visualisation only, never a content ranking or filter. A compact legend and source year must remain visible.
+Country colour encodes World Bank 2024 total population in six teal steps: `<2m`, `2–5m`, `5–10m`, `10–30m`, `30–60m`, `≥60m`. Population is a map visualisation only, never a content ranking or filter. A compact legend and source year must remain visible. The only availability copy on the map is the top-right `02 / 09 已开放` count; there is no open/closed legend.
 
 ### 5.2 Map interaction
 
-**Desktop.** Hovering an active country translates its top face up by 7px over 260ms (`cubic-bezier(.2,.7,.3,1)`), revealing an identical country shape behind it in the shared page grey `#F1F2F2`. The selected label receives a pale apricot ground. The brief panel updates below the map.
+**Desktop.** The initial map is flat. Hovering an active country translates only its top face up by 7px over 260ms (`cubic-bezier(.2,.7,.3,1)`), revealing an identical country shape behind it in the shared page grey `#F1F2F2`. Labels have no selection ground or colour change. The brief panel updates below the map.
 
 Clicking anywhere on an active tile or on the panel's button enters that destination page.
 
@@ -346,10 +348,10 @@ All pass WCAG AA comfortably. **Re-verify on any change** — and note that ligh
 | 人口 `10–30m` | `#7FB3A5` |
 | 人口 `30–60m` | `#5C9588` |
 | 人口 `≥60m` | `#3E756C` |
-| 交互杏色 | `#EBC9A2` / `#F5E5D1` |
 | 浮起侧面 | `#F1F2F2` |
+| 国家字 | `#171918`，`#FFFFFF` 细描边 |
 
-Use Natural Earth coastline and border geometry rather than model-authored country silhouettes. Boundaries use a thin map-field-colour separation with round joins, not a heavy outline. **No drop shadows, red population tier or scattered decorative dots.** The hover lift is communicated entirely by the 7px translate revealing the shared grey side shape.
+Use Natural Earth coastline and border geometry rather than model-authored country silhouettes. Boundaries use a thin map-field-colour separation with round joins, not a heavy outline. **No drop shadows, red population tier, availability colour key, label ground or scattered decorative dots.** The hover lift is communicated entirely by the 7px translate revealing the shared grey side shape.
 
 ### 9.4 Typography
 

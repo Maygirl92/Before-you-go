@@ -17,9 +17,11 @@
     "page": "#F1F2F2",
     "boundary": "#F7F8F7",
     "side": "#F1F2F2",
-    "apricot": "#EBC9A2",
-    "apricot_pale": "#F5E5D1",
-    "label": "#253E39",
-    "label_on_dark": "#FFFFFF"
+    "label": "#171918",
+    "label_halo": "#FFFFFF"
+  },
+  "zoom": {
+    "scales": [1, 1.12, 1.24, 1.36],
+    "label_min_population": [50000000, 15000000, 3000000, 0]
   }
 }

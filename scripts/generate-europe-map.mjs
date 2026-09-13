@@ -2,6 +2,7 @@ import fs from "node:fs/promises";
 import { geoMercator, geoPath } from "d3-geo";
 import { feature } from "topojson-client";
 import atlas from "world-atlas/countries-50m.json" with { type: "json" };
+import mapConfig from "../data/map-config.json" with { type: "json" };
 
 const countries = [
   ["008", "AL"], ["020", "AD"], ["040", "AT"], ["112", "BY"],
@@ -32,6 +33,11 @@ const projection = geoMercator()
 const path = geoPath(projection);
 const thresholds = [0, 2_000_000, 5_000_000, 10_000_000, 30_000_000, 60_000_000];
 const populationTier = (population) => thresholds.reduce((tier, minimum, index) => population >= minimum ? index : tier, 0);
+const regionNames = new Intl.DisplayNames(["zh-CN"], { type: "region" });
+const labelZoom = (population) => {
+  const level = mapConfig.zoom.label_min_population.findIndex((minimum) => population >= minimum);
+  return level === -1 ? mapConfig.zoom.label_min_population.length - 1 : level;
+};
 
 const outputCountries = countries.flatMap(([mapId, iso2]) => {
   const country = featureById.get(mapId);
@@ -44,8 +50,10 @@ const outputCountries = countries.flatMap(([mapId, iso2]) => {
     map_id: mapId,
     iso2,
     name: country.properties.name,
+    name_zh: regionNames.of(iso2),
     population,
     population_tier: populationTier(population),
+    label_zoom: labelZoom(population),
     label: [Math.round(labelX * 10) / 10, Math.round(labelY * 10) / 10],
     d
   }];

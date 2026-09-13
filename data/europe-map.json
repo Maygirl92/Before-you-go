@@ -7,14 +7,16 @@
   "population_source": "World Bank SP.POP.TOTL",
   "population_source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
   "population_year": 2024,
-  "generated_at": "2026-09-10T12:44:40.097Z",
+  "generated_at": "2026-09-12T16:30:03.708Z",
   "countries": [
     {
       "map_id": "008",
       "iso2": "AL",
       "name": "Albania",
+      "name_zh": "阿尔巴尼亚",
       "population": 2377128,
       "population_tier": 1,
+      "label_zoom": 3,
       "label": [
         595.8,
         474.1
@@ -25,8 +27,10 @@
       "map_id": "020",
       "iso2": "AD",
       "name": "Andorra",
+      "name_zh": "安道尔",
       "population": 81938,
       "population_tier": 0,
+      "label_zoom": 3,
       "label": [
         428,
         457.2
@@ -37,8 +41,10 @@
       "map_id": "040",
       "iso2": "AT",
       "name": "Austria",
+      "name_zh": "奥地利",
       "population": 9177982,
       "population_tier": 2,
+      "label_zoom": 2,
       "label": [
         542.1,
         392.2
@@ -49,8 +55,10 @@
       "map_id": "112",
       "iso2": "BY",
       "name": "Belarus",
+      "name_zh": "白俄罗斯",
       "population": 9132629,
       "population_tier": 2,
+      "label_zoom": 2,
       "label": [
         668.4,
         306.5
@@ -61,8 +69,10 @@
       "map_id": "056",
       "iso2": "BE",
       "name": "Belgium",
+      "name_zh": "比利时",
       "population": 11858610,
       "population_tier": 3,
+      "label_zoom": 2,
       "label": [
         455.9,
         349.8
@@ -73,8 +83,10 @@
       "map_id": "070",
       "iso2": "BA",
       "name": "Bosnia and Herz.",
+      "name_zh": "波斯尼亚和黑塞哥维那",
       "population": 3164253,
       "population_tier": 1,
+      "label_zoom": 2,
       "label": [
         575.1,
         436.7
@@ -85,8 +97,10 @@
       "map_id": "100",
       "iso2": "BG",
       "name": "Bulgaria",
+      "name_zh": "保加利亚",
       "population": 6441421,
       "population_tier": 2,
+      "label_zoom": 2,
       "label": [
         642.7,
         454.2
@@ -97,8 +111,10 @@
       "map_id": "191",
       "iso2": "HR",
       "name": "Croatia",
+      "name_zh": "克罗地亚",
       "population": 3866200,
       "population_tier": 1,
+      "label_zoom": 2,
       "label": [
         562.8,
         425
@@ -109,8 +125,10 @@
       "map_id": "196",
       "iso2": "CY",
       "name": "Cyprus",
+      "name_zh": "塞浦路斯",
       "population": 1358282,
       "population_tier": 0,
+      "label_zoom": 3,
       "label": [
         713.4,
         546
@@ -121,8 +139,10 @@
       "map_id": "203",
       "iso2": "CZ",
       "name": "Czechia",
+      "name_zh": "捷克",
       "population": 10905028,
       "population_tier": 3,
+      "label_zoom": 2,
       "label": [
         552.8,
         362.6
@@ -133,8 +153,10 @@
       "map_id": "208",
       "iso2": "DK",
       "name": "Denmark",
+      "name_zh": "丹麦",
       "population": 5976992,
       "population_tier": 2,
+      "label_zoom": 2,
       "label": [
         504.8,
         268.3
@@ -145,8 +167,10 @@
       "map_id": "233",
       "iso2": "EE",
       "name": "Estonia",
+      "name_zh": "爱沙尼亚",
       "population": 1372341,
       "population_tier": 0,
+      "label_zoom": 3,
       "label": [
         645.7,
         223.2
@@ -157,8 +181,10 @@
       "map_id": "246",
       "iso2": "FI",
       "name": "Finland",
+      "name_zh": "芬兰",
       "population": 5619911,
       "population_tier": 2,
+      "label_zoom": 2,
       "label": [
         652.5,
         113.9
@@ -169,8 +195,10 @@
       "map_id": "250",
       "iso2": "FR",
       "name": "France",
+      "name_zh": "法国",
       "population": 68551653,
       "population_tier": 5,
+      "label_zoom": 0,
       "label": [
         436.9,
         404.4
@@ -181,8 +209,10 @@
       "map_id": "276",
       "iso2": "DE",
       "name": "Germany",
+      "name_zh": "德国",
       "population": 83516593,
       "population_tier": 5,
+      "label_zoom": 0,
       "label": [
         508.2,
         341.6
@@ -193,8 +223,10 @@
       "map_id": "300",
       "iso2": "GR",
       "name": "Greece",
+      "name_zh": "希腊",
       "population": 10405134,
       "population_tier": 3,
+      "label_zoom": 2,
       "label": [
         622.2,
         498.1
@@ -205,8 +237,10 @@
       "map_id": "348",
       "iso2": "HU",
       "name": "Hungary",
+      "name_zh": "匈牙利",
       "population": 9562065,
       "population_tier": 2,
+      "label_zoom": 2,
       "label": [
         590,
         397.8
@@ -217,8 +251,10 @@
       "map_id": "352",
       "iso2": "IS",
       "name": "Iceland",
+      "name_zh": "冰岛",
       "population": 386506,
       "population_tier": 0,
+      "label_zoom": 3,
       "label": [
         245.3,
         100.7
@@ -229,8 +265,10 @@
       "map_id": "372",
       "iso2": "IE",
       "name": "Ireland",
+      "name_zh": "爱尔兰",
       "population": 5395790,
       "population_tier": 2,
+      "label_zoom": 2,
       "label": [
         340,
         312.2
@@ -241,8 +279,10 @@
       "map_id": "380",
       "iso2": "IT",
       "name": "Italy",
+      "name_zh": "意大利",
       "population": 58952704,
       "population_tier": 4,
+      "label_zoom": 0,
       "label": [
         522.8,
         451.9
@@ -253,8 +293,10 @@
       "map_id": "428",
       "iso2": "LV",
       "name": "Latvia",
+      "name_zh": "拉脱维亚",
       "population": 1866124,
       "population_tier": 0,
+      "label_zoom": 3,
       "label": [
         639.9,
         254.2
@@ -265,8 +307,10 @@
       "map_id": "438",
       "iso2": "LI",
       "name": "Liechtenstein",
+      "name_zh": "列支敦士登",
       "population": 40450,
       "population_tier": 0,
+      "label_zoom": 3,
       "label": [
         500.4,
         398.3
@@ -277,8 +321,10 @@
       "map_id": "440",
       "iso2": "LT",
       "name": "Lithuania",
+      "name_zh": "立陶宛",
       "population": 2888278,
       "population_tier": 1,
+      "label_zoom": 3,
       "label": [
         630.6,
         279
@@ -289,8 +335,10 @@
       "map_id": "442",
       "iso2": "LU",
       "name": "Luxembourg",
+      "name_zh": "卢森堡",
       "population": 677012,
       "population_tier": 0,
+      "label_zoom": 3,
       "label": [
         469,
         362.3
@@ -301,8 +349,10 @@
       "map_id": "470",
       "iso2": "MT",
       "name": "Malta",
+      "name_zh": "马耳他",
       "population": 568847,
       "population_tier": 0,
+      "label_zoom": 3,
       "label": [
         544.6,
         534.8
@@ -313,8 +363,10 @@
       "map_id": "498",
       "iso2": "MD",
       "name": "Moldova",
+      "name_zh": "摩尔多瓦",
       "population": 2402306,
       "population_tier": 1,
+      "label_zoom": 3,
       "label": [
         672.1,
         397.3
@@ -325,8 +377,10 @@
       "map_id": "492",
       "iso2": "MC",
       "name": "Monaco",
+      "name_zh": "摩纳哥",
       "population": 38631,
       "population_tier": 0,
+      "label_zoom": 3,
       "label": [
         481.1,
         442.1
@@ -337,8 +391,10 @@
       "map_id": "499",
       "iso2": "ME",
       "name": "Montenegro",
+      "name_zh": "黑山",
       "population": 623525,
       "population_tier": 0,
+      "label_zoom": 3,
       "label": [
         588.5,
         454.1
@@ -349,8 +405,10 @@
       "map_id": "528",
       "iso2": "NL",
       "name": "Netherlands",
+      "name_zh": "荷兰",
       "population": 17993485,
       "population_tier": 3,
+      "label_zoom": 1,
       "label": [
         464.7,
         326
@@ -361,8 +419,10 @@
       "map_id": "807",
       "iso2": "MK",
       "name": "Macedonia",
+      "name_zh": "北马其顿",
       "population": 1824359,
       "population_tier": 0,
+      "label_zoom": 3,
       "label": [
         610.7,
         468.7
@@ -373,8 +433,10 @@
       "map_id": "578",
       "iso2": "NO",
       "name": "Norway",
+      "name_zh": "挪威",
       "population": 5572279,
       "population_tier": 2,
+      "label_zoom": 2,
       "label": [
         509,
         147.9
@@ -385,8 +447,10 @@
       "map_id": "616",
       "iso2": "PL",
       "name": "Poland",
+      "name_zh": "波兰",
       "population": 36559233,
       "population_tier": 4,
+      "label_zoom": 1,
       "label": [
         589.7,
         327.3
@@ -397,8 +461,10 @@
       "map_id": "620",
       "iso2": "PT",
       "name": "Portugal",
+      "name_zh": "葡萄牙",
       "population": 10694681,
       "population_tier": 3,
+      "label_zoom": 2,
       "label": [
         336.9,
         492.1
@@ -409,8 +475,10 @@
       "map_id": "642",
       "iso2": "RO",
       "name": "Romania",
+      "name_zh": "罗马尼亚",
       "population": 19051804,
       "population_tier": 3,
+      "label_zoom": 1,
       "label": [
         640.5,
         414.8
@@ -421,8 +489,10 @@
       "map_id": "643",
       "iso2": "RU",
       "name": "Russia",
+      "name_zh": "俄罗斯",
       "population": 143669648,
       "population_tier": 5,
+      "label_zoom": 0,
       "label": [
         872.9,
         196.1
@@ -433,8 +503,10 @@
       "map_id": "674",
       "iso2": "SM",
       "name": "San Marino",
+      "name_zh": "圣马力诺",
       "population": 33977,
       "population_tier": 0,
+      "label_zoom": 3,
       "label": [
         526.9,
         439.7
@@ -445,8 +517,10 @@
       "map_id": "688",
       "iso2": "RS",
       "name": "Serbia",
+      "name_zh": "塞尔维亚",
       "population": 6586476,
       "population_tier": 2,
+      "label_zoom": 2,
       "label": [
         602.5,
         435.9
@@ -457,8 +531,10 @@
       "map_id": "703",
       "iso2": "SK",
       "name": "Slovakia",
+      "name_zh": "斯洛伐克",
       "population": 5422069,
       "population_tier": 2,
+      "label_zoom": 2,
       "label": [
         590.7,
         377
@@ -469,8 +545,10 @@
       "map_id": "705",
       "iso2": "SI",
       "name": "Slovenia",
+      "name_zh": "斯洛文尼亚",
       "population": 2127400,
       "population_tier": 1,
+      "label_zoom": 3,
       "label": [
         548.2,
         411.8
@@ -481,8 +559,10 @@
       "map_id": "724",
       "iso2": "ES",
       "name": "Spain",
+      "name_zh": "西班牙",
       "population": 48848840,
       "population_tier": 4,
+      "label_zoom": 1,
       "label": [
         382.1,
         482.2
@@ -493,8 +573,10 @@
       "map_id": "752",
       "iso2": "SE",
       "name": "Sweden",
+      "name_zh": "瑞典",
       "population": 10569709,
       "population_tier": 3,
+      "label_zoom": 2,
       "label": [
         567.9,
         135.2
@@ -505,8 +587,10 @@
       "map_id": "756",
       "iso2": "CH",
       "name": "Switzerland",
+      "name_zh": "瑞士",
       "population": 9005582,
       "population_tier": 2,
+      "label_zoom": 2,
       "label": [
         488.4,
         402.7
@@ -517,8 +601,10 @@
       "map_id": "792",
       "iso2": "TR",
       "name": "Turkey",
+      "name_zh": "土耳其",
       "population": 85518661,
       "population_tier": 5,
+      "label_zoom": 0,
       "label": [
         733,
         498.4
@@ -529,8 +615,10 @@
       "map_id": "804",
       "iso2": "UA",
       "name": "Ukraine",
+      "name_zh": "乌克兰",
       "population": 37860221,
       "population_tier": 4,
+      "label_zoom": 1,
       "label": [
         697.2,
         369.9
@@ -541,8 +629,10 @@
       "map_id": "826",
       "iso2": "GB",
       "name": "United Kingdom",
+      "name_zh": "英国",
       "population": 69281000,
       "population_tier": 5,
+      "label_zoom": 0,
       "label": [
         387.4,
         295

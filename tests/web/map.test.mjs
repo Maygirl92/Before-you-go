@@ -22,6 +22,25 @@ test("population tiers are ordered and assigned to every map country", () => {
   }
 });
 
+test("map labels progress from six large countries to every country", () => {
+  assert.deepEqual(mapConfig.zoom.scales, [...mapConfig.zoom.scales].sort((a, b) => a - b));
+  assert.deepEqual(
+    mapConfig.zoom.label_min_population,
+    [...mapConfig.zoom.label_min_population].sort((a, b) => b - a)
+  );
+
+  const visibleCounts = mapConfig.zoom.scales.map((_, level) => (
+    europeMap.countries.filter((country) => country.label_zoom <= level).length
+  ));
+  assert.equal(visibleCounts[0], 6);
+  assert.ok(visibleCounts.every((count, index) => index === 0 || count > visibleCounts[index - 1]));
+  assert.equal(visibleCounts.at(-1), europeMap.countries.length);
+  for (const country of europeMap.countries) {
+    assert.ok(country.name_zh);
+    assert.ok(country.label_zoom >= 0 && country.label_zoom < mapConfig.zoom.scales.length);
+  }
+});
+
 test("Germany and the UK share a face colour and the common grey side", () => {
   assert.equal(deConfig.destination.signature.face, ukConfig.destination.signature.face);
   assert.equal(deConfig.destination.signature.face, mapConfig.population.tiers.at(-1).fill);

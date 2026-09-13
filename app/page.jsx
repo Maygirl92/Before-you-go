@@ -17,17 +17,13 @@ const activeCountries = {
 };
 const destinationByMapId = new Map(destinations.map((destination) => [destination.map_id, destination]));
 
-function CountryShape({ country, selected, onSelect, onEnter }) {
+function CountryShape({ country, selected, onPreview, onSelect, onEnter }) {
   const destination = destinationByMapId.get(country.map_id);
   const activeCountry = destination && activeCountries[destination.id];
   const active = Boolean(activeCountry);
   const planned = Boolean(destination);
-  const [offsetX, offsetY] = destination?.label_offset || [0, 0];
-  const labelX = country.label[0] + offsetX;
-  const labelY = country.label[1] + offsetY;
   const populationColour = mapConfig.population.tiers[country.population_tier].fill;
   const face = activeCountry?.config.destination.signature.face || populationColour;
-  const darkFace = country.population_tier >= 4;
 
   const handleClick = () => {
     if (!active) return;
@@ -39,11 +35,11 @@ function CountryShape({ country, selected, onSelect, onEnter }) {
     className={`map-country ${active ? "is-active" : ""} ${planned ? "is-planned" : "is-context"} ${selected ? "is-selected" : ""}`}
     role={active ? "button" : undefined}
     tabIndex={active ? 0 : undefined}
-    aria-label={active ? `${destination.name_zh}，已开放` : undefined}
+    aria-label={active ? destination.name_zh : undefined}
     aria-pressed={active ? selected : undefined}
     aria-disabled={planned && !active ? true : undefined}
-    onPointerEnter={(event) => event.pointerType === "mouse" && active && onSelect(destination.id)}
-    onFocus={() => active && onSelect(destination.id)}
+    onPointerEnter={(event) => event.pointerType === "mouse" && active && onPreview(destination.id)}
+    onFocus={() => active && onPreview(destination.id)}
     onClick={handleClick}
     onKeyDown={(event) => {
       if (active && (event.key === "Enter" || event.key === " ")) {
@@ -59,17 +55,21 @@ function CountryShape({ country, selected, onSelect, onEnter }) {
         d={country.d}
         style={{ fill: face }}
       />
-      {planned && <g
-        className={`map-country-label ${darkFace ? "on-dark" : "on-light"}`}
-        transform={`translate(${labelX} ${labelY})`}
-      >
-        {active && <rect className="map-country-label-bg" x="-46" y="-17" width="92" height="37" rx="10" />}
-        <text textAnchor="middle">
-          <tspan className="map-country-name" x="0" y="0">{destination.name_zh}</tspan>
-          <tspan className="map-country-original" x="0" dy="13">{destination.name_original}</tspan>
-        </text>
-      </g>}
     </g>
+  </g>;
+}
+
+function CountryLabel({ country, zoomLevel, zoomScale }) {
+  if (country.label_zoom > zoomLevel) return null;
+  const destination = destinationByMapId.get(country.map_id);
+  const [offsetX, offsetY] = destination?.label_offset || [0, 0];
+  const label = destination?.name_zh || country.name_zh;
+
+  return <g
+    className="map-country-label"
+    transform={`translate(${country.label[0]} ${country.label[1]}) scale(${1 / zoomScale}) translate(${offsetX} ${offsetY})`}
+  >
+    <text textAnchor="middle">{label}</text>
   </g>;
 }
 
@@ -80,8 +80,14 @@ function PopulationLegend() {
       <div>{mapConfig.population.tiers.map((tier) => <i key={tier.min} style={{ backgroundColor: tier.fill }} title={tier.label} />)}</div>
       <span>人口较多</span>
     </div>
-    <div className="active-key"><i />已开放</div>
     <a href={mapConfig.population.source_url} target="_blank" rel="noreferrer">{mapConfig.population.year} · {mapConfig.population.source_label}</a>
+  </div>;
+}
+
+function ZoomControls({ level, maxLevel, onChange }) {
+  return <div className="map-zoom-controls" aria-label="地图缩放">
+    <button type="button" aria-label="缩小地图" disabled={level === 0} onClick={() => onChange(level - 1)}>−</button>
+    <button type="button" aria-label="放大地图" disabled={level === maxLevel} onClick={() => onChange(level + 1)}>+</button>
   </div>;
 }
 
@@ -105,9 +111,21 @@ function DestinationBrief({ country }) {
 
 export default function Home() {
   const router = useRouter();
-  const [selectedId, setSelectedId] = useState("de");
-  const selectedCountry = useMemo(() => activeCountries[selectedId] || activeCountries.de, [selectedId]);
+  const [previewId, setPreviewId] = useState("de");
+  const [raisedId, setRaisedId] = useState(null);
+  const [zoomLevel, setZoomLevel] = useState(0);
+  const selectedCountry = useMemo(() => activeCountries[previewId] || activeCountries.de, [previewId]);
+  const zoomScale = mapConfig.zoom.scales[zoomLevel];
+  const mapTransform = `translate(${europeMap.width / 2} ${europeMap.height / 2}) scale(${zoomScale}) translate(${-europeMap.width / 2} ${-europeMap.height / 2})`;
   const enterCountry = (id) => router.push(`/${id}`);
+  const previewCountry = (id) => {
+    setPreviewId(id);
+    setRaisedId(null);
+  };
+  const selectCountry = (id) => {
+    setPreviewId(id);
+    setRaisedId(id);
+  };
 
   return <main
     className="map-page"
@@ -116,10 +134,8 @@ export default function Home() {
       "--map-page": mapConfig.palette.page,
       "--map-boundary": mapConfig.palette.boundary,
       "--map-side": mapConfig.palette.side,
-      "--map-apricot": mapConfig.palette.apricot,
-      "--map-apricot-pale": mapConfig.palette.apricot_pale,
       "--map-label": mapConfig.palette.label,
-      "--map-label-on-dark": mapConfig.palette.label_on_dark
+      "--map-label-halo": mapConfig.palette.label_halo
     }}
   >
     <header className="map-header">
@@ -139,14 +155,28 @@ export default function Home() {
           role="img"
           aria-label="欧洲目的地地图，国家颜色表示2024年人口规模"
         >
-          {europeMap.countries.map((country) => <CountryShape
-            key={country.map_id}
-            country={country}
-            selected={destinationByMapId.get(country.map_id)?.id === selectedId}
-            onSelect={setSelectedId}
-            onEnter={enterCountry}
-          />)}
+          <g className="map-viewport" transform={mapTransform}>
+            <g className="map-country-layer">
+              {europeMap.countries.map((country) => <CountryShape
+                key={country.map_id}
+                country={country}
+                selected={destinationByMapId.get(country.map_id)?.id === raisedId}
+                onPreview={previewCountry}
+                onSelect={selectCountry}
+                onEnter={enterCountry}
+              />)}
+            </g>
+            <g className="map-label-layer" aria-hidden="true">
+              {europeMap.countries.map((country) => <CountryLabel
+                key={country.map_id}
+                country={country}
+                zoomLevel={zoomLevel}
+                zoomScale={zoomScale}
+              />)}
+            </g>
+          </g>
         </svg>
+        <ZoomControls level={zoomLevel} maxLevel={mapConfig.zoom.scales.length - 1} onChange={setZoomLevel} />
         <PopulationLegend />
       </div>
     </section>
