@@ -24,7 +24,7 @@
 - Fill every country from one six-step teal population scale using World Bank 2024 population data. Lower-population countries are lighter; no red is used.
 - Germany and the United Kingdom share the same darkest teal population tier. The default map is completely flat; an active country rises only while hovered, keyboard-focused or touch-selected.
 - Every active country's revealed side uses the page's light grey `#F1F2F2`.
-- Labels use the Chinese editorial serif in pure black with a fine pale-red halo. At the default zoom only the six countries above 50 million people are labelled; nine zoom-in steps progressively reveal all mapped country names without collisions at maximum zoom.
+- Labels use the Chinese editorial serif in pure black without an outline. At the default zoom only the six countries above 50 million people are labelled; nine zoom-in steps progressively reveal all mapped country names without collisions at maximum zoom.
 - Circular zoom controls sit at the lower left, ordered minus then plus. The map can be dragged with a held mouse pointer or one finger at every zoom level. The population legend remains, but no separate open/closed key is shown; availability is communicated only by interaction and the `02 / 09 已开放` count.
 - The four destination-introduction paragraphs remain in country data but are temporarily hidden on the home page until several more countries exist.
 
@@ -107,7 +107,7 @@ Accounts · login · favourites · watched status · progress · watch or purcha
 
 Page background is light grey. Header per §3. Below it, a white map field contains geographically recognisable European country shapes with natural coastlines and softly separated boundaries.
 
-Every mapped country has a Chinese label. Ten zoom levels progressively disclose labels using population thresholds of `50m`, `30m`, `15m`, `8m`, `5m`, `3m`, `2m`, `1m`, `0.5m` and `0`. Labels use the Chinese editorial serif in pure black with a pale-red halo and never change colour with the underlying population fill. At maximum zoom all country labels must remain spatially separate. Germany and the United Kingdom are active; every other country remains non-interactive.
+Every mapped country has a Chinese label. Ten zoom levels progressively disclose labels using population thresholds of `50m`, `30m`, `15m`, `8m`, `5m`, `3m`, `2m`, `1m`, `0.5m` and `0`. Labels use the Chinese editorial serif in pure black without an outline and never change colour with the underlying population fill. At maximum zoom all country labels must remain spatially separate. Germany and the United Kingdom are active; every other country remains non-interactive.
 
 Country colour encodes World Bank 2024 total population in six teal steps: `<2m`, `2–5m`, `5–10m`, `10–30m`, `30–60m`, `≥60m`. Population is a map visualisation only, never a content ranking or filter. A compact legend and source year must remain visible. The only availability copy on the map is the top-right `02 / 09 已开放` count; there is no open/closed legend.
 
@@ -352,7 +352,7 @@ All pass WCAG AA comfortably. **Re-verify on any change** — and note that ligh
 | 人口 `30–60m` | `#5C9588` |
 | 人口 `≥60m` | `#3E756C` |
 | 浮起侧面 | `#F1F2F2` |
-| 国家字 | `#000000`，`#F2D8D5` 细描边 |
+| 国家字 | `#000000`，无描边 |
 
 Use Natural Earth coastline and border geometry rather than model-authored country silhouettes. Boundaries use a thin map-field-colour separation with round joins, not a heavy outline. **No drop shadows, red population tier, availability colour key, label ground or scattered decorative dots.** The hover lift is communicated entirely by the 7px translate revealing the shared grey side shape.
 
@@ -360,7 +360,7 @@ Use Natural Earth coastline and border geometry rather than model-authored count
 
 Chinese body and UI: system sans. `title_original` in a Latin serif, italic, one step smaller than `title_zh`. The wordmark is Latin. Two weights only — regular and medium. No bold in body copy.
 
-Map country labels are the exception: use the loaded Chinese editorial serif at medium weight, 11px desktop / 10px mobile, with `paint-order: stroke fill` so the pale-red halo stays behind the pure-black glyphs.
+Map country labels are the exception: use the loaded Chinese editorial serif in pure black at medium weight, 11px desktop / 10px mobile, without a stroke or background.
 
 ### 9.5 Covers
 

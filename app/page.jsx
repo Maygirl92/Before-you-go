@@ -189,8 +189,7 @@ export default function Home() {
       "--map-page": mapConfig.palette.page,
       "--map-boundary": mapConfig.palette.boundary,
       "--map-side": mapConfig.palette.side,
-      "--map-label": mapConfig.palette.label,
-      "--map-label-halo": mapConfig.palette.label_halo
+      "--map-label": mapConfig.palette.label
     }}
   >
     <header className="map-header">

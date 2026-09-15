@@ -67,6 +67,7 @@ test("map panning works at every zoom and remains bounded", () => {
 
 test("map labels progress from six large countries to every country", () => {
   assert.equal(mapConfig.palette.label, "#000000");
+  assert.equal("label_halo" in mapConfig.palette, false);
   assert.deepEqual(mapConfig.zoom.scales, [...mapConfig.zoom.scales].sort((a, b) => a - b));
   assert.deepEqual(
     mapConfig.zoom.label_min_population,
